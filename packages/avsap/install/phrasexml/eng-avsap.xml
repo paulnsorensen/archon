@@ -1,0 +1,1765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code='eng'>
+	<package aprcode='avsap' version='3.21'>
+		<module script=''>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='bibliography' regularexpression=''>
+					Bibliography
+				</phrase>
+				<phrase name='csv' regularexpression=''>
+					Export CSV
+				</phrase>
+				<phrase name='fair' regularexpression=''>
+					Fair
+				</phrase>
+				<phrase name='format' regularexpression=''>
+					Format
+				</phrase>
+				<phrase name='glossary' regularexpression=''>
+					Glossary
+				</phrase>
+				<phrase name='good' regularexpression=''>
+					Good
+				</phrase>
+				<phrase name='high' regularexpression=''>
+					High
+				</phrase>
+				<phrase name='idontknow' regularexpression=''>
+					I Don't Know
+				</phrase>
+				<phrase name='low' regularexpression=''>
+					Low
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Assessments Manager
+				</phrase>
+				<phrase name='package_name' regularexpression=''>
+					AvSAP
+				</phrase>
+				<phrase name='print' regularexpression=''>
+					Print
+				</phrase>
+				<phrase name='repository' regularexpression=''>
+					Repository
+				</phrase>
+				<phrase name='repositoryid' regularexpression=''>
+					Repository
+				</phrase>
+				<phrase name='score' regularexpression=''>
+					Score
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='avsapinstitutions'>
+			<phrasetype name='Description'>
+				<phrase name='access' regularexpression=''>
+					Assessment for material access policies.
+				</phrase>
+				<phrase name='accessavdisasterrecoverytools' regularexpression=''>
+					Several services exist in the United States to help institutions respond to disasters affecting their audiovisual materials. If your institution knows about and has access to disaster recovery services that specialize in handling audiovisual materials, click [b]"yes" [/b]and if not, click [b]"no."[/b] 
+					[url=packages/avsap/adminhelp/repository/eng/accessavdisasterrecoverytools.html]Click through[/url] for a list of audiovisual disaster recovery services.
+				</phrase>
+				<phrase name='accesscopies' regularexpression=''>
+					Creating copies of your materials for use can protect the original materials from unnecessary wear. If your institution regularly creates access copies for your audiovisual materials, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					[url=packages/avsap/adminhelp/repository/eng/accesscopies.html]Click through[/url] for more information about what access copies are and how they are used.
+				</phrase>
+				<phrase name='allowloaninginstitutions' regularexpression=''>
+					Shipping materials to other institutions can put them at risk for damage. If your institution regularly loans audiovisual materials to other institutions, click [b]"yes" [/b]and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/allowloaninginstitutions.html]Click through[/url] for more information about the dangers of shipping/transporting audiovisual materials.
+				</phrase>
+				<phrase name='allowloaningother' regularexpression=''>
+					Allowing the public to take audiovisual materials off premises severely constrains your ability to monitor the materials' use and can put them at extreme risk. If your institution routinely allows materials to leave the premises with the public, click [b]"yes"[/b] and if not, click[b] "no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/allowloaningother.html]Click through[/url] for more information about circulating audiovisual collections and the risks inherent in allowing materials to leave the premises with the public.
+				</phrase>
+				<phrase name='allowplayback' regularexpression=''>
+					Allowing untrained people to playback audiovisual materials unaided can put those materials at extreme risk. If your institution regularly allows untrained people (staff members or the public) to play back audiovisual materials without assistance, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/allowplayback.html]Click through [/url]for more information about unmonitored playback and the risks it can pose to audiovisual materials.
+				</phrase>
+				<phrase name='avdisasterrecoveryplan' regularexpression=''>
+					Responding to disasters that involve audiovisual materials can be very different from responding to disasters that only involve books and paper materials. If your institution's disaster plan specifically includes audiovisual materials, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					[url=packages/avsap/adminhelp/repository/eng/avdisasterrecoveryplan.html]Click through[/url] for more information about audiovisual materials and disaster plans.
+				</phrase>
+				<phrase name='avpreservationplan' regularexpression=''>
+					Having a preservation plan for your collections is excellent but you want to make sure that some part of it is directly focused on audiovisual materials. If your preservation plan specifically includes audiovisual materials, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					[url=packages/avsap/adminhelp/repository/eng/avpreservationplan.html]Click through[/url] for more information about audiovisual-specific preservation plans.
+				</phrase>
+				<phrase name='catalogcollections' regularexpression=''>
+					Poorly-cataloged materials can easily be overlooked by your preservation efforts. If we can't find an item, we don't know it's there. If you routinely catalog or otherwise describe/record your materials, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/catalogcollections.html]Click through[/url] for more information about cataloging/description and audiovisual materials.
+				</phrase>
+				<phrase name='collectionpolicy' regularexpression=''>
+					Having a policy that guides what materials you collect and how you collect them can help you focus your efforts and funds with regards to preservation. If you have such a policy, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/collectionpolicy.html]Click through[/url] for more information about collecting policies and audiovisual materials.
+				</phrase>
+				<phrase name='dedicatedinspectionspace' regularexpression=''>
+					Dedicating a clean, well-lit space in your facility for inspecting audiovisual materials is very important. If your institution has such a space, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/dedicatedinspectionspace.html]Click through[/url] for more information about audiovisual inspection spaces.
+				</phrase>
+				<phrase name='digitalcopies' regularexpression=''>
+					Creating digital copies of audiovisual materials can protect the originals from wear. If your institution routinely creates digital copies of its analog originals, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/digitalcopies.html]Click through[/url] for more information about digitization of audiovisual materials.
+				</phrase>
+				<phrase name='disasterplanning' regularexpression=''>
+					Assessment for disaster planning and recovery of materials.
+				</phrase>
+				<phrase name='disasterrecoveryplan' regularexpression=''>
+					Having a concise, clear plan for how to deal with a disaster is essential for any institution. If your institution has such a plan, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/disasterrecoveryplan.html]Click through[/url] for more information about general disaster plans and online tools for how to generate one.
+				</phrase>
+				<phrase name='equipment' regularexpression=''>
+					Assessment for playback equipment policies and maintenance.
+				</phrase>
+				<phrase name='equipmentmanuals' regularexpression=''>
+					Maintaining and troubleshooting playback equipment in-house can be made much easier if you have the appropriate instruction manuals for the equipment. If you have manuals for at least some of your equipment, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					[url=packages/avsap/adminhelp/repository/eng/equipmentmanuals.html]Click through[/url] for more information about procuring audiovisual equipment manuals.
+				</phrase>
+				<phrase name='equipmentpartsservice' regularexpression=''>
+					As audiovisual equipment becomes obsolete it becomes harder to find parts and service for it. If you can procure parts and/or find repair services for your audiovisual equipment, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/equipmentpartsservice.html]Click through[/url] for more information about finding parts and service for your audiovisual playback equipment.
+				</phrase>
+				<phrase name='inspection' regularexpression=''>
+					Assessment for material inspection methods and material care.
+				</phrase>
+				<phrase name='maintainplaybackequipment' regularexpression=''>
+					Maintaining playback equipment is an important part of making your audiovisual materials accessible. If you have staff who know how to properly maintain your playback equipment, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/maintainplaybackequipment.html]Click through[/url] for more information about the importance of preserving audiovisual playback equipment.
+				</phrase>
+				<phrase name='ownershiprecords' regularexpression=''>
+					Keeping a good record of the rights conferred to your institution by donors of materials is important in order to decide what you can legally do with your institution's collections. If your institution routinely keeps these kinds of records, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/ownershiprecords.html]Click through[/url] for more information about ownership/rights records.
+				</phrase>
+				<phrase name='preservation' regularexpression=''>
+					Assessment for preservation planning and mission for institutions.
+				</phrase>
+				<phrase name='preservationplan' regularexpression=''>
+					Having a comprehensive plan for how you will allocate funds and time toward the preservation of your materials will help you make targeted and informed choices about your audiovisual materials. If you have such a plan click [b]"yes"[/b] and if you do not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/preservationplan.html] Click through[/url] for more information about preservation plans.
+				</phrase>
+				<phrase name='staffcleanrepair' regularexpression=''>
+					Knowing how to repair your audiovisual materials in-house requires a great deal of specialized knowledge. If you or your staff know how to repair and maintain at least some of the audiovisual formats your institution collections, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/staffcleanrepair.html]Click through[/url] for more information about audiovisual media repair and how to obtain this kind of knowledge.
+				</phrase>
+				<phrase name='staffplaybackinspections' regularexpression=''>
+					Performing playback inspections of audiovisual items can give very good information about the condition of the items. However, playback always carries with it the risk of damage to the audiovisual items being played back. If you or your staff routinely perform playback inspections of your institution's audiovisual items. click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					[url=packages/avsap/adminhelp/repository/eng/staffplaybackinspections.html]Click through[/url] for more information about playback inspections and the risks playback carries.
+				</phrase>
+				<phrase name='staffvisualinspections' regularexpression=''>
+					Visual inspections of audiovisual materials are admittedly limited in their utility but can still be beneficial. If you or your staff routinely perform visual inspections of your institution's audiovisual materials, click [b]"yes"[/b] and if not, click [b]"no."[/b] 
+					
+					[url=packages/avsap/adminhelp/repository/eng/staffvisualinspections.html]Click through[/url] for more information about visual inspections, their strengths and their weaknesses.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='access' regularexpression=''>
+					Access to Materials
+				</phrase>
+				<phrase name='accessavdisasterrecoverytools' regularexpression=''>
+					Do you have access to disaster recovery tools/services for AV materials in the event that a disaster occurs?
+				</phrase>
+				<phrase name='accesscopies' regularexpression=''>
+					How many access copies do you have of your institution's audiovisual items?
+				</phrase>
+				<phrase name='allowloaninginstitutions' regularexpression=''>
+					Does your institution allow its media originals to leave the premises for the purpose of being loaned to other institutions?
+				</phrase>
+				<phrase name='allowloaningother' regularexpression=''>
+					Does your institution allow its media originals to leave the premises with your guests/users/patrons?
+				</phrase>
+				<phrase name='allowplayback' regularexpression=''>
+					Does the institution allow media originals to be played back by non-staff members without assistance?
+				</phrase>
+				<phrase name='avdisasterrecoveryplan' regularexpression=''>
+					Do you have an AV-specific disaster plan or an AV component to your larger disaster plan?
+				</phrase>
+				<phrase name='avpreservationplan' regularexpression=''>
+					Does your institution have a general preservation plan specific to its AV materials or does the general preservation plan incorporate considerations specific to AV materials?
+				</phrase>
+				<phrase name='catalogcollections' regularexpression=''>
+					Does your institution catalog or describe your media items/collections?
+				</phrase>
+				<phrase name='collectionpolicy' regularexpression=''>
+					Does your institution have a policy or policies that guide what materials (formats and content) that it collects?
+				</phrase>
+				<phrase name='dedicatedinspectionspace' regularexpression=''>
+					Does your institution have a dedicated handling/inspection space for media?
+				</phrase>
+				<phrase name='digitalcopies' regularexpression=''>
+					How many of your institution's audiovisual items have digital copies?
+				</phrase>
+				<phrase name='disasterplanning' regularexpression=''>
+					Disaster Recovery
+				</phrase>
+				<phrase name='disasterrecoveryplan' regularexpression=''>
+					Does your institution have a current disaster recovery plan?
+				</phrase>
+				<phrase name='equipment' regularexpression=''>
+					Playback Equipment
+				</phrase>
+				<phrase name='equipmentmanuals' regularexpression=''>
+					How many of the manuals/instructions for your playback machines does your institution keep?
+				</phrase>
+				<phrase name='equipmentpartsservice' regularexpression=''>
+					For how many of your playback machines can you find service and/or parts  in the event of mechanical failure?
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Institutions Manager
+				</phrase>
+				<phrase name='idontknow' regularexpression=''>
+					I Don't Know
+				</phrase>
+				<phrase name='inspection' regularexpression=''>
+					Material Inspection
+				</phrase>
+				<phrase name='maintainplaybackequipment' regularexpression=''>
+					How many of your playback equipment types are you and/or your staff able to clean and maintain?
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Institutions Manager
+				</phrase>
+				<phrase name='most' regularexpression=''>
+					Most
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Name
+				</phrase>
+				<phrase name='none' regularexpression=''>
+					None
+				</phrase>
+				<phrase name='ownershiprecords' regularexpression=''>
+					How many of your institution's audiovisual items have records detailing their ownership and/or which rights are assigned to the institution?
+				</phrase>
+				<phrase name='preservation' regularexpression=''>
+					Preservation Planning
+				</phrase>
+				<phrase name='preservationplan' regularexpression=''>
+					Does your institution have a general preservation plan for its collections?
+				</phrase>
+				<phrase name='some' regularexpression=''>
+					Some
+				</phrase>
+				<phrase name='staffcleanrepair' regularexpression=''>
+					How many of the media formats that your institution collects are you and/or your staff trained to clean and repair
+				</phrase>
+				<phrase name='staffplaybackinspections' regularexpression=''>
+					Do you or your staff perform playback inspections of media?
+				</phrase>
+				<phrase name='staffvisualinspections' regularexpression=''>
+					Do you or your staff perform visual inspections of media?
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='avsapstoragefacilities'>
+			<phrasetype name='Description'>
+				<phrase name='avghumidity' regularexpression=''>
+					Humidity can be very damaging to audiovisual materials. Measure the average humidity in your storage space (or make an educated estimate) and choose from one of the humidity ranges. 
+					
+					[url=packages/avsap/adminhelp/storage/eng/avghumidity.html]Click through[/url] for more information about humidity had how it impacts audiovisual collections.
+				</phrase>
+				<phrase name='avgtemp' regularexpression=''>
+					Temperature control is critical to preserving your audiovisual items. Measure the average temperature in your storage space (or make an educated estimate) and choose from one of the temperature ranges. 
+					
+					[url=packages/avsap/adminhelp/storage/eng/avgtemp.html]Click through[/url] for more information about temperature had how it impacts audiovisual collections.
+				</phrase>
+				<phrase name='hasfiredetection' regularexpression=''>
+					Fire can be catastrophic to your collections. If you have fire detection systems in this storage area, click "yes" and if not, click "no." 
+					
+					[url=packages/avsap/adminhelp/storage/eng/hasfiredetection.html]Click through[/url] for more information about fire detection in storage facilities.
+				</phrase>
+				<phrase name='hasfiresuppression' regularexpression=''>
+					Responding to fires is critical in storage facilities. If you have a fire suppression system in this storage area click "yes" and if not, click "no." 
+					
+					[url=packages/avsap/adminhelp/storage/eng/hasfiresuppression.html]Click through[/url] for more information about fire suppression systems and audiovisual materials.
+				</phrase>
+				<phrase name='haswaterdetection' regularexpression=''>
+					Water can be especially damaging to your collections. If you have a water drainage system in this storage area click [b]"yes"[/b] and if not, click [b]"no.[/b]" 
+					
+					[url=packages/avsap/adminhelp/storage/eng/haswaterdetection.html]Click through[/url] for more information about water detection in storage facilities.
+				</phrase>
+				<phrase name='humidityvariance' regularexpression=''>
+					Variances in humidity, like variances in temperature, can be damaging to audiovisual materials over time. Monitor this storage area's relative humidity over time (or make an educated guess) and click on the button that most closely approximates the variance in humidity over time. 
+					
+					[url=packages/avsap/adminhelp/storage/eng/humidityvariance.html]Click through[/url] for more information about humidity variances and how they affect audiovisual materials.
+				</phrase>
+				<phrase name='location' regularexpression=''>
+					Select a pre-existing location name or add one using the add button if you have not already named this location.
+				</phrase>
+				<phrase name='materialsonfloor' regularexpression=''>
+					Select [b]"yes"[/b] if there are materials stored on the floor. 
+					
+					[url=packages/avsap/adminhelp/storage/eng/materialstorage.html]Click through [/url]to learn about the hazards of storing collection materials on the floor.
+				</phrase>
+				<phrase name='mediumlowtemp' regularexpression=''>
+					40-54°F
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Create a descriptive name for the storage facility you are assessing (e.g. Archives, First Level Storage, etc.)
+				</phrase>
+				<phrase name='repository' regularexpression=''>
+					Select your repository from the pull down menu, if it is not already selected.
+				</phrase>
+				<phrase name='securitylevel' regularexpression=''>
+					Select the level of security in this storage facility. 
+					
+					[url=packages/avsap/adminhelp/storage/eng/securitylevel.html]Click through[/url] for a detailed description of what the different security levels represent.
+				</phrase>
+				<phrase name='tempvariance' regularexpression=''>
+					Wide variances in temperature can be negatively impact the preservation of audiovisual materials. Monitor the temperature in this storage area over time (or make an educated guess) and click on the button that most closely approximates the temperature variance in this storage facility. 
+					
+					[url=packages/avsap/adminhelp/storage/eng/tempvariance.html]Click through[/url] for more information about temperature variances and how they can affect audiovisual materials.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='avghumidity' regularexpression=''>
+					What is the annual average relative humidity for this facility?
+				</phrase>
+				<phrase name='avgtemp' regularexpression=''>
+					What is the annual average temperature for this facility?
+				</phrase>
+				<phrase name='climatecontrol' regularexpression=''>
+					Climate Control
+				</phrase>
+				<phrase name='disasterpreparedness' regularexpression=''>
+					Disaster Preparedness
+				</phrase>
+				<phrase name='hasfiredetection' regularexpression=''>
+					Do you have fire detection systems in the this storage area?
+				</phrase>
+				<phrase name='hasfiresuppression' regularexpression=''>
+					Do you have fire suppression systems in this storage area?
+				</phrase>
+				<phrase name='haswaterdetection' regularexpression=''>
+					Do you have any water drains in the storage area?
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Storage Facilities Manager
+				</phrase>
+				<phrase name='high' regularexpression=''>
+					High Security
+				</phrase>
+				<phrase name='highhumvar' regularexpression=''>
+					+/- 11% or Above Variation
+				</phrase>
+				<phrase name='highrh' regularexpression=''>
+					71+ %
+				</phrase>
+				<phrase name='hightemp' regularexpression=''>
+					69-79°F
+				</phrase>
+				<phrase name='hightempvar' regularexpression=''>
+					+/- 6°F or Above Variation
+				</phrase>
+				<phrase name='humidityvariance' regularexpression=''>
+					What is the annual variance in relative humidity?
+				</phrase>
+				<phrase name='location' regularexpression=''>
+					Location
+				</phrase>
+				<phrase name='lowhumvar' regularexpression=''>
+					+/- 0-5% Variation
+				</phrase>
+				<phrase name='lowrh' regularexpression=''>
+					0-29%
+				</phrase>
+				<phrase name='lowtemp' regularexpression=''>
+					33-39°F
+				</phrase>
+				<phrase name='lowtempvar' regularexpression=''>
+					+/- 2°F Variation
+				</phrase>
+				<phrase name='materialsonfloor' regularexpression=''>
+					Do you have materials stored on the floor in this storage area?
+				</phrase>
+				<phrase name='medhighrh' regularexpression=''>
+					51-70%
+				</phrase>
+				<phrase name='mediumhightemp' regularexpression=''>
+					55-68°F
+				</phrase>
+				<phrase name='mediumhumvar' regularexpression=''>
+					+/- 6-10% Variation
+				</phrase>
+				<phrase name='mediumlowtemp' regularexpression=''>
+					40-54°F
+				</phrase>
+				<phrase name='mediumtempvar' regularexpression=''>
+					+/- 2-5°F Variation
+				</phrase>
+				<phrase name='medlowrh' regularexpression=''>
+					30-40%
+				</phrase>
+				<phrase name='medrh' regularexpression=''>
+					41-50%
+				</phrase>
+				<phrase name='moderate' regularexpression=''>
+					Moderate Security
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Storage Facilities Manager
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					What is the name of this storage facility?
+				</phrase>
+				<phrase name='none' regularexpression=''>
+					No Security
+				</phrase>
+				<phrase name='securitylevel' regularexpression=''>
+					What is the level of security of this facility?
+				</phrase>
+				<phrase name='tempvariance' regularexpression=''>
+					What is the annual variance in temperature?
+				</phrase>
+				<phrase name='veryhightemp' regularexpression=''>
+					80+ °F
+				</phrase>
+				<phrase name='verylowtemp' regularexpression=''>
+					0-32°F
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='avsapassessments'>
+			<phrasetype name='Description'>
+				<phrase name='acassette_appropriatecontainer' regularexpression=''>
+					Select [b]"yes"[/b] if this item is in an known preservation appropriate container.
+					
+					[url=packages/avsap/adminhelp/audiocassette/eng/appropriatecontainer.html]Click through[/url] to see examples of appropriate storage containers.
+				</phrase>
+				<phrase name='acassette_cartridgecondition' regularexpression=''>
+					Select [b]"Good"[/b] if the cassette or cartridge has no cracks, stress fractures, dirt or dust. 
+					
+					Select [b]"Fair" [/b]for a minimal amount of the aforementioned issues if it appears that any damage won't impede playback of the tape. 
+					
+					Select [b]"Poor"[/b] if there is extensive damage which looks like it may impede playback. 
+					[url=packages/avsap/adminhelp/audiocassette/eng/cartridgecondition.html]Click through[/url] for examples and more information.
+				</phrase>
+				<phrase name='acassette_cassettelength' regularexpression=''>
+					Select the radio button which corresponds with the length of your audiotape. 
+					[url=packages/avsap/adminhelp/audiocassette/eng/cassettelength.html]Click through[/url] for information on why cassette length is an important preservation consideration.
+				</phrase>
+				<phrase name='acassette_hasconditioninfo' regularexpression=''>
+					Select [b]"Yes"[/b] if you have supporting materials about the condition of this item 
+					
+					[url=packages/avsap/adminhelp/general/eng/hasdocumentation.html]Click through[/url] to learn about the benefit of supporting documentation
+				</phrase>
+				<phrase name='acassette_labeling' regularexpression=''>
+					Select [b]"yes"[/b] If the cartridge or cassette has any identifying labeling; otherwise, select [b]"no"[/b]. 
+					[url=packages/avsap/adminhelp/audiocassette/eng/haslabeling.html]Click through[/url] for more information on cassette labeling.
+				</phrase>
+				<phrase name='acassette_moldlevel' regularexpression=''>
+					Select [b]"none"[/b] if you don't see any signs of mold. 
+					Select [b]"moderate"[/b] if there is a slight presence of mold. 
+					Select [b]"high"[/b] if the mold level is great. 
+					
+					[url=packages/avsap/adminhelp/audiocassette/eng/moldlevel.html]Click through[/url] for examples and help on how to identify mold.
+				</phrase>
+				<phrase name='acassette_orientedcorrectly' regularexpression=''>
+					Each medium has a preferred way of sitting in storage. If you are certain you know how your item should be oriented in storage and have stored them as such, select [b]"Yes".  [/b]
+					
+					[url=packages/avsap/adminhelp/audiocassette/eng/orientedcorrectly.html]Click through[/url] for examples of how best to store your media.
+				</phrase>
+				<phrase name='acassette_physicaldamage' regularexpression=''>
+					Select [b]"None/Minimal Damage"[/b]if there is no evidence of damage.
+					Select [b]"Moderate Damage"[/b]if there is only slight evidence of damage
+					Select[b] "Severe Damage"[/b]if you observe extensive evidence of phyiscal damage
+					
+					[url=packages/avsap/adminhelp/audiocassette/eng/physicaldamage.html]Click through[/url] for more information about and examples of physical damage.
+				</phrase>
+				<phrase name='acassette_playbacksqueal' regularexpression=''>
+					Select [b]"Yes" [/b]if you hear any high-pitched squeals when playing back the tape. 
+					
+					[url=packages/avsap/adminhelp/general/eng/playbacksqueal.html]Click through[/url] to learn more about what a squeal might indicate.
+				</phrase>
+				<phrase name='acassette_recentlyplayedback' regularexpression=''>
+					Select [b]"Yes"[/b] if you know this item has been played back within the last two years. 
+					
+					[url=packages/avsap/adminhelp/general/eng/recentlyplayedback.html]Click through[/url] to learn more about playback issues.
+				</phrase>
+				<phrase name='acassette_recordprotection' regularexpression=''>
+					Select [b]"Yes"[/b] If the plastic record-protection tab has been removed. 
+					
+					If you're unsure what the recording tab is or looks like, [url=packages/avsap/adminhelp/audiocassette/eng/recordprotection.html]click through[/url] for more information.
+				</phrase>
+				<phrase name='acassette_stickyshed' regularexpression=''>
+					Select [b]"None"[/b]if there is no evidence of sticky shed. Select [b]"Moderate"[/b]if there is only slight evidence of sticky shed. Select[b] "High"[/b]if you observe extensive evidence of sticky shed. 
+					
+					[url=packages/avsap/adminhelp/audiocassette/eng/stickyshed.html]Click through[/url] for more information on what sticky shed is and how to identify it.
+				</phrase>
+				<phrase name='acassette_windquality' regularexpression=''>
+					If the tape pack looks flat with no raised pieces of tape, and is tightly would select [b]"Tight"[/b].
+					
+					If the tape pack is loose, has many popped strands, and/or an uneven wind and windowing, select [b]"Loose"[/b].
+					
+					[url=packages/avsap/adminhelp/audiocassette/eng/windquality.html]Click through[/url] for more information about tape wind.
+				</phrase>
+				<phrase name='aopenreel_aopenreeldecay' regularexpression=''>
+					Select [b]"No Deterioration"[/b] if you do not detect any acetate decay
+					Select [b]"Deterioration Starting"[/b] if there are slight indications of acetate decay
+					Select [b]"Actively Deteriorating" [/b]if there is moderate decay 
+					Select [b]"Critical Deterioration"[/b] if the item is badly damaged and possibly unplayable
+					
+					[url=packages/avsap/adminhelp/audioreel/eng/isacetate.html]Click through[/url] for more information about acetate decay and how to identify it.
+				</phrase>
+				<phrase name='aopenreel_appropriatecontainer' regularexpression=''>
+					Select "yes" if this item is in an known preservation appropriate container. 
+					
+					[url=packages/avsap/adminhelp/audioreel/eng/appropriatecontainer.html]Click through[/url] to see examples of appropriate storage containers.
+				</phrase>
+				<phrase name='aopenreel_hasconditioninfo' regularexpression=''>
+					Select [b]"Yes"[/b] if you have supporting materials about the condition of this item.
+					
+					[url=/packages/avsap/adminhelp/audioreel/eng/documentation.html]Click through[/url] to learn about the benefit of supporting documentation
+				</phrase>
+				<phrase name='aopenreel_hasleader' regularexpression=''>
+					Select "yes" if your item has plastic leader in good condition. 
+					
+					[url=packages/avsap/adminhelp/audioreel/eng/hasleader.html]Click through[/url] for information on how to identify leader and its benefits.
+				</phrase>
+				<phrase name='aopenreel_labeling' regularexpression=''>
+					Select "yes" If the cartridge or cassette has any identifying labeling. 
+					
+					[url=packages/avsap/adminhelp/audioreel/eng/haslabeling.html]Click through[/url] for more information on identifying labels and why it is important to take the time to label items.
+				</phrase>
+				<phrase name='aopenreel_moldlevel' regularexpression=''>
+					Select [b]"none"[/b] if you don't see any signs of mold. 
+					Select [b]"moderate"[/b] if there is a slight presence of mold. 
+					Select [b]"high"[/b] if the mold level is great. 
+					
+					[url=packages/avsap/adminhelp/audioreel/eng/hasmold.html]Click through[/url] for more information on how to identify mold.
+				</phrase>
+				<phrase name='aopenreel_orientedcorrectly' regularexpression=''>
+					Each medium has a preferred way of sitting in storage. If you are certain you know how your item should be oriented in storage and have stored them as such, select "Yes". 
+					
+					[url=packages/avsap/adminhelp/audioreel/eng/orientedcorrectly.html]Click through[/url] for more information of how best to store this format type.
+				</phrase>
+				<phrase name='aopenreel_physicaldamage' regularexpression=''>
+					Select [b]"None/Minimal Damage"[/b]if there is no evidence of damage.
+					Select [b]"Moderate Damage"[/b]if there is only slight evidence of damage
+					Select[b] "Severe Damage"[/b]if you observe extensive evidence of phyiscal damage
+					[url=packages/avsap/adminhelp/audioreel/eng/isdamaged.html]Click through[/url] for more information tape inspection tips and identifying tape damage.
+				</phrase>
+				<phrase name='aopenreel_playbacksqueal' regularexpression=''>
+					Select "Yes" if you hear any high-pitched squeals when playing back the tape.
+					
+					[url=packages/avsap/adminhelp/general/eng/playbacksqueal.html]Click through[/url] to learn more about what a squeal might indicate.
+				</phrase>
+				<phrase name='aopenreel_recentlyplayedback' regularexpression=''>
+					Select "Yes" if you know this item has been played back within the last two years. 
+					
+					[url=packages/avsap/adminhelp/general/eng/recentlyplayedback.html]Click through[/url] to learn more about playback issues.
+				</phrase>
+				<phrase name='aopenreel_spliceintegrity' regularexpression=''>
+					If you do not see any splices on your item select, [b]"No Splices"[/b]
+					If your item has splices and they appear to be in good condition select, [b]"Good"[/b]
+					If your item has splices and they appear to be in poor condition select, [b]"Bad"[/b]
+					
+					[url=packages/avsap/adminhelp/audioreel/eng/hassplices.html]Click though[/url] for help on how to identify splices and what makes a splice good or bad.
+				</phrase>
+				<phrase name='aopenreel_stickyshed' regularexpression=''>
+					Select [b]"None"[/b] if there is no evidence of sticky shed.
+					Select [b]"Moderate"[/b] if there is only slight evidence of sticky shed.
+					Select [b]"High"[/b] if you observe extensive evidence of sticky shed.
+					
+					[url=packages/avsap/adminhelp/general/eng/stickyshed.html]Click through[/url] for more information on what sticky shed is and how to identify it.
+				</phrase>
+				<phrase name='aopenreel_windquality' regularexpression=''>
+					If the tape pack looks flat with no raised pieces of tape, select [b]"Good"[/b]
+					
+					
+					If the tape pack has a few raised pieces of tape and it looks a little loose, select [b]"Fair"[/b]
+					
+					
+					If the tape pack is loose, has many popped strands, and/or an uneven wind and windowing, select [b]"Poor"[/b]
+					
+					
+					
+					[url=packages/avsap/adminhelp/audioreel/eng/windquality.html]Click through[/url] for more information about tape wind.
+				</phrase>
+				<phrase name='bad' regularexpression=''>
+					Bad
+				</phrase>
+				<phrase name='collectioncontentid' regularexpression=''>
+					Use this field to link the assessment to a collection content record (if available).
+				</phrase>
+				<phrase name='collectionid' regularexpression=''>
+					Use this field to link the Assessment to a collection record.
+				</phrase>
+				<phrase name='collectionname' regularexpression=''>
+					Enter a free text name for the collection to which this item belongs.
+				</phrase>
+				<phrase name='film_appropriatecontainer' regularexpression=''>
+					Select [b]"yes"[/b] if this item is in an known preservation appropriate container; otherwise, select [b]"no"[/b].
+						[url=packages/avsap/adminhelp/film/eng/appropriatecontainer.html]Click through[/url] to see examples of appropriate storage containers.
+				</phrase>
+				<phrase name='film_filmdecay' regularexpression=''>
+					Nitrate and Acetate films decay in very different ways. 
+					
+					Click through for more information on [url=packages/avsap/adminhelp/film/eng/nitratedecay.html]Nitrate Decay[/url].
+					
+					Click through for more information on [url=packages/avsap/adminhelp/film/eng/acetatedecay.html]Acetate Decay[/url].
+				</phrase>
+				<phrase name='film_filmtype' regularexpression=''>
+					Select [b]"reversal"[/b] if the film is reversal 
+					Select [b]"print"[/b] if the film is a print
+					Select [b]"negative"[/b] if the film is a negative
+					Select [b]"mag stock"[/b] if the film is a magnetic sound track 
+					Select [b]"mixed"[/b] if the film is composed of many different film process types which have been spliced together
+					
+					[url=packages/avsap/adminhelp/film/eng/filmtype.html]Click through[/url] to learn more about and examples of the different types of processed film.
+				</phrase>
+				<phrase name='film_hasleader' regularexpression=''>
+					Select [b]"yes"[/b] if this film has leader; otherwise, select [b]"no"[/b]. 
+					
+					[url=packages/avsap/adminhelp/film/eng/hasleader.html]Click through [/url]for help in identifying leader and to learn about the benefits of leader.
+				</phrase>
+				<phrase name='film_incolor' regularexpression=''>
+					Select [b]"color"[/b] if the film stock is color. 
+					Select [b]"black and white"[/b] if the film stock is black and white. 
+					Select [b]"both"[/b] if both color and black and white film stock has been spliced together. 
+					
+					[url=packages/avsap/adminhelp/film/eng/incolor.html]Click through[/url] for more information on color and black and white film stock.
+				</phrase>
+				<phrase name='film_labeling' regularexpression=''>
+					Select [b]"yes"[/b] If the cartridge or cassette has any identifying labeling; otherwise, select [b]"no"[/b].
+					
+					[url=packages/avsap/adminhelp/film/eng/haslabeling.html]Click through[/url] to learn more about the importance of and other issues related to labeling.
+				</phrase>
+				<phrase name='film_magstockbreakdown' regularexpression=''>
+					Select [b]"yes"[/b] if the item is exhibiting signs of mag stock breakdown; otherwise, select [b]"no"[/b].
+					
+					[url=packages/avsap/adminhelp/film/eng/magstockbreakdown.html]Click through[/url] to learn more about and how to identify mag stock breakdown
+				</phrase>
+				<phrase name='film_moldlevel' regularexpression=''>
+					Select [b]"none"[/b] if you don't see any signs of mold.
+					Select [b]"moderate"[/b] if there is a slight presence of mold.
+					Select [b]"high"[/b] if the mold level is great.
+					
+					[url=packages/avsap/adminhelp/film/eng/hasmold.html]Click through [/url]for more information on how to identify mold.
+				</phrase>
+				<phrase name='film_oncore' regularexpression=''>
+					Select [b]"yes"[/b] if this film is on a known archival core; otherwise, select [b]"no"[/b].
+					
+					[url=packages/avsap/adminhelp/film/eng/oncore.html]Click through[/url] for more information on film cores.
+				</phrase>
+				<phrase name='film_orientedcorrectly' regularexpression=''>
+					Each medium has a preferred way of sitting in storage. If you are certain you know how your item should be oriented in storage and have stored them as such, select [b]"yes"[/b]; otherwise, select [b]"no"[/b]. 
+					
+					[url=packages/avsap/adminhelp/film/eng/orientedcorrectly.html]Click through[/url] for more information of how best to orient your media in storage.
+				</phrase>
+				<phrase name='film_physicaldamage' regularexpression=''>
+					If you observe extensive evidence of phyiscal damage
+					
+					[url=packages/avsap/adminhelp/film/eng/physicaldamage.html]Click through[/url] for more information about and examples of physical damage.
+				</phrase>
+				<phrase name='film_shrinkage' regularexpression=''>
+					Select [b]"None"[/b] if the film is polyester and/or is not exhibiting any signs of shrinkage
+					Select [b]"Moderate"[/b] if the film is exhibiting some shrinkage
+					Select [b]"High"[/b] if the film is exhibiting significant shrinkage
+					
+					[url=packages/avsap/adminhelp/film/eng/shrinkage.html]Click through[/url] to learn about shrinkage and what levels are considered moderate and high.
+				</phrase>
+				<phrase name='film_soundtracktype' regularexpression=''>
+					Select [b]"optical"[/b] if the film soundtrack is optical 
+					Select [b]"magnetic"[/b] if the film soundtrack is magnetic
+					Select [b]"none"[/b] if the film does not have a soundtrack
+					
+					[url=packages/avsap/adminhelp/film/eng/soundtracktype.html]Click through[/url] to learn more about film soundtracks and how to identify the different types
+				</phrase>
+				<phrase name='film_spliceintegrity' regularexpression=''>
+					Select [b]"No Splices"[/b] if the film does not have any splices
+					Select [b]"Good"[/b] if the film has splices which are in good condition
+					Select [b]"Bad"[/b] if the film has splices which are in poor condition
+					
+					[url=packages/avsap/adminhelp/film/eng/spliceintegrity.html]Click through[/url] for more information about splices and how to identify them
+				</phrase>
+				<phrase name='groovedcyl_appropriatecontainer' regularexpression=''>
+					Select "yes" if this item is in a known preservation appropriate container. 
+					
+					[url=packages/avsap/adminhelp/cylinder/eng/appropriatecontainer.html] Click through[/url] to see examples of appropriate storage containers.
+				</phrase>
+				<phrase name='groovedcyl_dustlevel' regularexpression=''>
+					Select "none" if you don't see any signs of dust/dirt.
+					Select "moderate" if there is a slight presence of dust/dirt.
+					Select "high" if the dust/dirt level is great.
+					
+					[url=packages/avsap/adminhelp/cylinder/eng/isdirty.html]Click through[/url] to learn more about the preservation issues related to dust and dirt
+				</phrase>
+				<phrase name='groovedcyl_hasconditioninfo' regularexpression=''>
+					Select [b]"Yes"[/b] if you have supporting materials about the condition of this item.
+					
+					[url=packages/avsap/adminhelp/cylinder/eng/hasdocumentation.html]Click through[/url] to learn about the importance of supporting documentation.
+				</phrase>
+				<phrase name='groovedcyl_labeling' regularexpression=''>
+					Select[b] "yes"[/b] If the cylinder or container has any identifying labeling. 
+					
+					[url=packages/avsap/adminhelp/cylinder/eng/haslabeling.html]Click through[/url] to learn more about the significance of labeling.
+				</phrase>
+				<phrase name='groovedcyl_moldlevel' regularexpression=''>
+					Select [b]"none"[/b] if you don't see any signs of mold.
+					Select [b]"moderate"[/b] if there is a slight presence of mold.
+					Select [b]"high"[/b] if the mold level is great.
+					
+					[url=packages/avsap/adminhelp/cylinder/eng/hasmold.html] Click through[/url] for information on how to identify mold.
+				</phrase>
+				<phrase name='groovedcyl_orientedcorrectly' regularexpression=''>
+					Each medium has a preferred way of sitting in storage. 
+					If you are certain you know how your item should be oriented in storage and have stored them as such, select [b]"Yes"[/b]. 
+					
+					[url=packages/avsap/adminhelp/cylinder/eng/orientedcorrectly.html] Click through[/url] for examples of how best to store your media.
+				</phrase>
+				<phrase name='groovedcyl_physicaldamage' regularexpression=''>
+					Select "[b]none/minimal damage[/b]" if there is no damage visible
+					Select [b]"moderate damage[/b]" if there is slight damage which may affect the sound quality, but would not render the cylinder unplayable
+					Select "[b]severe damage[/b]" if there is significant damage which renders the cylinder unplayable
+					
+					[url=packages/avsap/adminhelp/cylinder/eng/physicaldamage.html]Click through [/url]to learn more about what AvSAP considers moderate and severe damage.
+				</phrase>
+				<phrase name='groovedcyl_recentlyplayedback' regularexpression=''>
+					Select "[b]Yes[/b]" if you know this item has been played back within the last two years.
+					
+					
+					[url=packages/avsap/adminhelp/general/eng/recentlyplayedback.html]Click through [/url]to learn more about playback and associated risks.
+				</phrase>
+				<phrase name='grooveddisc_aciddeposits' regularexpression=''>
+					Select "[b]none[/b]" if you don't see any signs of palmitic acid 
+					Select "[b]moderate[/b]" if there is a slight presence of palmitic acid 
+					Select "[b]high[/b]" if the palmitic acid level is great.
+					
+					[url=packages/avsap/adminhelp/disk/eng/haspalmeticacid.html] Click through[/url] to learn how to identify palmitic acid
+				</phrase>
+				<phrase name='grooveddisc_appropriatecontainer' regularexpression=''>
+					Select  [b]"yes"[/b] if this item is in an known preservation appropriate container.
+					
+					[url=packages/avsap/adminhelp/disk/eng/appropriatecontainer.html] Click through[/url] to see examples of appropriate storage containers.
+				</phrase>
+				<phrase name='grooveddisc_corematerial' regularexpression=''>
+					Select [b]"aluminum[/b]" if the disc's core material is aluminum or a metal-based
+					Select [b]"cardboard"[/b] if the disc's core material is cardboard or paper-based
+					Select [b]"glass"[/b] if the disc's core material is glass 
+					Select [b]"I Don't Know"[/b] if you're unsure of the core material. 
+					
+					[url=packages/avsap/adminhelp/disk/eng/innercore.html]Click through[/url] for more information about how to identify core materials and preservation issues
+				</phrase>
+				<phrase name='grooveddisc_dustlevel' regularexpression=''>
+					Select [b]"none"[/b] if you don't see any signs of dust/dirt.
+					Select [b]"moderate"[/b] if there is a slight presence of dust/dirt.
+					Select [b]"high"[/b] if the dust/dirt level is great.
+					
+					[url=packages/avsap/adminhelp/disk/eng/isdirty.html]Click through[/url] to learn more about the preservation issues related to dust and dirt
+				</phrase>
+				<phrase name='grooveddisc_hasconditioninfo' regularexpression=''>
+					Select [b]"Yes"[/b] if you have supporting materials about the condition of this item
+					
+					[url=packages/avsap/adminhelp/general/eng/hasdocumentation.html]Click through[/url] to learn about the benefit of supporting documentation
+				</phrase>
+				<phrase name='grooveddisc_hasinnersleeve' regularexpression=''>
+					Select [b]"yes" [/b]if this item has an inner sleeve. 
+					
+					[url=packages/avsap/adminhelp/disk/eng/hasinnersleeve.html]Click though[/url] to learn more about preservation issues related to the inner sleeve.
+				</phrase>
+				<phrase name='grooveddisc_labeling' regularexpression=''>
+					Select [b]"yes"[/b] If the disc or container has any identifying labeling. 
+					
+					[url=packages/avsap/adminhelp/disk/eng/haslabeling.html]Click through[/url] to learn more about the importance of labeling.
+				</phrase>
+				<phrase name='grooveddisc_moldlevel' regularexpression=''>
+					Select [b]"none"[/b] if you don't see any signs of mold. 
+					Select [b]"moderate"[/b] if there is a slight presence of mold. 
+					Select [b]"high"[/b] if the mold level is great. 
+					
+					[url=packages/avsap/adminhelp/disk/eng/hasmold.html]Click through[/url] for examples and help on how to identify mold.
+				</phrase>
+				<phrase name='grooveddisc_orientedcorrectly' regularexpression=''>
+					Each medium has a preferred way of sitting in storage. 
+					If you are certain you know how your item should be oriented in storage and have stored them as such, select [b]"Yes".[/b][url=packages/avsap/adminhelp/disk/eng/orientedcorrectly.html]Click through[/url] for examples of how best to store your media.
+				</phrase>
+				<phrase name='grooveddisc_physicaldamage' regularexpression=''>
+					Select [b]"none/minimal damage" [/b]if there is no damage visible
+					Select [b]"moderate damage"[/b] if there is slight damage which may affect the sound quality, but would not render the disc unplayable
+					Select [b]"severe damage"[/b] if there is significant damage which renders the disc unplayable
+					
+					[url=packages/avsap/adminhelp/disk/eng/physicaldamage.html]Click through [/url]to learn more about what AvSAP considers moderate and severe damage.
+				</phrase>
+				<phrase name='grooveddisc_recentlyplayedback' regularexpression=''>
+					Select [b]"Yes"[/b] if you know this item has been played back within the last two years.
+					
+					[url=packages/avsap/adminhelp/general/eng/recentlyplayedback.html]Click through [/url]to learn more about playback risks.
+				</phrase>
+				<phrase name='hasplaybackequip' regularexpression=''>
+					Playback equipment is vital to making audiovisual information accessible. Without playback equipment your audiovisual items may be at a higher preservation risk.
+					
+					Click [b]"yes"[/b] if you have appropriate playback equipment for this item and [b]"no"[/b] if you do not. 
+					
+					[url=packages/avsap/adminhelp/general/eng/hasplaybackequipment.html]Click through [/url]for more information about playback equipment and audiovisual preservation.
+				</phrase>
+				<phrase name='isplayed' regularexpression=''>
+					Playback for audiovisual items carries risk. Click [b]"yes"[/b] if you play this item back and click [b]"no"[/b] if not. 
+					
+					[url=packages/avsap/adminhelp/general/eng/isplayed.html]Click through[/url] for more about the risks inherent in playback.
+				</phrase>
+				<phrase name='mediumlowtemp' regularexpression=''>
+					40-54°F
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Enter a name for the item.
+				</phrase>
+				<phrase name='notes' regularexpression=''>
+					Enter any notes about the item that you would like to store here.
+				</phrase>
+				<phrase name='optical_appropriatecontainer' regularexpression=''>
+					Select  [b]"yes"[/b] if this item is in an known preservation appropriate container. [url=packages/avsap/adminhelp/optical/eng/appropriatecontainer.html]Click through[/url] to see examples of appropriate storage containers.
+				</phrase>
+				<phrase name='optical_hasconditioninfo' regularexpression=''>
+					Select [b]"Yes"[/b] if you have supporting materials about the condition of this item.
+						 
+						[url=packages/avsap/adminhelp/optical/eng/eng/digitalobsolescence.html]Click through[/url] to learn about optical disc playback, documentation and obsolescence.
+				</phrase>
+				<phrase name='optical_labeling' regularexpression=''>
+					Select [b]"yes"[/b] If the container or disc has any identifying labeling.
+					
+					[url=packages/avsap/adminhelp/optical/eng/haslabeling.html]Click through[/url] to learn more about the importance of labeling and issues related to labeling optical media.
+				</phrase>
+				<phrase name='optical_laserrot' regularexpression=''>
+					Select [b]"yes" [/b]if your disc is exhibiting signs of laser rot. 
+					
+					[url=packages/avsap/adminhelp/optical/eng/haslaserrot.html]Click through[/url] for more information about laser rot.
+				</phrase>
+				<phrase name='optical_moldlevel' regularexpression=''>
+					Select [b]"none"[/b] if you don't see any signs of mold.
+						Select [b]"moderate"[/b] if there is a slight presence of mold.
+						Select [b]"high"[/b] if the mold level is great.
+						 
+						[url=packages/avsap/adminhelp/videocassette/eng/eng/hasmold.html]Click through[/url] for more information about mold.
+				</phrase>
+				<phrase name='optical_orientedcorrectly' regularexpression=''>
+					Each medium has a preferred way of sitting in storage. 
+					If you are certain you know how your item should be oriented in storage and have stored them as such, select [b]"Yes"[/b]. 
+					[url=packages/avsap/adminhelp/optical/eng/orientedcorrectly.html]Click through[/url] for more information and examples of how best to store your media.
+				</phrase>
+				<phrase name='optical_performedchecksum' regularexpression=''>
+					Select [b]"yes"[/b] if you have performed data checks/check sums on your discs. 
+					
+					
+					[url=packages/avsap/adminhelp/optical/eng/datacheck.html]Click through[/url] to learn more about the importance of optical disc error checking.
+				</phrase>
+				<phrase name='optical_physicaldamage' regularexpression=''>
+					Select [b]"none/minimal damage"[/b] if there is no damage visible.
+					Select [b]"moderate damage" [/b]if there is slight damage which may affect the sound quality, but would not render the disc unplayable.
+					Select [b]"severe damage" [/b]if there is significant damage which renders the disc unplayable.
+					
+					[url=packages/avsap/adminhelp/optical/eng/physicaldamage.html]Click through[/url] to learn more about what AvSAP considers moderate and severe damage.
+				</phrase>
+				<phrase name='optical_recentlyplayedback' regularexpression=''>
+					Select [b]"yes"[/b] if you are certain this item has been played back recently.
+						[url=packages/avsap/adminhelp/optical/eng/eng/digitalobsolescence.html]Click through[/url] to learn more about the significance of recent playback.
+				</phrase>
+				<phrase name='originalmaterial' regularexpression=''>
+					When we talk about "generations" in audiovisual preservation, we're talking about "copies." If something is a second-generation item, it means that it has been copied from the original, or "master." If your item is a known first generation/master/original select [b]"yes"[/b]; otherwise, select [b]"no." [/b]
+					
+						[url=packages/avsap/adminhelp/general/eng/ismaster.html]Click through[/url] for more information about masters and copies.
+				</phrase>
+				<phrase name='pestdamage' regularexpression=''>
+					If this item or its container appears to have been attacked by pests (rodents, insects and other living creatures), click [b]"yes"[/b]; otherwise, select [b]"no"[/b].
+						 
+						[url=packages/avsap/adminhelp/general/eng/pestdamage.html]Click through[/url] for more information on pests, how to keep them away from collections and the kinds of damage they can cause.
+				</phrase>
+				<phrase name='plastic ' regularexpression=''>
+					Plastic
+				</phrase>
+				<phrase name='repository' regularexpression=''>
+					Select your repository from the pull down menu, if it is not already selected.
+				</phrase>
+				<phrase name='significance' regularexpression=''>
+					With this question you can tell AvSAP the level of significance of this item to your repository. AvSAP recognizes that you may want to differentiate between items of high significance and lesser significance when apportioning funds for preservation. Choosing the level of significance here will not affect your preservation assessment score but can allow you to order your decision list by significance level. 
+					
+					[url=packages/avsap/adminhelp/general/eng/significance.html]Click through[/url] to see what we mean by significance and to get tips on determining the significance of an item to your collections.
+				</phrase>
+				<phrase name='storagefacility' regularexpression=''>
+					Select one of your previously defined storage locations from the pull down menu.
+				</phrase>
+				<phrase name='subassessmenttype' regularexpression=''>
+					Select the appropriate format of the item you are assessing. If you need help, click the "i" button to open our format selector guide.
+				</phrase>
+				<phrase name='uniquematerial' regularexpression=''>
+					If what you are assessing is a commercially produced item, more than likely it is not "unique."
+					
+					Select [b]"yes"[/b] if this item is the only copy of this material in existence; otherwise, select [b]"no"[/b]. 
+					
+					[url=packages/avsap/adminhelp/general/eng/isunique.html]Click through[/url] for more information about what is considered "unique".
+				</phrase>
+				<phrase name='vcassette_appropriatecontainer' regularexpression=''>
+					Select[b] "yes"[/b] if this item is in an known preservation appropriate container. 
+					
+					[url=packages/avsap/adminhelp/videocassette/eng/appropriatecontainer.html]Click through[/url] to see examples of appropriate storage containers.
+				</phrase>
+				<phrase name='vcassette_cartridgecondition' regularexpression=''>
+					Select [b]"Good"[/b] if the cassette or cartridge has no cracks, stress fractures, dirt or dust. 
+					
+					Select [b]"Fair"[/b] for a minimal amount of the aforementioned issues if it appears that any damage won't impede playback of the tape. 
+					
+					Select [b]"Poor"[/b] if there is extensive damage which looks like it may impede playback. 
+					
+					[url=packages/avsap/adminhelp/videocassette/eng/cassettecondition.html]Click through[/url] for more information and examples.
+				</phrase>
+				<phrase name='vcassette_hasconditioninfo' regularexpression=''>
+					Select [b]"Yes"[/b] if you have supporting materials about the condition of this item. 
+					
+					[url=packages/avsap/adminhelp/general/eng/hasdocumentation.html]Click through[/url] to learn about the benefit of supporting documentation
+				</phrase>
+				<phrase name='vcassette_labeling' regularexpression=''>
+					Select [b]"yes"[/b] If the cartridge or cassette has any identifying labeling. [url=packages/avsap/adminhelp/videocassette/eng/haslabeling.html]Click through[/url] for more information on cassette labeling.
+				</phrase>
+				<phrase name='vcassette_moldlevel' regularexpression=''>
+					Select [b]"none"[/b] if you don't see any signs of mold. 
+					Select [b]"moderate"[/b] if there is a slight presence of mold. 
+					Select [b]"high"[/b] if the mold level is great.
+					
+					[url=packages/avsap/adminhelp/videocassette/eng/hasmold.html]Click through[/url] for examples and help on how to identify mold.
+				</phrase>
+				<phrase name='vcassette_orientedcorrectly' regularexpression=''>
+					Each medium has a preferred way of sitting in storage. 
+					If you are certain you know how your item should be oriented in storage and have stored them as such, select [b]"Yes"[/b].  
+					
+					[url=packages/avsap/adminhelp/videocassette/eng/orientedcorrectly.html]Click through[/url] for examples of how best to store your media.
+				</phrase>
+				<phrase name='vcassette_physicaldamage' regularexpression=''>
+					Select [b]"None/Minimal Damage"[/b]if there is no evidence of damage.
+					Select [b]"Moderate Damage"[/b]if there is only slight evidence of damage
+					Select[b] "Severe Damage"[/b]if you observe extensive evidence of phyiscal damage
+					
+					[url=packages/avsap/adminhelp/videocassette/eng/physicaldamage.html]Click through[/url] for more information about and examples of physical damage.
+				</phrase>
+				<phrase name='vcassette_playbacksqueal' regularexpression=''>
+					Select [b]"Yes"[/b] if you hear any high-pitched squeals when playing back the tape. 
+					
+					[url=packages/avsap/adminhelp/general/eng/playbacksqueal.html]Click through[/url] to learn more about what a squeal might indicate.
+				</phrase>
+				<phrase name='vcassette_recentlyplayedback' regularexpression=''>
+					Select "Yes" if you know this item has been played back within the last two years. [url=packages/avsap/adminhelp/general/eng/recentlyplayedback.html]Click through[/url] to learn more about playback issues.
+				</phrase>
+				<phrase name='vcassette_recordprotection' regularexpression=''>
+					Select [b]"Yes" [/b]If the record-protection is enabled on this cassette. 
+					
+					There are many different ways on engaging record-protection depending upon the videocassette format. 
+					If you're unsure how to protect your tape from recording, [url=packages/avsap/adminhelp/videocassette/eng/copyprotection.html]click through[/url] for more information.
+				</phrase>
+				<phrase name='vcassette_stickyshed' regularexpression=''>
+					Select [b]"None"[/b]if there is no evidence of sticky shed. 
+					Select [b]"Moderate"[/b]if there is only slight evidence of sticky shed. Select [b]
+					"High"[/b] if you observe extensive evidence of sticky shed. [url=packages/avsap/adminhelp/general/eng/stickyshed.html]Click through[/url] for more information on what sticky shed is and how to identify it.
+				</phrase>
+				<phrase name='vcassette_windquality' regularexpression=''>
+					If the tape pack looks flat with no raised pieces of tape, select [b]"Good"[/b]. 
+					If the tape pack has a few raised pieces of tape and it looks a little loose, select [b]"Fair"[/b]. 
+					If the tape pack is loose, has many popped strands, and/or an uneven wind and windowing, select [b]"Poor"[/b]. 
+					
+					[url=packages/avsap/adminhelp/audiocassette/eng/windquality.html]Click through[/url] for more information about tape wind.
+				</phrase>
+				<phrase name='vopenreel_appropriatecontainer' regularexpression=''>
+					Select [b]"yes"[/b] if this item is in a known preservation appropriate container. 
+					
+					[url=packages/avsap/adminhelp/videoreel/eng/appropriatecontainer.html]Click through[/url] to see examples of appropriate storage containers.
+				</phrase>
+				<phrase name='vopenreel_hasconditioninfo' regularexpression=''>
+					Select [b]"Yes"[/b] if you have supporting materials about the condition of this item.
+					
+					[url=packages/avsap/adminhelp/general/eng/hasdocumentation.html]Click through[/url] to learn about the benefit of supporting documentation
+				</phrase>
+				<phrase name='vopenreel_labeling' regularexpression=''>
+					Select [b]"yes"[/b] If the cartridge or cassette has any identifying labeling. 
+					
+					[url=packages/avsap/adminhelp/videoreel/eng/haslabeling.html]Click through[/url] for more information on cassette labeling.
+				</phrase>
+				<phrase name='vopenreel_moldlevel' regularexpression=''>
+					Select [b]"none"[/b] if you don't see any signs of mold. 
+					Select [b]"moderate"[/b] if there is a slight presence of mold. 
+					Select [b]"high"[/b] if the mold level is great. [url=packages/avsap/adminhelp/audiocassette/eng/moldlevel.html] [/url]
+					
+					[url=packages/avsap/adminhelp/videoreel/eng/hasmold.html]Click through[/url] for examples and help on how to identify mold.
+				</phrase>
+				<phrase name='vopenreel_orientedcorrectly' regularexpression=''>
+					Each medium has a preferred way of sitting in storage. 
+					If you are certain you know how your item should be oriented in storage and have stored them as such, select [b]"Yes"[/b].  
+					
+					[url=packages/avsap/adminhelp/videoreel/eng/orientedcorrectly.html]Click through[/url] for examples of how best to store your media.
+				</phrase>
+				<phrase name='vopenreel_physicaldamage' regularexpression=''>
+					Select [b]"None/Minimal Damage"[/b]if there is no evidence of damage.
+					Select [b]"Moderate Damage"[/b]if there is only slight evidence of damage
+					Select[b] "Severe Damage"[/b]if you observe extensive evidence of phyiscal damage
+					
+					[url=packages/avsap/adminhelp/videoreel/eng/physicaldamage.html]Click through[/url] for more information about and examples of physical damage.
+				</phrase>
+				<phrase name='vopenreel_playbacksqueal' regularexpression=''>
+					Select [b]"Yes"[/b] if you hear any high-pitched squeals when playing back the tape. 
+					
+					[url=packages/avsap/adminhelp/general/eng/playbacksqueal.html]Click through[/url] to learn more about what a squeal might indicate.
+				</phrase>
+				<phrase name='vopenreel_recentlyplayedback' regularexpression=''>
+					Select "Yes" if you know this item has been played back within the last two years. [url=packages/avsap/adminhelp/general/eng/recentlyplayedback.html]Click through[/url] to learn more about playback issues.
+				</phrase>
+				<phrase name='vopenreel_stickyshed' regularexpression=''>
+					Select [b]"None"[/b]if there is no evidence of sticky shed. 
+					Select [b]"Moderate"[/b]if there is only slight evidence of sticky shed. 
+					Select[b] "High"[/b]if you observe extensive evidence of sticky shed. [url=../../paul/packages/avsap/adminhelp/general/eng/stickyshed.html]Click through[/url] for more information on what sticky shed is and how to identify it.
+				</phrase>
+				<phrase name='vopenreel_windquality' regularexpression=''>
+					If the tape pack looks flat with no raised pieces of tape, select [b]"Good"[/b]. 
+					If the tape pack has a few raised pieces of tape and it looks a little loose, select [b]"Fair"[/b]. 
+					If the tape pack is loose, has many popped strands, and/or an uneven wind and windowing, select [b]"Poor"[/b]. 
+					
+					[url=packages/avsap/adminhelp/audiocassette/eng/windquality.html]Click through[/url] for more information about tape wind.
+				</phrase>
+				<phrase name='wireaudio_appropriatecontainer' regularexpression=''>
+					Select [b]"yes"[/b] if this item is in an known preservation appropriate container. [url=packages/avsap/adminhelp/wire/eng/appropriatecontainer.html]Click through[/url] to see examples of appropriate storage containers.
+				</phrase>
+				<phrase name='wireaudio_hasconditioninfo' regularexpression=''>
+					Select [b]"Yes"[/b] if you have supporting materials about the condition of this item.
+					
+					[url=packages/avsap/adminhelp/general/eng/hasdocumentation.html]Click through[/url] to learn about the benefit of supporting documentation
+				</phrase>
+				<phrase name='wireaudio_labeling' regularexpression=''>
+					Select [b]"yes"[/b] If the container has any identifying labeling. 
+					
+					                                        [url=packages/avsap/adminhelp/videocassette/eng/haslabeling.html]Click through[/url] for more information on cassette labeling.
+				</phrase>
+				<phrase name='wireaudio_moldlevel' regularexpression=''>
+					Select [b]"none"[/b] if you don't see any signs of mold. 
+					Select [b]"moderate"[/b] if there is a slight presence of mold. 
+					Select [b]"high"[/b] if the mold level is great. 
+					
+					[url=packages/avsap/adminhelp/wire/eng/hasmold.html]Click through[/url] for examples and help on how to identify mold.
+				</phrase>
+				<phrase name='wireaudio_orientedcorrectly' regularexpression=''>
+					Each medium has a preferred way of sitting in storage.
+					If you are certain you know how your item should be oriented in storage and have stored them as such, select [b]"Yes"[/b].  
+					
+					[url=packages/avsap/adminhelp/wire/eng/orientedcorrectly.html]Click through[/url] for examples of how best to store your media.
+				</phrase>
+				<phrase name='wireaudio_physicaldamage' regularexpression=''>
+					If the item has been physically damaged select[b] "yes"[/b]; otherwise, select [b]"no"[/b]. 
+					
+					[url=packages/avsap/adminhelp/wire/eng/physicaldamage.html]Click through[/url] for more information about and examples of physical damage.
+				</phrase>
+				<phrase name='wireaudio_recentlyplayedback' regularexpression=''>
+					Select "Yes" if you know this item has been played back within the last two years.
+						 
+						[url=packages/avsap/adminhelp/general/eng/recentlyplayedback.html]Click through[/url] to learn more about what information can be garnered from playback and the risks associated with playback.
+				</phrase>
+				<phrase name='wireaudio_rustlevel' regularexpression=''>
+					Select [b]"none[/b]" if you don't see any signs of rust.
+					Select [b]"moderate"[/b] if there is a slight presence of rust.
+					Select [b]"high" [/b]if the rust level is great.
+					
+					[url=packages/avsap/adminhelp/wire/eng/hasrust.html]Click through[/url] for more information about how to identify rust and how it effects wire media.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='0_25in_openreel' regularexpression=''>
+					1/4" open reel
+				</phrase>
+				<phrase name='0_5in_openreel' regularexpression=''>
+					1/2" open reel
+				</phrase>
+				<phrase name='16mm' regularexpression=''>
+					16mm
+				</phrase>
+				<phrase name='1in_openreel' regularexpression=''>
+					1" open reel
+				</phrase>
+				<phrase name='2in_openreel' regularexpression=''>
+					2" open reel
+				</phrase>
+				<phrase name='35mm' regularexpression=''>
+					35mm
+				</phrase>
+				<phrase name='8mm' regularexpression=''>
+					8mm
+				</phrase>
+				<phrase name='8mm_video' regularexpression=''>
+					Hi8/Video8
+				</phrase>
+				<phrase name='8trackaudiotape' regularexpression=''>
+					8-track
+				</phrase>
+				<phrase name='9_5mm' regularexpression=''>
+					9.5 mm
+				</phrase>
+				<phrase name='acassette_appropriatecontainer' regularexpression=''>
+					Does this item have an appropriate container in good condition? 
+					[i]We strongly suggest you click on the "help" tab to see examples of appropriate containers.[/i]
+				</phrase>
+				<phrase name='acassette_cartridgecondition' regularexpression=''>
+					What is the general condition of the cassette or cartridge?
+				</phrase>
+				<phrase name='acassette_cassettelength' regularexpression=''>
+					What is the length of the audiocassette in minutes?
+				</phrase>
+				<phrase name='acassette_hasconditioninfo' regularexpression=''>
+					Do you have any documentation about this item that might give you any more information about its condition?
+				</phrase>
+				<phrase name='acassette_labeling' regularexpression=''>
+					Does the cassette or cartridge have any labeling or identifying markings?
+				</phrase>
+				<phrase name='acassette_moldlevel' regularexpression=''>
+					What is the level of mold being exhibited by this item?
+				</phrase>
+				<phrase name='acassette_orientedcorrectly' regularexpression=''>
+					Has this item been properly oriented in storage?
+					[i]We strongly suggest you select help to see examples of how this item should be stored.[/i]
+				</phrase>
+				<phrase name='acassette_physicaldamage' regularexpression=''>
+					Is the tape itself suffering from any physical damage (has it been eaten by the playback deck, is it crumpled, etc)?
+				</phrase>
+				<phrase name='acassette_playbacksqueal' regularexpression=''>
+					Is there any squealing during playback?
+				</phrase>
+				<phrase name='acassette_recentlyplayedback' regularexpression=''>
+					Have you or a member of your staff played this item back in the past two years?
+				</phrase>
+				<phrase name='acassette_recordprotection' regularexpression=''>
+					Has the record-protection system been engaged for this item?
+				</phrase>
+				<phrase name='acassette_stickyshed' regularexpression=''>
+					Is this item exhibiting signs of sticky shed or any other kind of tape breakdown?
+				</phrase>
+				<phrase name='acassette_windquality' regularexpression=''>
+					Assess the quality of the wind of the tape.
+				</phrase>
+				<phrase name='acetate' regularexpression=''>
+					Acetate
+				</phrase>
+				<phrase name='activedet' regularexpression=''>
+					Actively Deteriorating
+				</phrase>
+				<phrase name='aluminum' regularexpression=''>
+					Aluminum
+				</phrase>
+				<phrase name='aopenreel_aopenreeldecay' regularexpression=''>
+					If the tape is acetate, assess the level of acetate breakdown.
+				</phrase>
+				<phrase name='aopenreel_appropriatecontainer' regularexpression=''>
+					Does this item have an appropriate container in good condition? 
+					We strongly suggest you click on the "help" tab to see examples of appropriate containers.
+				</phrase>
+				<phrase name='aopenreel_hasconditioninfo' regularexpression=''>
+					Do you have any documentation about this item that might give you any more information about its condition?
+				</phrase>
+				<phrase name='aopenreel_hasleader' regularexpression=''>
+					Does this tape have leader?
+				</phrase>
+				<phrase name='aopenreel_labeling' regularexpression=''>
+					Does the container or item have any labeling or identifying markings?
+				</phrase>
+				<phrase name='aopenreel_moldlevel' regularexpression=''>
+					What is the level of mold being exhibited by this item?
+				</phrase>
+				<phrase name='aopenreel_orientedcorrectly' regularexpression=''>
+					Has this item been properly oriented in storage? 
+					We strongly suggest you click on the "help" tab to see examples of how this item should be stored.
+				</phrase>
+				<phrase name='aopenreel_physicaldamage' regularexpression=''>
+					Is the tape itself suffering from any physical damage (has it been eaten by the playback deck, is it crumpled, etc)?
+				</phrase>
+				<phrase name='aopenreel_playbacksqueal' regularexpression=''>
+					Is there any squealing during playback?
+				</phrase>
+				<phrase name='aopenreel_recentlyplayedback' regularexpression=''>
+					Have you or a member of your staff played back this item in the past two years?
+				</phrase>
+				<phrase name='aopenreel_spliceintegrity' regularexpression=''>
+					Assess the integrity of the splices on this item, if applicable.
+				</phrase>
+				<phrase name='aopenreel_stickyshed' regularexpression=''>
+					Is this item exhibiting signs of sticky shed or any other kind of tape breakdown?
+				</phrase>
+				<phrase name='aopenreel_windquality' regularexpression=''>
+					Assess the quality of the wind of the tape
+				</phrase>
+				<phrase name='audiocassette' regularexpression=''>
+					Audio Cassette
+				</phrase>
+				<phrase name='bad' regularexpression=''>
+					Bad
+				</phrase>
+				<phrase name='badsplices' regularexpression=''>
+					Splices exist but are in bad shape
+				</phrase>
+				<phrase name='betacam' regularexpression=''>
+					Betacam and BetacamSP (aka Beta)
+				</phrase>
+				<phrase name='betamax' regularexpression=''>
+					Betamax
+				</phrase>
+				<phrase name='blackandwhite' regularexpression=''>
+					Black &amp; White
+				</phrase>
+				<phrase name='both' regularexpression=''>
+					Both
+				</phrase>
+				<phrase name='cardboard' regularexpression=''>
+					Cardboard
+				</phrase>
+				<phrase name='cartaudiotapes' regularexpression=''>
+					Continuous Loop Cartridge (Cart)
+				</phrase>
+				<phrase name='cd' regularexpression=''>
+					CD
+				</phrase>
+				<phrase name='classification' regularexpression=''>
+					Classification
+				</phrase>
+				<phrase name='collectioncontentid' regularexpression=''>
+					Collection Content
+				</phrase>
+				<phrase name='collectionid' regularexpression=''>
+					Collection
+				</phrase>
+				<phrase name='collectionname' regularexpression=''>
+					What is the name of the collection?
+				</phrase>
+				<phrase name='color' regularexpression=''>
+					Color
+				</phrase>
+				<phrase name='compactcassette' regularexpression=''>
+					Compact Cassette
+				</phrase>
+				<phrase name='condition' regularexpression=''>
+					Condition
+				</phrase>
+				<phrase name='criticaldet' regularexpression=''>
+					Critical Deterioration
+				</phrase>
+				<phrase name='d2' regularexpression=''>
+					D2
+				</phrase>
+				<phrase name='d3' regularexpression=''>
+					D3
+				</phrase>
+				<phrase name='digitalaudiotape' regularexpression=''>
+					Digital Audio Tape (DAT)
+				</phrase>
+				<phrase name='digitalbetacam' regularexpression=''>
+					Digital Betacam (aka DigiBeta)
+				</phrase>
+				<phrase name='digitalcompactaudiocassette' regularexpression=''>
+					Digital Compact Cassette
+				</phrase>
+				<phrase name='dvcam' regularexpression=''>
+					DV Cam
+				</phrase>
+				<phrase name='dvcpro' regularexpression=''>
+					DVCPRO
+				</phrase>
+				<phrase name='dvd' regularexpression=''>
+					DVD
+				</phrase>
+				<phrase name='factorypressed' regularexpression=''>
+					Factory Pressed
+				</phrase>
+				<phrase name='film' regularexpression=''>
+					Film
+				</phrase>
+				<phrase name='film_appropriatecontainer' regularexpression=''>
+					Does this item have an appropriate container in good condition?[i] We strongly suggest you click on the "help" tab to see examples of appropriate containers.[/i]
+				</phrase>
+				<phrase name='film_filmdecay' regularexpression=''>
+					If this film has a base of acetate or nitrate, what is the level of breakdown of the base? [i][b]If the film has a polyester base, be sure to click on "No Deterioration" [/b][/i]
+				</phrase>
+				<phrase name='film_filmtype' regularexpression=''>
+					Is this film reversal, print, negative or mag stock?
+				</phrase>
+				<phrase name='film_hasleader' regularexpression=''>
+					Does this film have leader?
+				</phrase>
+				<phrase name='film_incolor' regularexpression=''>
+					Is this film color, black and white, or both?
+				</phrase>
+				<phrase name='film_labeling' regularexpression=''>
+					Does the film leader and/or container have any labeling?
+				</phrase>
+				<phrase name='film_magstockbreakdown' regularexpression=''>
+					If Mag Stock, is there mag stock breakdown?
+				</phrase>
+				<phrase name='film_moldlevel' regularexpression=''>
+					What is the level of mold being exhibited by this item?
+				</phrase>
+				<phrase name='film_oncore' regularexpression=''>
+					Is this film on a core? (Please note that a reel is not a core. See the information popup for more information)
+				</phrase>
+				<phrase name='film_orientedcorrectly' regularexpression=''>
+					Has this item been properly oriented in storage? [i]We strongly suggest you click on the "help" tab to see examples of how this item should be stored.[/i]
+				</phrase>
+				<phrase name='film_physicaldamage' regularexpression=''>
+					Is the film suffering from any damage (scratches, sprocket damage, torn film)?
+				</phrase>
+				<phrase name='film_shrinkage' regularexpression=''>
+					How much shrinkage does this film exhibit, if any?
+				</phrase>
+				<phrase name='film_soundtracktype' regularexpression=''>
+					Does this film have a soundtrack?
+				</phrase>
+				<phrase name='film_spliceintegrity' regularexpression=''>
+					Assess the integrity of the splices on this item, if applicable.
+				</phrase>
+				<phrase name='glass' regularexpression=''>
+					Glass
+				</phrase>
+				<phrase name='goodsplices' regularexpression=''>
+					Splices exist but are in good shape
+				</phrase>
+				<phrase name='goodwindquality' regularexpression=''>
+					Good, smooth wind
+				</phrase>
+				<phrase name='groovedcyl_appropriatecontainer' regularexpression=''>
+					Does this item have an appropriate container in good condition? 
+					[i] We strongly suggest you click on the "help" tab to see examples of appropriate containers.[/i]
+				</phrase>
+				<phrase name='groovedcyl_dustlevel' regularexpression=''>
+					Assess the level of dirt/dust/debris on this cylinder
+				</phrase>
+				<phrase name='groovedcyl_hasconditioninfo' regularexpression=''>
+					Do you have any documentation about this item that might give you any more information about its condition?
+				</phrase>
+				<phrase name='groovedcyl_labeling' regularexpression=''>
+					Does the container have any labeling or identifying markings?
+				</phrase>
+				<phrase name='groovedcyl_moldlevel' regularexpression=''>
+					What is the level of mold being exhibited by this item?
+				</phrase>
+				<phrase name='groovedcyl_orientedcorrectly' regularexpression=''>
+					Has this item been properly oriented in storage? 
+					[i]We strongly suggest you click on the "help" tab to see examples of how this item should be stored.[/i]
+				</phrase>
+				<phrase name='groovedcyl_physicaldamage' regularexpression=''>
+					Assess the level of physical damage this cylinder is suffering from
+				</phrase>
+				<phrase name='groovedcyl_recentlyplayedback' regularexpression=''>
+					Have you or a member of your staff played back this item in the past two years?
+				</phrase>
+				<phrase name='groovedcylinder' regularexpression=''>
+					Grooved Cylinder Audio
+				</phrase>
+				<phrase name='grooveddisc' regularexpression=''>
+					Grooved Disc Audio
+				</phrase>
+				<phrase name='grooveddisc_aciddeposits' regularexpression=''>
+					If this disc is a lacquer (instantaneous) disc, assess the level of palmitic acid deposits on the disc.
+				</phrase>
+				<phrase name='grooveddisc_appropriatecontainer' regularexpression=''>
+					Does this item have an appropriate container in good condition? 
+					We strongly suggest you click on the "help" tab to see examples of appropriate containers.
+				</phrase>
+				<phrase name='grooveddisc_corematerial' regularexpression=''>
+					If this disc is a lacquer (instantaneous) disc, what is the disc's core material?
+				</phrase>
+				<phrase name='grooveddisc_dustlevel' regularexpression=''>
+					Assess the level of dirt/dust/debris on this disc
+				</phrase>
+				<phrase name='grooveddisc_hasconditioninfo' regularexpression=''>
+					Do you have any documentation about this item that might give you any more information about its condition?
+				</phrase>
+				<phrase name='grooveddisc_hasinnersleeve' regularexpression=''>
+					Does this grooved disc's container have an inner sleeve?
+				</phrase>
+				<phrase name='grooveddisc_labeling' regularexpression=''>
+					Does the container have any labeling or identifying markings?
+				</phrase>
+				<phrase name='grooveddisc_moldlevel' regularexpression=''>
+					What is the level of mold being exhibited by this item?
+				</phrase>
+				<phrase name='grooveddisc_orientedcorrectly' regularexpression=''>
+					Has this item been properly oriented in storage? 
+					We strongly suggest you click on the "help" tab to see examples of how this item should be stored.
+				</phrase>
+				<phrase name='grooveddisc_physicaldamage' regularexpression=''>
+					Assess the level of physical damage (scratches, smudges, cracks, etc) that this disc is suffering from
+				</phrase>
+				<phrase name='grooveddisc_recentlyplayedback' regularexpression=''>
+					Have you or a member of your staff played back this item in the past two years?
+				</phrase>
+				<phrase name='hasplaybackequip' regularexpression=''>
+					Do you have playback equipment for this item?
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Assessments Manager
+				</phrase>
+				<phrase name='isplayed' regularexpression=''>
+					Does this item get played back regularly?
+				</phrase>
+				<phrase name='laminate' regularexpression=''>
+					Laminate
+				</phrase>
+				<phrase name='laserdisc' regularexpression=''>
+					LaserDisc
+				</phrase>
+				<phrase name='longcassette' regularexpression=''>
+					120 minutes or longer
+				</phrase>
+				<phrase name='lotsofdust' regularexpression=''>
+					Severe Dirt/Dust
+				</phrase>
+				<phrase name='lotsofmold' regularexpression=''>
+					Lots Of Mold
+				</phrase>
+				<phrase name='lotsofpalmetic' regularexpression=''>
+					High Levels of Palmetic Acid
+				</phrase>
+				<phrase name='magnetic' regularexpression=''>
+					Magnetic
+				</phrase>
+				<phrase name='magstock' regularexpression=''>
+					Mag Stock
+				</phrase>
+				<phrase name='mediumcassette' regularexpression=''>
+					90 minutes
+				</phrase>
+				<phrase name='microcassette' regularexpression=''>
+					Microcassette
+				</phrase>
+				<phrase name='minidisc' regularexpression=''>
+					MiniDisc (MD)
+				</phrase>
+				<phrase name='minidv' regularexpression=''>
+					Mini DV
+				</phrase>
+				<phrase name='minimaldamage' regularexpression=''>
+					None/Minimal Damage
+				</phrase>
+				<phrase name='moderate' regularexpression=''>
+					Moderate
+				</phrase>
+				<phrase name='moderatedamage' regularexpression=''>
+					Moderate Damage
+				</phrase>
+				<phrase name='moreshrinkage' regularexpression=''>
+					More than 2%
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					What is the name of the item?
+				</phrase>
+				<phrase name='negative_reversal_mixed' regularexpression=''>
+					Negative, Reversal or Mixed Types
+				</phrase>
+				<phrase name='nodet' regularexpression=''>
+					No deterioration
+				</phrase>
+				<phrase name='nodust' regularexpression=''>
+					No Dirt/Dust
+				</phrase>
+				<phrase name='nomold' regularexpression=''>
+					No Mold
+				</phrase>
+				<phrase name='none' regularexpression=''>
+					None
+				</phrase>
+				<phrase name='nopalmetic' regularexpression=''>
+					No Palmetic Acid Deposits
+				</phrase>
+				<phrase name='noshrinkage' regularexpression=''>
+					No shrinkage
+				</phrase>
+				<phrase name='nosplices' regularexpression=''>
+					No Splices
+				</phrase>
+				<phrase name='notes' regularexpression=''>
+					Notes
+				</phrase>
+				<phrase name='openreelaudio' regularexpression=''>
+					Open Reel Audio
+				</phrase>
+				<phrase name='openreelvideo' regularexpression=''>
+					Open Reel Video
+				</phrase>
+				<phrase name='optical' regularexpression=''>
+					Optical
+				</phrase>
+				<phrase name='optical_appropriatecontainer' regularexpression=''>
+					Does this item have an appropriate container in good condition? We strongly suggest you click on the "help" tab to see examples of appropriate container.
+				</phrase>
+				<phrase name='optical_hasconditioninfo' regularexpression=''>
+					Do you have any documentation about this item that might give you any more information about its condition?
+				</phrase>
+				<phrase name='optical_labeling' regularexpression=''>
+					Does the container have any labeling or identifying markings?
+				</phrase>
+				<phrase name='optical_laserrot' regularexpression=''>
+					Is this disc suffering from "laser rot" or any other kind of breakdown syndrome?
+				</phrase>
+				<phrase name='optical_moldlevel' regularexpression=''>
+					What is the level of mold being exhibited by this item?
+				</phrase>
+				<phrase name='optical_orientedcorrectly' regularexpression=''>
+					Has this item been properly oriented in storage? 
+					We strongly suggest you click on the "help" tab to see examples of how this item should be stored.
+				</phrase>
+				<phrase name='optical_performedchecksum' regularexpression=''>
+					Have you performed any data checks/checksums on the data encoded on the disc?
+				</phrase>
+				<phrase name='optical_physicaldamage' regularexpression=''>
+					Assess the level of physical damage (scratches, smudges, cracks, etc) this item is suffering from
+				</phrase>
+				<phrase name='optical_recentlyplayedback' regularexpression=''>
+					Have you or a member of your staff played back this item in the past two years?
+				</phrase>
+				<phrase name='opticalmedia' regularexpression=''>
+					Optical Media
+				</phrase>
+				<phrase name='originalmaterial' regularexpression=''>
+					Is this item a first generation/original item?
+				</phrase>
+				<phrase name='othercassettevideo' regularexpression=''>
+					Other Cassette Video
+				</phrase>
+				<phrase name='otherfilm' regularexpression=''>
+					Other
+				</phrase>
+				<phrase name='pestdamage' regularexpression=''>
+					Is this item exhibiting signs of damage from exposure to pests (mice, insects)?
+				</phrase>
+				<phrase name='plastic' regularexpression=''>
+					Plastic
+				</phrase>
+				<phrase name='polyester' regularexpression=''>
+					Polyester
+				</phrase>
+				<phrase name='poor' regularexpression=''>
+					Poor
+				</phrase>
+				<phrase name='poorwindquality' regularexpression=''>
+					Very poor wind, many popped strands and loose tape pack
+				</phrase>
+				<phrase name='poppedwindquality' regularexpression=''>
+					Some popped strands
+				</phrase>
+				<phrase name='print' regularexpression=''>
+					Print
+				</phrase>
+				<phrase name='recordable' regularexpression=''>
+					Recordable R, +R, RW
+				</phrase>
+				<phrase name='relatedcollection' regularexpression=''>
+					Related Collection
+				</phrase>
+				<phrase name='selectone' regularexpression=''>
+					(Select One)
+				</phrase>
+				<phrase name='severedamage' regularexpression=''>
+					Severe Damage
+				</phrase>
+				<phrase name='shellac' regularexpression=''>
+					Shellac
+				</phrase>
+				<phrase name='shortcassette' regularexpression=''>
+					30-60 minutes
+				</phrase>
+				<phrase name='significance' regularexpression=''>
+					What is the significance of this item to your repository?
+				</phrase>
+				<phrase name='somedust' regularexpression=''>
+					Moderate Dirt/Dust
+				</phrase>
+				<phrase name='somemold' regularexpression=''>
+					Some Mold
+				</phrase>
+				<phrase name='somepalmetic' regularexpression=''>
+					Little to Moderate Palmetic Acid
+				</phrase>
+				<phrase name='someshrinkage' regularexpression=''>
+					Some shrinkage (greater than .8% but less than 2%)
+				</phrase>
+				<phrase name='starteddet' regularexpression=''>
+					Deterioration Starting
+				</phrase>
+				<phrase name='storage' regularexpression=''>
+					Storage Information
+				</phrase>
+				<phrase name='storagefacility' regularexpression=''>
+					Which of your previously-assessed storage areas houses this item?
+				</phrase>
+				<phrase name='subassessmenttype' regularexpression=''>
+					What is the format of this item?
+				</phrase>
+				<phrase name='super8mm' regularexpression=''>
+					Super 8
+				</phrase>
+				<phrase name='umatic' regularexpression=''>
+					3/4" Umatic and 3/4" Umatic SP
+				</phrase>
+				<phrase name='uniquematerial' regularexpression=''>
+					Is this a unique item in terms of its content?
+				</phrase>
+				<phrase name='use' regularexpression=''>
+					Use Information
+				</phrase>
+				<phrase name='vcassette_appropriatecontainer' regularexpression=''>
+					Does this item have an appropriate container in good condition? 
+					[i]We strongly suggest you click on the "help" tab to see examples of appropriate containers.[/i]
+				</phrase>
+				<phrase name='vcassette_cartridgecondition' regularexpression=''>
+					What is the general condition of the cassette or cartridge?
+				</phrase>
+				<phrase name='vcassette_hasconditioninfo' regularexpression=''>
+					Do you have any documentation about this item that might give you any more information about its condition?
+				</phrase>
+				<phrase name='vcassette_labeling' regularexpression=''>
+					Does the cassette or cartridge have any labeling or identifying markings?
+				</phrase>
+				<phrase name='vcassette_moldlevel' regularexpression=''>
+					What is the level of mold being exhibited by this item?
+				</phrase>
+				<phrase name='vcassette_orientedcorrectly' regularexpression=''>
+					Has this item been properly oriented in storage? 
+					[i]We strongly suggest you click on the "help" tab to see examples of how this item should be stored.[/i]
+				</phrase>
+				<phrase name='vcassette_physicaldamage' regularexpression=''>
+					Is the tape itself suffering from any physical damage (has it been eaten by the playback deck, is it crumpled, etc)?
+				</phrase>
+				<phrase name='vcassette_playbacksqueal' regularexpression=''>
+					Is there any squealing during playback?
+				</phrase>
+				<phrase name='vcassette_recentlyplayedback' regularexpression=''>
+					Have you or a member of your staff played back this item in the past two years?
+				</phrase>
+				<phrase name='vcassette_recordprotection' regularexpression=''>
+					Has the record-protection system been engaged for this item?
+				</phrase>
+				<phrase name='vcassette_stickyshed' regularexpression=''>
+					Is this item exhibiting signs of sticky shed or any other kind of tape breakdown?
+				</phrase>
+				<phrase name='vcassette_windquality' regularexpression=''>
+					Assess the quality of the wind of the tape.
+				</phrase>
+				<phrase name='vhs' regularexpression=''>
+					VHS
+				</phrase>
+				<phrase name='videocassette' regularexpression=''>
+					Video Cassette
+				</phrase>
+				<phrase name='vinyl' regularexpression=''>
+					Vinyl
+				</phrase>
+				<phrase name='vopenreel_appropriatecontainer' regularexpression=''>
+					Does this item have an appropriate container in good condition?
+					[i]We strongly suggest you click on the "help" tab to see examples of appropriate containers[/i]
+				</phrase>
+				<phrase name='vopenreel_hasconditioninfo' regularexpression=''>
+					Do you have any documentation about this item that might give you any more information about its condition?
+				</phrase>
+				<phrase name='vopenreel_labeling' regularexpression=''>
+					Does the cassette or cartridge have any labeling or identifying markings?
+				</phrase>
+				<phrase name='vopenreel_moldlevel' regularexpression=''>
+					What is the level of mold being exhibited by this item
+				</phrase>
+				<phrase name='vopenreel_orientedcorrectly' regularexpression=''>
+					Has this item been properly oriented in storage? 
+					[i]We strongly suggest you click on the "help" tab to see examples of how this item should be stored.[/i]
+				</phrase>
+				<phrase name='vopenreel_physicaldamage' regularexpression=''>
+					Is the tape itself suffering from any physical damage (has it been eaten by the playback deck, is it crumpled, etc)?
+				</phrase>
+				<phrase name='vopenreel_playbacksqueal' regularexpression=''>
+					Is there any squealing during playback?
+				</phrase>
+				<phrase name='vopenreel_recentlyplayedback' regularexpression=''>
+					Have you or a member of your staff played back this item in the past two years?
+				</phrase>
+				<phrase name='vopenreel_stickyshed' regularexpression=''>
+					Is this item exhibiting signs of sticky shed or any other kind of tape breakdown?
+				</phrase>
+				<phrase name='vopenreel_windquality' regularexpression=''>
+					Assess the quality of the wind of the tape:
+				</phrase>
+				<phrase name='wax' regularexpression=''>
+					Wax
+				</phrase>
+				<phrase name='wireaudio' regularexpression=''>
+					Wire Audio
+				</phrase>
+				<phrase name='wireaudio_appropriatecontainer' regularexpression=''>
+					Does this item have an appropriate container in good condition?
+					 We strongly suggest you click on the "help" tab to see examples of appropriate containers.
+				</phrase>
+				<phrase name='wireaudio_hasconditioninfo' regularexpression=''>
+					Do you have any documentation about this item that might give you any more information about its condition?
+				</phrase>
+				<phrase name='wireaudio_labeling' regularexpression=''>
+					Does the container have any labeling or identifying markings?
+				</phrase>
+				<phrase name='wireaudio_moldlevel' regularexpression=''>
+					What is the level of mold being exhibited by this item?
+				</phrase>
+				<phrase name='wireaudio_orientedcorrectly' regularexpression=''>
+					Has this item been properly oriented in storage? 
+					 We strongly suggest you click on the "help" tab to see examples of how this item should be stored.
+				</phrase>
+				<phrase name='wireaudio_physicaldamage' regularexpression=''>
+					Assess the level of physical damage (breaks, crimps, etc) this item is suffering from
+				</phrase>
+				<phrase name='wireaudio_recentlyplayedback' regularexpression=''>
+					Have you or a member of your staff played back this item in the past two years?
+				</phrase>
+				<phrase name='wireaudio_rustlevel' regularexpression=''>
+					Assess the level of rust on this item
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='avsapassessmentreport'>
+			<phrasetype name='Description'>
+				<phrase name='collectioncontentid' regularexpression=''>
+					Use this field to link the assessment to a collection content record (if avialable).
+				</phrase>
+				<phrase name='collectionid' regularexpression=''>
+					Use this field to link the Assessment to a collection record.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='avsapscore' regularexpression=''>
+					Score
+				</phrase>
+				<phrase name='collectionname' regularexpression=''>
+					Collections
+				</phrase>
+				<phrase name='compactcassette' regularexpression=''>
+					Compact Cassette
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Assessment Report
+				</phrase>
+				<phrase name='itemname' regularexpression=''>
+					Items
+				</phrase>
+				<phrase name='location' regularexpression=''>
+					Location
+				</phrase>
+				<phrase name='medium' regularexpression=''>
+					Medium
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Assessment Report
+				</phrase>
+				<phrase name='notes' regularexpression=''>
+					Notes
+				</phrase>
+				<phrase name='relatedcollection' regularexpression=''>
+					Related Collection
+				</phrase>
+				<phrase name='significance' regularexpression=''>
+					Significance
+				</phrase>
+			</phrasetype>
+		</module>
+	</package>
+</language>

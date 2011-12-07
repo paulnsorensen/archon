@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code='spa'>
+	<package aprcode='subjects' version='3.21'>
+		<module script=''>
+			<phrasetype name='Noun'>
+				<phrase name='eadsource' regularexpression=''>
+					Fuente EAD
+				</phrase>
+				<phrase name='nameandparent' regularexpression=''>
+					Nombre y ascendiente
+				</phrase>
+				<phrase name='subject' regularexpression='Subject'>
+					Materia
+				</phrase>
+				<phrase name='subjectlist' regularexpression=''>
+					Lista de Materia
+				</phrase>
+				<phrase name='subjects' regularexpression='Subjects'>
+					Materias
+				</phrase>
+				<phrase name='subjectsource' regularexpression='SubjectSource'>
+					Fuente de Materias
+				</phrase>
+				<phrase name='subjecttype' regularexpression='SubjectType'>
+					Tipo de Materia
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='package_name' regularexpression=''>
+					Materias
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Public Phrase'>
+				<phrase name='search_matches' regularexpression=''>
+					Igual a
+				</phrase>
+				<phrase name='search_searchforsubject' regularexpression=''>
+					buscando Materia: $1
+				</phrase>
+				<phrase name='search_subjectheadings' regularexpression=''>
+					Encabezamientos de Materia
+				</phrase>
+				<phrase name='subjects_begintitle' regularexpression=''>
+					Materias que comienzan por $1
+				</phrase>
+				<phrase name='subjects_filterby' regularexpression=''>
+					Organizar Materias por
+				</phrase>
+				<phrase name='subjects_oftype' regularexpression=''>
+					Del Tipo "$1"
+				</phrase>
+				<phrase name='subjects_relatedrecords' regularexpression=''>
+					Archivos Relacionados
+				</phrase>
+				<phrase name='subjects_showbeginningwith' regularexpression=''>
+					Mostrar Materias que comienzan por
+				</phrase>
+				<phrase name='subjects_subjectsbeginningwith' regularexpression=''>
+					Comenzando por "$1"
+				</phrase>
+				<phrase name='subjects_subjectsbeginningwithheader' regularexpression=''>
+					Materias que comienzan por "$1"
+				</phrase>
+				<phrase name='subjects_subtermheader' regularexpression=''>
+					Sub-términos bajo $1
+				</phrase>
+				<phrase name='subjects_subtermtitle' regularexpression=''>
+					Sub-términos bajo $1
+				</phrase>
+				<phrase name='subjects_title' regularexpression=''>
+					Buscar por Materia
+				</phrase>
+				<phrase name='subjects_typedbeginningwith' regularexpression=''>
+					Del tipo "$1" comenzando por "$2"
+				</phrase>
+				<phrase name='subjects_typedbeginningwithheader' regularexpression=''>
+					Materias "$1" que comienzen por "$2"
+				</phrase>
+				<phrase name='subjects_typedshowbeginningwith' regularexpression=''>
+					Mostrar "$1" Materias que comienzen por
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='subjects'>
+			<phrasetype name='Description'>
+				<phrase name='description' regularexpression=''>
+					Utilice este campo para registrar información adicional acerca de esta materia.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					El módulo de materias/géneros esta diseñado para establecer encabezamientos de sujeto y géro en el fichero de autoriades de Archon.
+				</phrase>
+				<phrase name='subject' regularexpression=''>
+					Utilice este espacio para ingresar el texto del encabezamiento de materia que será agreagado al vocabulario controlado de Archon.
+					Si esta creando una materia en facetas, el texto ingresado aca será incluido dentro del "nivel actual" que se encuentra en la parte superior de la pantalla.
+				</phrase>
+				<phrase name='subjecthierarchy' regularexpression=''>
+					Haga doble click para seleccionar un término de materia o para agregar uno nuevo (o una faceta) a la lista.
+				</phrase>
+				<phrase name='subjectsourceid' regularexpression=''>
+					Utilice este menú para elegir el vocabulario de donde escogió el encabezamiento de materia utilizado.
+					
+					Estos vocabularios se pueden cambiar utilizando el Módulo de Fuentes de Materias.
+				</phrase>
+				<phrase name='subjecttypeid' regularexpression=''>
+					Utilice este menú para seleccionar el tipo de materia (encabezamiento temático, nombre geográfico, etc.)
+					
+					Otros tipos de materias se pueden agregar utilizando el Módul de Tipos de Materias.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='description' regularexpression=''>
+					Descripción
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Materia/Género
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Materia/Género
+				</phrase>
+				<phrase name='parentsubject' regularexpression=''>
+					Materia Principal
+				</phrase>
+				<phrase name='publicview' regularexpression=''>
+					Vista Pública
+				</phrase>
+				<phrase name='subject' regularexpression=''>
+					Materia
+				</phrase>
+				<phrase name='subjecthierarchy' regularexpression=''>
+					Jerarquía de Materias en Facetas
+				</phrase>
+				<phrase name='subjectsourceid' regularexpression=''>
+					Fuente de la Materia
+				</phrase>
+				<phrase name='subjecttypeid' regularexpression=''>
+					Tipo de Materia
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='subjectsources'>
+			<phrasetype name='Description'>
+				<phrase name='eadsource' regularexpression=''>
+					Utilice este espacio para ingresar la forma abreviada del nombre de la fuente. El valor ingresado sera utilizado como el valor del atributo "fuente" en la materia u otro elemento en el area "controlaccess" cuando se exporte un archivo en formato EAD.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Utilice el Módulo de Fuentes de Materias para agregar, editar o borrar las fuentes de sujetos o vocabularios controlados de donde está seleccionando materias.
+				</phrase>
+				<phrase name='subjectsource' regularexpression=''>
+					Utilice este espacio para ingresar el nombre de una fuente de sujetos, por ejempo "Encabezamientos de MAteria de la Biblioteca del Congreso"
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='eadsource' regularexpression=''>
+					Fuente EAD
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Fuentes de Materias
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Fuentes de Materias
+				</phrase>
+				<phrase name='subjectsource' regularexpression=''>
+					Fuente de Materias
+				</phrase>
+			</phrasetype>
+		</module>
+	</package>
+</language>

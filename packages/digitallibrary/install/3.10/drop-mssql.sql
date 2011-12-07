@@ -1,0 +1,3 @@
+-- Drop DefaultAccess field from tblDigitalLibrary_DigitalContent
+DECLARE @defname VARCHAR(100), @cmd VARCHAR(1000); SET @defname = (SELECT name FROM sysobjects so JOIN sysconstraints sc ON so.id = sc.constid WHERE object_name(so.parent_obj) = 'tblDigitalLibrary_DigitalContent' AND so.xtype = 'D' AND sc.colid = (SELECT colid FROM syscolumns WHERE id = object_id('tblDigitalLibrary_DigitalContent') AND name = 'DefaultAccessLevel')); SET @cmd = 'ALTER TABLE tblDigitalLibrary_DigitalContent DROP CONSTRAINT ' + @defname; EXEC(@cmd);
+ALTER TABLE tblDigitalLibrary_DigitalContent DROP COLUMN DefaultAccessLevel;

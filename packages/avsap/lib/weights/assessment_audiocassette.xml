@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <FormatScore>40</FormatScore>
+    <StorageFacilityScore>10</StorageFacilityScore>
+    <UniqueMaterial>1.5</UniqueMaterial>
+    <OriginalMaterial>1.17</OriginalMaterial>
+    <IsPlayed>1.17</IsPlayed>
+    <HasPlaybackEquip>1.17</HasPlaybackEquip>
+    <RecentlyPlayedBack>2</RecentlyPlayedBack>
+    <HasConditionInfo>2</HasConditionInfo>
+    <OrientedCorrectly>0.6</OrientedCorrectly>
+    <AppropriateContainer>1.4</AppropriateContainer>
+    <Labeling>0.6</Labeling>
+    <PhysicalDamage>15</PhysicalDamage>
+    <MoldLevel>2</MoldLevel>
+    <PestDamage>2</PestDamage>
+    <RecordProtection>1.4</RecordProtection>
+    <CartridgeCondition>1</CartridgeCondition>
+    <StickyShed>10</StickyShed>
+    <WindQuality>2</WindQuality>
+    <PlaybackSqueal>2.5</PlaybackSqueal>
+    <CassetteLength>2.5</CassetteLength>
+</root>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code='spa'>
+	<package aprcode='accessions' version='3.21'>
+		<module script=''>
+			<phrasetype name='Noun'>
+				<phrase name='accession' regularexpression=''>
+					Adquisición
+				</phrase>
+				<phrase name='accessiondate' regularexpression=''>
+					Fecha de Adquisición
+				</phrase>
+				<phrase name='accessionlocationentry' regularexpression=''>
+					Ubicación de la Adquisición
+				</phrase>
+				<phrase name='accessions' regularexpression=''>
+					Adquisiciones
+				</phrase>
+				<phrase name='collectionandclassification' regularexpression=''>
+					Colección and Clasificación
+				</phrase>
+				<phrase name='collectionentries' regularexpression=''>
+					Entradas de Colección
+				</phrase>
+				<phrase name='collectionentry' regularexpression=''>
+					Entrada de Colección
+				</phrase>
+				<phrase name='collectionorclassification' regularexpression=''>
+					Collección or Clasificación
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Identificador
+				</phrase>
+				<phrase name='processingpriority' regularexpression=''>
+					Prioridad de Procesamiento
+				</phrase>
+				<phrase name='receivedextent' regularexpression=''>
+					Cantidad Recibida
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Description'>
+				<phrase name='configuration_accessionidentifierminimumlength' regularexpression=''>
+					Si se han predeterminados, los identificadores de adquisicion que consisten de sólo números se les agregarán ceros para asegurarse que cotnengan la cantidad mínima de caracteres.
+				</phrase>
+				<phrase name='import_accession_csv' regularexpression=''>
+					El script CSV de Adquisición toma información de un archivo .csv (valores sparados por comas) y lo igresa a Archon. Por favor referirse a la documentación de Archon para mas información.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='import_accession_csv' regularexpression=''>
+					Adqusición CSV
+				</phrase>
+				<phrase name='locationentries_location' regularexpression=''>
+					Ubicación
+				</phrase>
+				<phrase name='locationentries_rangevalue' regularexpression=''>
+					Rango
+				</phrase>
+				<phrase name='locationentries_section' regularexpression=''>
+					Sección
+				</phrase>
+				<phrase name='locationentries_shelf' regularexpression=''>
+					Estante
+				</phrase>
+				<phrase name='package_name' regularexpression=''>
+					Adquisiciones
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Public Phrase'>
+				<phrase name='search_matches' regularexpression=''>
+					Igual a
+				</phrase>
+				<phrase name='search_unprocessedmaterials' regularexpression=''>
+					Materiales que no han sido procesados
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='processingpriorities'>
+			<phrasetype name='Description'>
+				<phrase name='description' regularexpression=''>
+					Utilice este espacio para ingresar informacion que describa el periodo de tiempo y/o procedimientos relacionados con el procesamiento de materiales en este nivel de prioridad.
+				</phrase>
+				<phrase name='displayorder' regularexpression=''>
+					Utilice este espacio para cambiar el orden en el cual aparece la lista de prioridades de procesamiento. Las prioridades que tengan un número más bajo apareceran de primeras en la lista.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Utilice este módulo para definir la lista de prioridades de procesamiento de adquisiciones.
+				</phrase>
+				<phrase name='processingpriority' regularexpression=''>
+					Utilice este espacio para ingresar el nombre de la prioridad que esta editando.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='description' regularexpression=''>
+					Descripción
+				</phrase>
+				<phrase name='displayorder' regularexpression=''>
+					Orden de exposición
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Prioridades de Procesamiento
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Prioridades de Procesamiento
+				</phrase>
+				<phrase name='processingpriority' regularexpression=''>
+					Prioridad de Procesamiento
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='accessions'>
+			<phrasetype name='Description'>
+				<phrase name='accessiondate' regularexpression=''>
+					Utilice este espacio para ingresar la fecha en la cual la adquisición fue recibida por el archivo, en formato mm/dd/aaaa.
+				</phrase>
+				<phrase name='collections' regularexpression=''>
+					Ingrese a esta area para asociar clasificaciones o colecciones con los materiales recibidos en a adquisición.
+					
+					Para asociar una coleccion, haga click en el link "Asociar Colección", busque en la lista y luego haga click en el nombre de la colección.					
+					Para asociar una clasificación, como un sub-grupo o una serie, utilice el menu. (Esta opción solo esta disponible si las clasificaciones han sido definidas en el módulo de clasificaciones).
+				</phrase>
+				<phrase name='collections_collection' regularexpression=''>
+					Utilice este campo para seleccionar una colección relacionada.
+				</phrase>
+				<phrase name='creators' regularexpression=''>
+					Ingrese a esta sección para conectar esta adquisición con el registro de autoridades de productor.
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Ingrese a esta sección para registrar información descriptiva de la adquisición como por ejemplo: descripción física, nota de contenido, o comentarios.
+				</phrase>
+				<phrase name='description_comments' regularexpression=''>
+					Utilice este espacio para ingresar comentarios adicionales acerca de la adquisición que no sean pertinentes en otros espacios predeterminados.
+				</phrase>
+				<phrase name='description_physicaldescription' regularexpression=''>
+					Utilice este espacio para registrar la nota desciptiva acerca de las características físicas de la adquisición como el tipo, número y tamaño de los contenedores adquiridos.
+				</phrase>
+				<phrase name='description_scopecontent' regularexpression=''>
+					Utilice este espacio para proveer una nota de alcance o información acerca de la naturaleza de las materias o actividades reflejadas en los materiales adquiridos. (Ver reglamentación DACS 3.1 para mayor información.)
+				</phrase>
+				<phrase name='donor' regularexpression=''>
+					Abra esta sección para ingresar información acerca del donante de esta adquisición.
+				</phrase>
+				<phrase name='donor_donor' regularexpression=''>
+					Utilice este espacio para ingresar el nombre de la persona u organización que ofreció la adquisición al archivo.
+				</phrase>
+				<phrase name='donor_donorcontactinformation' regularexpression=''>
+					Utilice este espacio para proveer la información de contacto de la persona u organización que ofreció la adquisición al archivo.
+				</phrase>
+				<phrase name='donor_donornotes' regularexpression=''>
+					Utilice este espacio para proveer información adicional acerca del donante de la adquisición.
+				</phrase>
+				<phrase name='enabled' regularexpression=''>
+					Al cambiar este boton a "no", usted esta restringiendo el accesso público a la adquisición que esta registrando.
+				</phrase>
+				<phrase name='expectedcompletiondate' regularexpression=''>
+					Utilice este espacio para ingresar la fecha en la cual se espere que se complete el prcesamiento de la adquisición.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Utilice el módulo de adquisiciones para describir materiales que han sido adquiridos recientemente que no hayan sido procesados o catalogados.	
+					
+					La información de un registro de adquisición puede ser asociada a una o más clasificaciones o colecciones existentes, y puede ser utilizada para generar un nuevo registro de colección.
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Utilice este espacio para ingresar un identificador único para la adquisición.
+				</phrase>
+				<phrase name='inclusivedates' regularexpression=''>
+					Utilice este espacio para registrar la(s) fecha(s) que correspondan a la creación, ensamblaje o acumulación de los materiales que este describiendo. Si es necesario, utilice un sola fecha, un rango de fechas o una lista de fechas separadas por comas.   (Ver reglamentació DACS 2.4 para mayor información.)
+				</phrase>
+				<phrase name='locations' regularexpression=''>
+					Ingrese a esta sección para ingresar la ubicación de las cajas u otros contenedores de esta adquisición antes de ser procesadas.
+				</phrase>
+				<phrase name='locations_content' regularexpression=''>
+					Utilice este espacio para ingresar el número de cajas o contenedores que están guardadas en el lugar específico.
+				</phrase>
+				<phrase name='locations_extent' regularexpression=''>
+					Utilice estos espacios	para ingresar el número do cajas o contenedores que estan guardados en este lugar específico.
+				</phrase>
+				<phrase name='locations_locationid' regularexpression=''>
+					Utilice este menú para seleccionar la ubicación principal (por ejemplo, oficina o edificio) en donde los materiales serán guardados. Usted puede agregar ubicacciones adicionales en el "Módulode Ubicaciones".
+				</phrase>
+				<phrase name='locations_rangevalue' regularexpression=''>
+					Utilica este espacio para ingresar el número (u otro identificador) del rango de estantes en donde se encuentran los materiales.
+				</phrase>
+				<phrase name='locations_section' regularexpression=''>
+					Utilice este espacio para ingresar la sección específica (dentro de un rango de estantes) en donde se encuantran los materiales.
+				</phrase>
+				<phrase name='locations_shelf' regularexpression=''>
+					Utilice este espacio para ingresar el estante específica (en una seccion determinada) end donde se encuentran los materiales.
+				</phrase>
+				<phrase name='materialtypeid' regularexpression=''>
+					Utilice este espacio para describit apropiadamente el tipo de materiales que se encuentran en la adquisición.
+				</phrase>
+				<phrase name='primary_creator' regularexpression=''>
+					Utilice este campo para seleccionar un registro de creador para asignarlo compo productor principal de la(s) coleccion(es).
+				</phrase>
+				<phrase name='processingpriorityid' regularexpression=''>
+					Utilice este espacio para seleccionar el nivel de atención y cuidade que se requiere para procesar esta adquisición.
+				</phrase>
+				<phrase name='receivedextent' regularexpression=''>
+					Utilice estos espacios para describir la extension física de la adquisición en el momento en que fue recibida por el archivo.
+				</phrase>
+				<phrase name='subjects' regularexpression=''>
+					Abra esta sección para vincular un registro de materia existente a esta adqusición.
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Utilice este espacio para darle un título único a esta adquisición.
+				</phrase>
+				<phrase name='unprocessedextent' regularexpression=''>
+					Utilice este espacio para ingresar la extensión física de la adquisición que todavía no ha sido procesada.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='accessiondate' regularexpression=''>
+					Fecha de Adquisición
+				</phrase>
+				<phrase name='collections' regularexpression=''>
+					Información de Colecciones/Clasificaciones
+				</phrase>
+				<phrase name='collections_collection' regularexpression=''>
+					Este ingreso tiene materiales relacionados a:
+				</phrase>
+				<phrase name='createcollectionrecord' regularexpression=''>
+					Crear un registro de colección
+				</phrase>
+				<phrase name='creators' regularexpression=''>
+					Información del Productor
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Descripción de la Adquisición
+				</phrase>
+				<phrase name='description_comments' regularexpression=''>
+					Comentarios
+				</phrase>
+				<phrase name='description_physicaldescription' regularexpression=''>
+					Descripción Física
+				</phrase>
+				<phrase name='description_scopecontent' regularexpression=''>
+					Alcance y Contenido
+				</phrase>
+				<phrase name='donor' regularexpression=''>
+					Información del Donante
+				</phrase>
+				<phrase name='donor_donor' regularexpression=''>
+					Donante
+				</phrase>
+				<phrase name='donor_donorcontactinformation' regularexpression=''>
+					Información de Contacto del Donante
+				</phrase>
+				<phrase name='donor_donornotes' regularexpression=''>
+					Anotaciones acerca del donante
+				</phrase>
+				<phrase name='enabled' regularexpression=''>
+					Permitir Publicación En Línea
+				</phrase>
+				<phrase name='expectedcompletiondate' regularexpression=''>
+					Fecha en la que se completará
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Adquisiciones
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Identificador
+				</phrase>
+				<phrase name='inclusivedates' regularexpression=''>
+					Fechas Inclusives
+				</phrase>
+				<phrase name='locations' regularexpression=''>
+					Información de la Ubicación
+				</phrase>
+				<phrase name='locations_content' regularexpression=''>
+					Contenido
+				</phrase>
+				<phrase name='locations_extent' regularexpression=''>
+					Extensión
+				</phrase>
+				<phrase name='locations_locationid' regularexpression=''>
+					Unicación
+				</phrase>
+				<phrase name='locations_rangevalue' regularexpression=''>
+					Rango
+				</phrase>
+				<phrase name='locations_section' regularexpression=''>
+					Sección
+				</phrase>
+				<phrase name='locations_shelf' regularexpression=''>
+					Repisa
+				</phrase>
+				<phrase name='materialtypeid' regularexpression=''>
+					Tipo de Material
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Adquisiciones
+				</phrase>
+				<phrase name='primary_creator' regularexpression=''>
+					Productor Principal
+				</phrase>
+				<phrase name='processingpriorityid' regularexpression=''>
+					Prioridad de Procesamiento
+				</phrase>
+				<phrase name='receivedextent' regularexpression=''>
+					Cantidad Recibida
+				</phrase>
+				<phrase name='selectone' regularexpression=''>
+					Tipo de Materia
+				</phrase>
+				<phrase name='subjects' regularexpression=''>
+					Materias
+				</phrase>
+				<phrase name='subjecttypeid' regularexpression=''>
+					Tipo de Materia
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Título
+				</phrase>
+				<phrase name='unprocessedextent' regularexpression=''>
+					Cantodad No Procesada
+				</phrase>
+			</phrasetype>
+		</module>
+	</package>
+</language>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <FormatScore>40</FormatScore>
+    <StorageFacilityScore>10</StorageFacilityScore>
+    <UniqueMaterial>1.5</UniqueMaterial>
+    <OriginalMaterial>1.17</OriginalMaterial>
+    <IsPlayed>1.17</IsPlayed>
+    <HasPlaybackEquip>1.17</HasPlaybackEquip>
+    <RecentlyPlayedBack>1.5</RecentlyPlayedBack>
+    <HasConditionInfo>1.5</HasConditionInfo>
+    <OrientedCorrectly>1.2</OrientedCorrectly>
+    <AppropriateContainer>1.6</AppropriateContainer>
+    <Labeling>1</Labeling>
+    <PhysicalDamage>15</PhysicalDamage>
+    <MoldLevel>1.5</MoldLevel>
+    <PestDamage>1.5</PestDamage>
+    <HasInnerSleeve>1.2</HasInnerSleeve>
+    <CoreMaterial>5</CoreMaterial>
+    <AcidDeposits>4</AcidDeposits>
+    <DustLevel>10</DustLevel>
+</root>

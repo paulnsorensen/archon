@@ -1,0 +1,1 @@
+DECLARE @package_collections INT; SET @package_collections = (SELECT ID FROM tblCore_Packages WHERE APRCode = 'collections'); INSERT INTO tblCore_Configuration (PackageID, ModuleID, Directive, Value, InputType, PatternID, ReadOnly, Encrypted, ListDataSource) VALUES (@package_collections, '0', 'Enable Finding Aid Caching', '0', 'radio', '3', '0', '0', NULL);

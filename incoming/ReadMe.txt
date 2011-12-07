@@ -1,0 +1,1 @@
+Excel files, including the samples provided in this directory, cannot be imported directly into Archon.  They must be saved as comma separated value (CSV) files first. There SHOULD NOT be a header line included in the comma separated value file.

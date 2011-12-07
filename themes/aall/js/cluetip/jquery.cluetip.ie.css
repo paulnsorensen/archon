@@ -1,0 +1,5 @@
+/* stupid IE6 HasLayout hack */
+.cluetip-rounded #cluetip-title,
+.cluetip-rounded #cluetip-inner {
+  zoom: 1;
+}

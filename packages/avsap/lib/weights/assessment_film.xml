@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : assessment_film.xml
+    Author     : Paul Sorensen
+    Description:
+        Scoring coefficients for AVSAP Film Assessment
+-->
+
+<root>
+    <FormatScore>40</FormatScore>
+    <UniqueMaterial>1.5</UniqueMaterial>
+    <OriginalMaterial>1.17</OriginalMaterial>
+    <IsPlayed>1.17</IsPlayed>
+    <HasPlaybackEquip>1.17</HasPlaybackEquip>
+    <OrientedCorrectly>1</OrientedCorrectly>
+    <AppropriateContainer>1.4</AppropriateContainer>
+    <Labeling>0.6</Labeling>
+    <MoldLevel>2.5</MoldLevel>
+    <PestDamage>2.5</PestDamage>
+    <StorageFacilityScore>10</StorageFacilityScore>
+    <PhysicalDamage>10</PhysicalDamage>
+    <OnCore>1</OnCore>
+    <InColor>2.5</InColor>
+    <SoundtrackType>2.5</SoundtrackType>
+    <HasLeader>1</HasLeader>
+    <FilmDecay>10</FilmDecay>
+    <FilmType>2.5</FilmType>
+    <Shrinkage>2.5</Shrinkage>
+    <SpliceIntegrity>2.5</SpliceIntegrity>
+    <MagStockBreakdown>2.5</MagStockBreakdown>
+</root>

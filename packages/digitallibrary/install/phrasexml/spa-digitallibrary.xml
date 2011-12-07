@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code='spa'>
+	<package aprcode='digitallibrary' version='3.21'>
+		<module script=''>
+			<phrasetype name='Noun'>
+				<phrase name='digitalcontent' regularexpression='DigitalContent'>
+					Contenido Digital
+				</phrase>
+				<phrase name='digitalcontentlist' regularexpression=''>
+					Lista de Contenido Digital
+				</phrase>
+				<phrase name='digitallibraries' regularexpression='DigitalLibraries'>
+					Bibliotecas Digitales
+				</phrase>
+				<phrase name='digitallibrary' regularexpression='DigitalLibrary'>
+					Biblioteca Digital
+				</phrase>
+				<phrase name='digitallibrarycontent' regularexpression='DigitalLibraryContent'>
+					Contenido de la Biblioteca Digital
+				</phrase>
+				<phrase name='extension' regularexpression='Extension'>
+					Extension
+				</phrase>
+				<phrase name='file' regularexpression='File'>
+					Archivo
+				</phrase>
+				<phrase name='filecontents' regularexpression='FileContents'>
+					Contenidos del Archivo
+				</phrase>
+				<phrase name='fileextensions' regularexpression='FileExtensions'>
+					Extensiones del Archivo
+				</phrase>
+				<phrase name='filename' regularexpression='FileName'>
+					Nombre del Archivo
+				</phrase>
+				<phrase name='files' regularexpression='Files'>
+					Archivos
+				</phrase>
+				<phrase name='filetype' regularexpression='FileType'>
+					Tipo de Archivo
+				</phrase>
+				<phrase name='imagethumbnail' regularexpression='ImageThumbnail'>
+					Miniatura de la Imagen
+				</phrase>
+				<phrase name='mediatype' regularexpression='MediaType'>
+					Tipo de Medios
+				</phrase>
+				<phrase name='relatedcreators' regularexpression='RelatedCreators'>
+					Productores Relacionados
+				</phrase>
+				<phrase name='thumbnailimage' regularexpression='ThumbnailImage'>
+					Miniatura de la Imagen
+				</phrase>
+				<phrase name='thumbnails' regularexpression=''>
+					Miniaturas
+				</phrase>
+				<phrase name='title' regularexpression='Title'>
+					Título
+				</phrase>
+				<phrase name='titleandcollectionandcollectioncontent' regularexpression=''>
+					Contenido de Título y Colección
+				</phrase>
+				<phrase name='titleandfilenameandcontent' regularexpression=''>
+					Título, Nombre del Archivo, y Contenido
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Message'>
+				<phrase name='error_admin_reason_filetoolarge' regularexpression='The uploaded file was too large\.'>
+					El archivo es demasiado grande y no se puede cargar
+				</phrase>
+				<phrase name='error_reason_fileextensionnotdefined' regularexpression='File extension ([\w]+) not defined in the file types manager, and only defined file types may be added\.'>
+					La extensión del archivo $1 no está definida en el Módulo de Tipos de Archino, y sólo se pueden agregar tipos de archivo que ya estén definidos.
+				</phrase>
+				<phrase name='error_reason_filetypenotdefined' regularexpression='File extension ([\w.]+) is not defined in the file types manager, and only defined file types may be added.'>
+					La extensión del archivo $1 no está definida en el Módulo de Tipos de Archino, y sólo se pueden agregar tipos de archivo que ya estén definidos.
+				</phrase>
+				<phrase name='error_reason_imagecopyresampled' regularexpression='imagecopyresampled failed\.'>
+					imagecopyresampled falló
+				</phrase>
+				<phrase name='error_reason_imagefunction' regularexpression='Function image([\w]+) does not exist\. Please verify the specified Image Type is correct and the proper libraries are installed\.'>
+					La funcion image$1 no existe. Por favor verifique que el tipo de imagen sea el correcto y que las bibliotecas correspondientes estén instaladas.
+				</phrase>
+				<phrase name='error_reason_imagesize' regularexpression='No width or height specified\.'>
+					No ha especificado medidas de alto y ancho.
+				</phrase>
+				<phrase name='error_reason_largefile' regularexpression='The uploaded file was too large\.'>
+					El archivo es demasiado grande y no se puede cargar
+				</phrase>
+				<phrase name='verifyimagetypelibraries' regularexpression='Please verify the specified Image Type is correct and the proper libraries are installed\.'>
+					Por favor verifique que el tipo de imagen sea el correcto y que las bibliotecas correspondientes estén instaladas.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Description'>
+				<phrase name='configuration_digitalcontentidentifierminimumlength' regularexpression=''>
+					Si se han determinado, a los identificadores del contetnido digital que consisten de sólo números se les agregarán ceros para asegurarse que cotnengan la cantidad mínima de caracteres.
+				</phrase>
+				<phrase name='configuration_maxthumbnails' regularexpression=''>
+					Establece el número máximo de objetos de Contenido Digital que puedan mostrar miniaturas de imagen en la seccion de miniaturas de la interfaz pública de la Biblioteca Digital.
+				</phrase>
+				<phrase name='configuration_previewlongmaxsize' regularexpression=''>
+					Determina el tamaño de los archivos en KB para el la vista preliminar de la biblioteca digital.
+				</phrase>
+				<phrase name='configuration_previewshortmaxsize' regularexpression=''>
+					Determina el tamaño máximo de los archivos en KB para el la vista preliminar de la biblioteca digital.
+				</phrase>
+				<phrase name='configuration_thumbnailwidthmedium' regularexpression=''>
+					Determina el ancho de la imagen para la vista preliminar mediana de la biblioteca digital.
+				</phrase>
+				<phrase name='configuration_thumbnailwidthsmall' regularexpression=''>
+					Determina el ancho de la imagen para la vista preliminar pequeña de la biblioteca digital.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='package_name' regularexpression=''>
+					Biblioteca Digital
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Public Phrase'>
+				<phrase name='digitalcontent_digitalarchives' regularexpression=''>
+					Archivos Digitales
+				</phrase>
+				<phrase name='digitallibrary_beginningwith' regularexpression=''>
+					Comenzando por "$1"
+				</phrase>
+				<phrase name='digitallibrary_browsethumbnails' regularexpression=''>
+					Buscar Miniaturas de Imagen
+				</phrase>
+				<phrase name='digitallibrary_dcbeginningtitle' regularexpression=''>
+					Contenido Digital que comienza por $1
+				</phrase>
+				<phrase name='digitallibrary_dcbeginningwith' regularexpression=''>
+					Títulos de Contenido Digital que comienzan por "$1"
+				</phrase>
+				<phrase name='digitallibrary_pleaseenter' regularexpression=''>
+					Por favor ingrese términos de búsqueda
+				</phrase>
+				<phrase name='digitallibrary_searchimages' regularexpression=''>
+					Buscar Imágenes
+				</phrase>
+				<phrase name='digitallibrary_showbeginning' regularexpression=''>
+					Mostrar Títulos de Contenido Digital que comienzan por
+				</phrase>
+				<phrase name='digitallibrary_title' regularexpression=''>
+					Buscar Contenido Digital
+				</phrase>
+				<phrase name='search_digitalimages' regularexpression=''>
+					Imágenes y Archivos Digitals
+				</phrase>
+				<phrase name='search_matches' regularexpression=''>
+					Equivalentes
+				</phrase>
+				<phrase name='search_numthumbnails' regularexpression=''>
+					Se han encontrado $1 o más imágenes
+				</phrase>
+				<phrase name='search_searchforfiletype' regularexpression=''>
+					Buscando FileType: $1
+				</phrase>
+				<phrase name='search_searchformediatype' regularexpression=''>
+					Buscando MediaType: $1
+				</phrase>
+				<phrase name='search_searchthumbnails' regularexpression=''>
+					Buscando miniaturas de imagen
+				</phrase>
+				<phrase name='thumbnails_digitalarchives' regularexpression=''>
+					Archivos Digitales
+				</phrase>
+				<phrase name='thumbnails_title' regularexpression=''>
+					Miniaturas de Imagen
+				</phrase>
+				<phrase name='tostring_viewcontent' regularexpression=''>
+					Mostrar Contenido Digital Asociado
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='filetypes'>
+			<phrasetype name='Description'>
+				<phrase name='contenttype' regularexpression=''>
+					Utilice este campo para registrar el contenido tipo MIME que deberá ser enviado al navegador del usuario cuando éste intenta descargar este tipo de archivos. Por ejemplo, registre el tipo de contenido como "audio/mpeg" para archivos mp3. 
+					
+					El tipo de contenido es usado por las asociaciones de archivos que aparecen en el navegador del usuario al mostrar o cargar el contenido digiral utilizando el software del usuario.
+					
+					Una lista de tipos de contenido registrado está disponible en http://www.iana.org/assignments/media-types/.
+				</phrase>
+				<phrase name='fileextensions' regularexpression=''>
+					Utilice este campo para nombrar las extensiones de archivos representadas en el campo "Tipo de Archivo".  Las extensiones deben ser separadas por comas.
+				</phrase>
+				<phrase name='filetype' regularexpression=''>
+					Utilice este campo para describir los tipos de archivo representado por las extensiones nombradas en el campo "Extensiones de Archvo".
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Utilice el Módulo de Tipo de Archivo para definir los tipos de contenido digital que los usuarios administrativos podrán agregar a Archon.
+				</phrase>
+				<phrase name='mediatypeid' regularexpression=''>
+					Utilice este menu para seleccionar la categoría general que mejor describe los archivos de este tipo.
+					
+					El valor que haya seleccionado será utilizado por Archon para determinar qué graficas serán mostradas en la interfaz pública como vínvulos a objetos digitales de este tipo. Por ejemplo, vínculos a fotos se verán difierentes a los vínculos a audio digital.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='contenttype' regularexpression=''>
+					Contenido Tipo HTTP
+				</phrase>
+				<phrase name='fileextensions' regularexpression=''>
+					Extensiones de Archivo
+				</phrase>
+				<phrase name='filetype' regularexpression=''>
+					Tipo de Archivo
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Tipo de Archivo
+				</phrase>
+				<phrase name='mediatypeid' regularexpression=''>
+					Tipo de Medios
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Tipo de Archivo
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='digitallibrary'>
+			<phrasetype name='Description'>
+				<phrase name='browsable' regularexpression=''>
+					Al cambiar este botón de radio a 'no' va asuprimir la vista pública de objetos digitales y de su descripción asociada.
+				</phrase>
+				<phrase name='collectioncontentid' regularexpression=''>
+					Este campo muestra el nombre de la colección a la cual el contenido digital que está cargando estará vinculado. Dependiendo del grado en que la colección se describen en el "Content Manager", es posible anidar en el vínculo de una serie específica, carpeta o elemento de nivel de registro descriptivo.   Depending on the degree to which the collection is described in the 'Content Manager,' it may be possible to nest the link in a specific series, folder, or item-level descriptive record.
+				</phrase>
+				<phrase name='common_contenturl' regularexpression=''>
+					Utilice este campo para agregar un vínculo a contenido digital que se encuentre fuera de Archon. El vínculo debe ser un URL absoluto.
+				</phrase>
+				<phrase name='creators' regularexpression=''>
+					Esta sección conecta los registros de autoridad con los objetos digitales.
+				</phrase>
+				<phrase name='date' regularexpression=''>
+					Utilice este campo para registrar la fecha de creación del objeto digital.
+				</phrase>
+				<phrase name='defaultaccesslevel' regularexpression=''>
+					Seleccione "completo" si desea que el usuario descargue el archivo original' "vista previa" si quiere permitir el accesso del usuario a las vistas previas, y "ninguno" si quiere mostrar solo los metadatos.
+				</phrase>
+				<phrase name='detaileddescription' regularexpression=''>
+					Utilice esta sección para proveer una descripción del recurso digital.
+				</phrase>
+				<phrase name='detaileddescription_contributor' regularexpression=''>
+					Utilice este campo para registrar el nombre del individuo o institución que donó el objeto. Este campo esta conectado al elemento contributor de Dublin Core.
+				</phrase>
+				<phrase name='detaileddescription_physicaldescription' regularexpression=''>
+					Utilice este campo para registrar una descripción de las características físicas del OBJETO/DOCUMENTO ORIGINAL del cual se originó el objeto digital. Utilce ete campo SOLO SI el objeto digital no es "nacido digitalmente" sino proveniente de una fuente análoga como una fotografía o un cassette.
+				</phrase>
+				<phrase name='detaileddescription_publisher' regularexpression=''>
+					Utilice este campo para registrar el nombre de quien publica el contenido de la biblioteca digital. Este campo corresponde al elemento "editor" de Dublin Core.
+				</phrase>
+				<phrase name='detaileddescription_rightsstatement' regularexpression=''>
+					Utilice este campo para registrar información acerca de derechos de autor u otros derechos asociados al objeto digital.
+				</phrase>
+				<phrase name='detaileddescription_scope' regularexpression=''>
+					Utilice este campo para registrar una nota de alcance y contenido, por ejempli una descripcion detallada del objeto digital. Este campo se utiliza para ragistrar información adicional que no puede ser registrada en el "Título".
+				</phrase>
+				<phrase name='files' regularexpression=''>
+					Utilice esta sección para cargar directamente un objeto digital al sistema de Archon, en vez de utilizar un vínculo.
+				</phrase>
+				<phrase name='files_defaultaccesslevel' regularexpression=''>
+					Seleccione 'completo' si desea que los usuarios descarguen el archivo de origen, 'vista previa' si desea permitir el acceso a los archivos de vista previa, y 'ninguno' si desea mostrar sólo los metadatos.
+				</phrase>
+				<phrase name='files_displayorder' regularexpression=''>
+					Utilice este campo para especificar el orden en el cual los ardchivos individuales deben aparecer en la pantalla del usuario, cuando un obecto digital esta compuesto por múltiples archivos (objeto compuesto) por ejemplo un documento de varias páginas.
+				</phrase>
+				<phrase name='files_filecontents' regularexpression=''>
+					Utilice este campo para especificar la trayectoria al archivo que se cargará a la biblioteca digital. Haga click en el boton "Buscar" para buscar el archivo en el sistema.
+				</phrase>
+				<phrase name='files_mediatype' regularexpression=''>
+					Este campo muestra el formato y el medio del archivo en cuestión.
+				</phrase>
+				<phrase name='files_title' regularexpression=''>
+					Cuando se este cargando mas de un archivo a la vez, utilice este campo para registrar un título o leyenda para cada uno de los archivos que estan siendo agregados. El uso de este campo es opcional.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					El Módulo de la Biblioteca Digital se usa para conectar objetos digitales externos, o cargar objetos digitales directamente a Archon.    
+					
+					Utilice esta interfaz para agregar contenido nuevo a la colección. Si el Paquete de Colecciones está instalado y activado, usted puede conectar las piezas individuales con el contenido definido en el Módulo de Colecciones.
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Utilice este espacio para ingresar un identificador local para el contenido digital asignado por el repositorio . Este campo equifale al elemento identificador en Dublin Core.
+				</phrase>
+				<phrase name='languages' regularexpression=''>
+					Utilice esta sección si usted quiere especificar el idioma o idiomas utilizados en los objetos digitales.
+				</phrase>
+				<phrase name='primary_creator' regularexpression=''>
+					Utilice este campo para seleccionar un registro de productor como productor principal para el contenido digital.
+				</phrase>
+				<phrase name='subjects' regularexpression=''>
+					Utilice el campo superior para conectar autoridades de materias a contenido de la biblioteca digital.
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Utilice este campo para registrar el título principal / título del objeto digital que se carga a Archon.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='browsable' regularexpression=''>
+					Navegable
+				</phrase>
+				<phrase name='collectioncontentid' regularexpression=''>
+					Contenido de la Colección
+				</phrase>
+				<phrase name='common_contenturl' regularexpression=''>
+					URL del Contenido
+				</phrase>
+				<phrase name='creators' regularexpression=''>
+					información del Productor
+				</phrase>
+				<phrase name='date' regularexpression=''>
+					Fecha
+				</phrase>
+				<phrase name='defaultaccesslevel' regularexpression=''>
+					Nivel de acceso por defecto
+				</phrase>
+				<phrase name='detaileddescription' regularexpression=''>
+					Descripción Detallada
+				</phrase>
+				<phrase name='detaileddescription_contributor' regularexpression=''>
+					Contribuyente
+				</phrase>
+				<phrase name='detaileddescription_physicaldescription' regularexpression=''>
+					Descripción Física
+				</phrase>
+				<phrase name='detaileddescription_publisher' regularexpression=''>
+					Editor
+				</phrase>
+				<phrase name='detaileddescription_rightsstatement' regularexpression=''>
+					Declaración de Derechos
+				</phrase>
+				<phrase name='detaileddescription_scope' regularexpression=''>
+					Alcance
+				</phrase>
+				<phrase name='files' regularexpression=''>
+					Cargar Archivos
+				</phrase>
+				<phrase name='files_defaultaccesslevel' regularexpression=''>
+					Nivel de Acceso
+				</phrase>
+				<phrase name='files_displayorder' regularexpression=''>
+					Mostrar Orden
+				</phrase>
+				<phrase name='files_filecontents' regularexpression=''>
+					Archivo
+				</phrase>
+				<phrase name='files_mediatype' regularexpression=''>
+					Tipo de Medios
+				</phrase>
+				<phrase name='files_title' regularexpression=''>
+					Títulos
+				</phrase>
+				<phrase name='full' regularexpression=''>
+					Lleno
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de la Bilioteca Digital
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Identificador
+				</phrase>
+				<phrase name='languages' regularexpression=''>
+					Idiomas
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de la Bilioteca Digital
+				</phrase>
+				<phrase name='none' regularexpression=''>
+					Ninguno
+				</phrase>
+				<phrase name='previewonly' regularexpression=''>
+					Vista previa
+				</phrase>
+				<phrase name='primary_creator' regularexpression=''>
+					Creador Principal
+				</phrase>
+				<phrase name='publicview' regularexpression=''>
+					Vista pública
+				</phrase>
+				<phrase name='selectone' regularexpression=''>
+					(Seleccione Uno)
+				</phrase>
+				<phrase name='subjects' regularexpression=''>
+					Materias
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Título
+				</phrase>
+			</phrasetype>
+		</module>
+	</package>
+</language>

@@ -1,0 +1,115 @@
+
+/*
+Internet Explorer adjustments for 'paul' theme
+Author: Paul Sorensen
+April 2008
+*/
+
+a:active {
+color:#33b;
+}
+
+form{
+margin:0;
+padding:0;
+}
+
+#top {
+min-height:3em;
+height:auto !important;
+height: 3em;
+}
+
+#searchblock {
+background-position: 2em left;
+}
+
+input#c{
+border:none;
+}
+
+#searchblock .button {
+background-image:url('images/magglass.png') !important;
+background-image:url('images/magglass.gif');
+margin:0 0 0 -0.4em;
+max-height:1.4em;
+padding-left: 1.3em;
+height: auto !important;
+height: 1.4em;
+min-width:5em;
+width: auto !important;
+width: 5em;
+}
+
+#dlsearchblock {
+background-position: 3.6em left;
+}
+
+#dlsearchblock .button {
+background-image:url('images/magglass.png') !important;
+background-image:url('images/magglass.gif');
+margin:0 0 0 -0.4em;
+max-height:1.4em;
+padding-left: 1.3em;
+height: auto !important;
+height: 1.4em;
+min-width:5em;
+width: auto !important;
+width: 5em;
+}
+
+#fasearchblock {
+background-position: 4em left;
+}
+
+#fasearchblock .button {
+background-image:url('images/magglass.png') !important;
+background-image:url('images/magglass.gif');
+margin:0 0 0 -0.4em;
+max-height:1.4em;
+padding-left: 1.3em;
+height: auto !important;
+height: 1.4em;
+min-width:10em;
+width: auto !important;
+width: 10em;
+}
+
+#digcontentfiles {
+max-width:402px;
+width: 30% !important;
+width: expression( document.body.clientWidth > 400 ? "402px" : "30%");
+}
+
+img.digcontentfile {
+border:0;
+}
+
+.thumbnailimg img
+{
+max-width: 100px !important;
+max-height: 130px !important;
+width: expression( document.body.clientWidth > 95 ? "100px" : "auto" );
+height: expression( this.scrollHeight > 125 ? "130px" : "auto" );
+}
+
+.researchformbox {
+max-width:40em !important;
+width: expression( document.body.clientWidth > 498 ? "500px" : "auto" );
+}
+
+.beginningwith
+{
+max-width: 50em !important;
+width: 50em;
+}
+
+.listitemcover{
+display: block !important;
+display: none;
+}
+
+.listitem{
+margin-right: 0 !important;
+margin-right: -1em;
+}

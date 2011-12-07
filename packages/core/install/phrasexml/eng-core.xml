@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code='eng'>
+	<package aprcode='core' version='3.21'>
+		<module script=''>
+			<phrasetype name='Noun'>
+				<phrase name='administrativeinterface' regularexpression=''>
+					Administrative Interface
+				</phrase>
+				<phrase name='administrativeuifunction' regularexpression=''>
+					Administrative User Interface Function
+				</phrase>
+				<phrase name='administrativewidget' regularexpression=''>
+					Administrative Widget
+				</phrase>
+				<phrase name='allarguments' regularexpression='AllArguments'>
+					All Arguments
+				</phrase>
+				<phrase name='aprcode' regularexpression=''>
+					Archon Package Repository Code
+				</phrase>
+				<phrase name='array' regularexpression='Array'>
+					Array
+				</phrase>
+				<phrase name='character' regularexpression=''>
+					Character
+				</phrase>
+				<phrase name='child' regularexpression='Child'>
+					Child
+				</phrase>
+				<phrase name='class' regularexpression='Class'>
+					Class
+				</phrase>
+				<phrase name='code' regularexpression=''>
+					Code
+				</phrase>
+				<phrase name='configuration' regularexpression='Configuration'>
+					Configuration
+				</phrase>
+				<phrase name='consensusvariable' regularexpression='ConsensusVariable'>
+					Consensus Variable
+				</phrase>
+				<phrase name='databaseimportutility' regularexpression=''>
+					Database Import Utility
+				</phrase>
+				<phrase name='databaseversion' regularexpression=''>
+					Database Version
+				</phrase>
+				<phrase name='displayname' regularexpression='DisplayName'>
+					Display Name
+				</phrase>
+				<phrase name='displayorder' regularexpression='Display Order'>
+					Display Order
+				</phrase>
+				<phrase name='fields' regularexpression='Fields'>
+					Fields
+				</phrase>
+				<phrase name='function' regularexpression=''>
+					Function
+				</phrase>
+				<phrase name='id' regularexpression='ID'>
+					ID
+				</phrase>
+				<phrase name='ids' regularexpression=''>
+					IDs
+				</phrase>
+				<phrase name='incomingfile' regularexpression=''>
+					Incoming File
+				</phrase>
+				<phrase name='index' regularexpression=''>
+					Index
+				</phrase>
+				<phrase name='javascriptlibrary' regularexpression=''>
+					Javascript Library
+				</phrase>
+				<phrase name='language' regularexpression='Language'>
+					Language
+				</phrase>
+				<phrase name='languageabbreviation' regularexpression='LanguageAbbreviation'>
+					Language Abbreviation
+				</phrase>
+				<phrase name='languageandpackageandmoduleandnameandphrasetype' regularexpression=''>
+					Language, Package, Module, Name, and PhraseType
+				</phrase>
+				<phrase name='languagelong' regularexpression='LanguageLong'>
+					Language
+				</phrase>
+				<phrase name='languages' regularexpression='Languages'>
+					Languages
+				</phrase>
+				<phrase name='languageshort' regularexpression='LanguageShort'>
+					Language Abbreviation
+				</phrase>
+				<phrase name='library' regularexpression=''>
+					Library
+				</phrase>
+				<phrase name='login' regularexpression='Login'>
+					Login
+				</phrase>
+				<phrase name='mailfunction' regularexpression=''>
+					Mail Function
+				</phrase>
+				<phrase name='modificationlogentry' regularexpression=''>
+					Modification Log Entry
+				</phrase>
+				<phrase name='module' regularexpression='Module'>
+					Module
+				</phrase>
+				<phrase name='name' regularexpression='Name'>
+					Name
+				</phrase>
+				<phrase name='names' regularexpression='Names'>
+					Names
+				</phrase>
+				<phrase name='package' regularexpression='Package'>
+					Package
+				</phrase>
+				<phrase name='packages' regularexpression=''>
+					Packages
+				</phrase>
+				<phrase name='parent' regularexpression='Parent'>
+					Parent
+				</phrase>
+				<phrase name='password' regularexpression='Password'>
+					Password
+				</phrase>
+				<phrase name='permissions' regularexpression='Permissions'>
+					Permissions
+				</phrase>
+				<phrase name='phrase' regularexpression='Phrase'>
+					Phrase
+				</phrase>
+				<phrase name='phrasetype' regularexpression='PhraseType'>
+					Phrase Type
+				</phrase>
+				<phrase name='publicinterface' regularexpression=''>
+					Public Interface
+				</phrase>
+				<phrase name='publicsearchfunction' regularexpression=''>
+					Public Search Function
+				</phrase>
+				<phrase name='relatedobject' regularexpression='RelatedObject'>
+					Related Object
+				</phrase>
+				<phrase name='relatedobjects' regularexpression='RelatedObjects'>
+					Related Objects
+				</phrase>
+				<phrase name='script' regularexpression=''>
+					Script
+				</phrase>
+				<phrase name='session' regularexpression='Session'>
+					Session
+				</phrase>
+				<phrase name='sibling' regularexpression=''>
+					Sibling
+				</phrase>
+				<phrase name='string' regularexpression='String'>
+					String
+				</phrase>
+				<phrase name='table' regularexpression='Table'>
+					Table
+				</phrase>
+				<phrase name='template' regularexpression='Template'>
+					Template
+				</phrase>
+				<phrase name='templates' regularexpression='Templates'>
+					Templates
+				</phrase>
+				<phrase name='templateset' regularexpression=''>
+					Template Set
+				</phrase>
+				<phrase name='theme' regularexpression='Theme'>
+					Theme
+				</phrase>
+				<phrase name='user' regularexpression='User'>
+					User
+				</phrase>
+				<phrase name='usergroup' regularexpression='Usergroup'>
+					Usergroup
+				</phrase>
+				<phrase name='usergrouppermissions' regularexpression='UsergroupPermissions'>
+					Usergroup Permissions
+				</phrase>
+				<phrase name='userpermissions' regularexpression='UserPermissions'>
+					User Permissions
+				</phrase>
+				<phrase name='utility' regularexpression=''>
+					Utility
+				</phrase>
+				<phrase name='value' regularexpression='Value'>
+					Value
+				</phrase>
+				<phrase name='variables' regularexpression='Variables'>
+					Variables
+				</phrase>
+				<phrase name='widget' regularexpression=''>
+					Widget
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Message'>
+				<phrase name='databaseupdatedsuccessfully' regularexpression='^([\w]+) Database Updated Successfully\.'>
+					$1 Database Updated Successfully.
+				</phrase>
+				<phrase name='deletedsuccessfully' regularexpression='^([\w]+) Deleted Successfully\.'>
+					$1 Deleted Successfully.
+				</phrase>
+				<phrase name='deleteinstaller' regularexpression='Archon will not function until packages\/core\/install\/install\.php has been deleted\.'>
+					Archon will not function until package/core/install/install.php has been deleted.
+				</phrase>
+				<phrase name='error_add' regularexpression='Could not add ([\w]+)'>
+					Could not add $1
+				</phrase>
+				<phrase name='error_admin_password' regularexpression='Could not change password'>
+					Could not change password
+				</phrase>
+				<phrase name='error_admin_reason_curpasswordinvalid' regularexpression='Current password is not valid\.'>
+					Current password is not valid.
+				</phrase>
+				<phrase name='error_admin_reason_newpasswordmatch' regularexpression='New passwords do not match\.'>
+					New passwords do not match.
+				</phrase>
+				<phrase name='error_admin_reason_passwordmatch' regularexpression='Passwords do not match\.'>
+					Passwords do not match.
+				</phrase>
+				<phrase name='error_admin_storefile' regularexpression='Could not store file'>
+					Could not store file
+				</phrase>
+				<phrase name='error_admin_unknowncommand' regularexpression='Unknown command'>
+					Unknown command
+				</phrase>
+				<phrase name='error_authentication' regularexpression='Authentication failed'>
+					Authentication failed
+				</phrase>
+				<phrase name='error_convert' regularexpression='Could not convert ([\w]+) to string'>
+					Could not convert $1 to string
+				</phrase>
+				<phrase name='error_create' regularexpression='Could not create ([\w]+)( [\w]+)?'>
+					Could not create $1$2
+				</phrase>
+				<phrase name='error_delete' regularexpression='Could not delete ([\w]+)'>
+					Could not delete $1
+				</phrase>
+				<phrase name='error_get' regularexpression='Could not get ([\w]+)( [\w]+)?'>
+					Could not get $1$2
+				</phrase>
+				<phrase name='error_install' regularexpression='Could not install package'>
+					Could not install package
+				</phrase>
+				<phrase name='error_load' regularexpression='Could not load ([\w]+)( [\w]+)?'>
+					Could not load $1$2
+				</phrase>
+				<phrase name='error_loadfor' regularexpression='Could not load ([\w]+) for ([\w]+)'>
+					Could not load $1 for $2
+				</phrase>
+				<phrase name='error_noaccess' regularexpression='Could not access ([\w]+)( [\w]+)'>
+					Could not access $1$2
+				</phrase>
+				<phrase name='error_noactivate' regularexpression='Could not activate ([\w]+)'>
+					Could not activate $1
+				</phrase>
+				<phrase name='error_nodisable' regularexpression='Could not disable ([\w]+)'>
+					Could not disable $1
+				</phrase>
+				<phrase name='error_nodisplay' regularexpression='Could not display ([\w]+)( [\w]+)?'>
+					Could not display $1$2
+				</phrase>
+				<phrase name='error_noenable' regularexpression='Could not enable ([\w]+)'>
+					Could not enable $1
+				</phrase>
+				<phrase name='error_nolist' regularexpression='Could not list ([\w]+)'>
+					Could not list $1
+				</phrase>
+				<phrase name='error_parse_pleasefollowformat' regularexpression='Unable to parse ([\w]+). Please follow the example format\.'>
+					Unable to parse $1. Please follow the example format.
+				</phrase>
+				<phrase name='error_reason_alreadyinstalled' regularexpression='A Package with the same APRCode is already installed\.'>
+					A Package with the same APRCode is already installed.
+				</phrase>
+				<phrase name='error_reason_cannotdisablecore' regularexpression='The Archon Core Package cannot be disabled\.'>
+					The Archon Core Package cannot be disabled.
+				</phrase>
+				<phrase name='error_reason_codebasenotfound' regularexpression='The ([\w\s]+) Package codebase could not be found\.'>
+					The $1 Package codebase could not be found.
+				</phrase>
+				<phrase name='error_reason_credentials' regularexpression='Missing credentials\.'>
+					Missing credentials.
+				</phrase>
+				<phrase name='error_reason_databaseuptodate' regularexpression='Database is up to date\.'>
+					Database is up to date.
+				</phrase>
+				<phrase name='error_reason_dependsupon' regularexpression='Package ([\w]+) depends upon package ([\w]+)\.'>
+					Package $1 depends upon package $2.
+				</phrase>
+				<phrase name='error_reason_existingerror' regularexpression='There was already an error\.'>
+					There was already an error.
+				</phrase>
+				<phrase name='error_reason_format' regularexpression='([\w]+)( [\w]+)? not formatted correctly\.'>
+					$1$2 not formatted correctly.
+				</phrase>
+				<phrase name='error_reason_functionreportfor' regularexpression='([\w]+(\(\))?) reported an error for ([\w]+)\.'>
+					$1 reported an error for $2.
+				</phrase>
+				<phrase name='error_reason_installnotfound' regularexpression='Installation script not found\.'>
+					Installation script not found.
+				</phrase>
+				<phrase name='error_reason_invalid' regularexpression='Invalid ([\w]+)( [\w\d]+)?( [\w\d]+)?\.'>
+					Invalid $1$2$3.
+				</phrase>
+				<phrase name='error_reason_nodelete' regularexpression='Unable to delete from the database table\.'>
+					Unable to delete from the database table.
+				</phrase>
+				<phrase name='error_reason_noexist' regularexpression='([\w]+)( [\/\w]+)?( [\/\w]+)? does not exist\.'>
+					$1$2$3 does not exist.
+				</phrase>
+				<phrase name='error_reason_noexistdatabase' regularexpression='([\w]+)( [\w\d]+)?( [\w\d]+)? does not exist in the database\.'>
+					$1$2$3 does not exist in the database.
+				</phrase>
+				<phrase name='error_reason_noinsert' regularexpression='Unable to insert into the database table\.'>
+					Unable to insert into the database table.
+				</phrase>
+				<phrase name='error_reason_noparent' regularexpression='Parent not found\.'>
+					Parent not found.
+				</phrase>
+				<phrase name='error_reason_nopublicaccess' regularexpression='Public access disallowed\.'>
+					Public access disallowed.
+				</phrase>
+				<phrase name='error_reason_noset' regularexpression='Unable to set ([\w]+)\.'>
+					Unable to set $1.
+				</phrase>
+				<phrase name='error_reason_notactive' regularexpression='The ([\w]+) is not active\.'>
+					The $1 is not active.
+				</phrase>
+				<phrase name='error_reason_notarray' regularexpression='Argument is not an array\.'>
+					Argument is not an array.
+				</phrase>
+				<phrase name='error_reason_notcorrespond' regularexpression='([\w]+)( [\w]+)? does not correspond to ([\w]+)( [\w]+)?\.'>
+					$1$2 does not correspond to $3$4.
+				</phrase>
+				<phrase name='error_reason_notdefined' regularexpression='([\w]+)( [\w]+)? not defined\.'>
+					$1$2 not defined.
+				</phrase>
+				<phrase name='error_reason_notfounddatabase' regularexpression='([\w]+)( [\w\d]+)?( [\w\d]+)? not found in database\.'>
+					$1$2$3 not found in database.
+				</phrase>
+				<phrase name='error_reason_notrelated' regularexpression='([\w]+)( [\w\d]+)?( [\w\d]+)? is not related to ([\w]+)( [\w\d]+)?( [\w\d]+)?\.'>
+					$1$2$3 is not related to $4$5$6.
+				</phrase>
+				<phrase name='error_reason_notrelatedin' regularexpression='([\w]+)( [\w]+)? in ([\w]+)( [\w]+)?( [\w]+)? is not related to ([\w]+)( [\w]+)?( [\w]+)?\.'>
+					$1$2 in $3$4$5 is not related to $6$7$8.
+				</phrase>
+				<phrase name='error_reason_notsametype' regularexpression='Variables are not of the same type\.'>
+					Variables are not of the same type.
+				</phrase>
+				<phrase name='error_reason_noupdate' regularexpression='Unable to update the database table\.'>
+					Unable to update the database table.
+				</phrase>
+				<phrase name='error_reason_numeric' regularexpression='([\w]+)( [\w]+)? must be numeric\.'>
+					$1$2 must be numeric.
+				</phrase>
+				<phrase name='error_reason_packagedependencynotenabled' regularexpression='Package ([\w\s]+) depends upon Package ([\w\s]+) which is not enabled\.'>
+					Package $1 depends upon Package $2 which is not enabled.
+				</phrase>
+				<phrase name='error_reason_packagedependencynotinstalled' regularexpression='Package ([\w\s]+) depends upon Package ([\w\s]+) which is not installed\.'>
+					Package $1 depends upon Package $2 which is not installed.
+				</phrase>
+				<phrase name='error_reason_packagedepends' regularexpression='Package ([\w\s]+) is depended upon by ([\w\s]+)\.'>
+					Package $1 is depended upon by $2.
+				</phrase>
+				<phrase name='error_reason_packageenhanced' regularexpression='Package ([\w\s]+) is enhanced by ([\w\s]+)\.'>
+					Package $1 is enhanced by $2.
+				</phrase>
+				<phrase name='error_reason_packagenotinstalled' regularexpression='Package ([\w\d]+) is not installed\.'>
+					Package $1 is not installed.
+				</phrase>
+				<phrase name='error_reason_packagewrongversion' regularexpression='Package ([\w]+) version ([\d.]+) must be installed \(installed version is ([\d.]+)\)\.'>
+					Package $1 version $2 must be installed (installed version is $3).
+				</phrase>
+				<phrase name='error_reason_permissiondenied' regularexpression='Permission denied\.'>
+					Permission denied.
+				</phrase>
+				<phrase name='error_reason_primaryrepository' regularexpression='([\w]+) may only be altered for the primary repository\.'>
+					$1 may only be altered for the primary repository.
+				</phrase>
+				<phrase name='error_reason_readonly' regularexpression='([\w]+) is read-only\.'>
+					$1 is read-only.
+				</phrase>
+				<phrase name='error_reason_related' regularexpression='([\w]+)( [\w\d]+)?( [\w\d]+)? already related to ([\w]+)( [\w\d]+)?( [\w\d]+)?\.'>
+					$1$2$3 already related to $4$5$6.
+				</phrase>
+				<phrase name='error_reason_repeatinfo' regularexpression='A ([\w]+) with the same ([\w]+) already exists in the database\.'>
+					A $1 with the same $2 already exists in the database.
+				</phrase>
+				<phrase name='error_reason_requiresnewer' regularexpression='Package ([\w]+) requires Package ([\w]+) version ([\w.]+) or newer \(installed version is ([\w.]+)\)\.'>
+					Package $1 requires Package $2 version $3 or newer (installed version is $4).
+				</phrase>
+				<phrase name='error_reason_saaccount' regularexpression='The sa account can only be altered from the Archon Configuration module\.'>
+					The sa account can only be altered from the Archon Configuration module.
+				</phrase>
+				<phrase name='error_reason_scriptnoexist' regularexpression='Script ([\w]+) does not exist in Package ([\w]+)\.'>
+					Script $1 does not exist in Package $2.
+				</phrase>
+				<phrase name='error_reason_selfcontain' regularexpression='A ([\w]+) may not contain itself\.'>
+					A $1 may not contain itself.
+				</phrase>
+				<phrase name='error_reason_specified' regularexpression='No ([\w]+)( [\w]+)? specified\.'>
+					No $1$2 specified.
+				</phrase>
+				<phrase name='error_reason_unabletoparse' regularexpression='Unable to parse ([\w]+)\.'>
+					Unable to parse $1.
+				</phrase>
+				<phrase name='error_reason_uninstallnotfound' regularexpression='Uninstall script not found\.'>
+					Uninstall script not found.
+				</phrase>
+				<phrase name='error_reason_upgradenotfound' regularexpression='Upgrade script not found\.'>
+					Upgrade script not found.
+				</phrase>
+				<phrase name='error_registerfile' regularexpression='Could not register file for class ([\w]+)'>
+					Could not register file for class $1
+				</phrase>
+				<phrase name='error_relate' regularexpression='Could not relate ([\w]+)'>
+					Could not relate $1
+				</phrase>
+				<phrase name='error_root_disabled' regularexpression='([\w]+) disabled!'>
+					$1 disabled!
+				</phrase>
+				<phrase name='error_root_templatenotdefined' regularexpression='([\w]+) template not defined for template set ([\w]+)\.'>
+					$1 template not defined for template set $2.
+				</phrase>
+				<phrase name='error_search' regularexpression='Could not search ([\w]+)'>
+					Could not search $1
+				</phrase>
+				<phrase name='error_set' regularexpression='Could not set ([\w]+)'>
+					Could not set $1
+				</phrase>
+				<phrase name='error_store' regularexpression='Could not store ([\w]+)'>
+					Could not store $1
+				</phrase>
+				<phrase name='error_transfer' regularexpression='Could not transfer ([\w]+)'>
+					Could not transfer $1
+				</phrase>
+				<phrase name='error_traverse' regularexpression='Could not traverse ([\w]+)'>
+					Could not traverse $1
+				</phrase>
+				<phrase name='error_uninstall' regularexpression='Could not uninstall package'>
+					Could not uninstall package
+				</phrase>
+				<phrase name='error_unrelate' regularexpression='Could not unrelate ([\w]+)'>
+					Could not unrelate $1
+				</phrase>
+				<phrase name='error_unset' regularexpression='Could not unset ([\w]+)'>
+					Could not unset $1
+				</phrase>
+				<phrase name='error_update' regularexpression='Could not update ([\w]+)'>
+					Could not update $1
+				</phrase>
+				<phrase name='error_upgrade' regularexpression='Could not upgrade package'>
+					Could not upgrade package
+				</phrase>
+				<phrase name='error_verify' regularexpression='Could not verify ([\w]+)'>
+					Could not verify $1
+				</phrase>
+				<phrase name='newpackageversion' regularexpression='A newer version of the ([\w]+) package has been released, visit &lt;a href=&#039;http:\/\/www\.archon\.org\/&#039;&gt;www\.archon\.org&lt;\/a&gt; to upgrade\.'>
+					A newer version of the $1 package has been released, visit &lt;a href='http://www.archon.org/'&gt;www.archon.org&lt;/a&gt; to upgrade.
+				</phrase>
+				<phrase name='newversion' regularexpression='A newer version of Archon has been released, visit &lt;a href=&quot;http:\/\/www\.archon\.org\/&quot;&gt;www\.archon\.org&lt;\/a&gt; to upgrade\.'>
+					A newer version of Archon has been released, visit &lt;a href="http://www.archon.org/"&gt;www.archon.org&lt;/a&gt; to upgrade.
+				</phrase>
+				<phrase name='notice' regularexpression='NOTICE'>
+					NOTICE
+				</phrase>
+				<phrase name='updatedsuccessfully' regularexpression='^([\w]+) Updated Successfully\.'>
+					$1 Updated Successfully.
+				</phrase>
+				<phrase name='upgradepackage' regularexpression='Package ([\w]+) is out of date\. Please run the upgrade script in the Package Manager\.'>
+					Package $1 is out of date. Please run the upgrade script in the Package Manager.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Description'>
+				<phrase name='browse' regularexpression=''>
+					The "Browse" tab is used to view/search all available records in the database.
+				</phrase>
+				<phrase name='configuration_administrativewelcomemessage' regularexpression=''>
+					This is the message displayed to users in the message frame when they initally log in.
+				</phrase>
+				<phrase name='configuration_checkforupdates' regularexpression=''>
+					Enables the ability to check archon.org for updates to Archon.
+				</phrase>
+				<phrase name='configuration_dateformat' regularexpression=''>
+					This determines the formatting of displayed dates. Formatting used should correspond to PHP's date function as specified at "http://www.php.net/date".
+				</phrase>
+				<phrase name='configuration_defaultadministrativetheme' regularexpression=''>
+					This value will determine what theme should be used for the look of Archon's Administrative Interface.
+				</phrase>
+				<phrase name='configuration_defaultlanguage' regularexpression=''>
+					This value specifies the default language.
+				</phrase>
+				<phrase name='configuration_defaultpublicscript' regularexpression=''>
+					Sets the default page that should come up whenever somebody first accesses the Archon Public Interface.
+				</phrase>
+				<phrase name='configuration_defaulttemplateset' regularexpression=''>
+					The selected template set will be the default template set used in output documents.
+				</phrase>
+				<phrase name='configuration_defaulttheme' regularexpression=''>
+					The selected theme will be the default theme used in the public display.
+				</phrase>
+				<phrase name='configuration_disabledmessage' regularexpression=''>
+					If Public Enabled is set to No, this message will be displayed to users in place of the Archon system.
+				</phrase>
+				<phrase name='configuration_escapexml' regularexpression=''>
+					It is highly recommended that this directive remains enabled. When enabled, this directive allows Archon to use BBCode formatting and valid XHTML while displaying information from records in the both the public and administrative interface.
+				</phrase>
+				<phrase name='configuration_installationid' regularexpression=''>
+					The Installation ID is a unique number generated when Archon is initally installed.
+				</phrase>
+				<phrase name='configuration_loginbanner' regularexpression=''>
+					This is the message that will be displayed to users when prompted to log in.
+				</phrase>
+				<phrase name='configuration_modificationlogenabled' regularexpression=''>
+					If enabled, Archon will log database table changes and the user responsible for each change.
+				</phrase>
+				<phrase name='configuration_publicenabled' regularexpression=''>
+					Enables the public output system for Archon.  To temporarily disable the system, set this value to No.
+				</phrase>
+				<phrase name='configuration_publicregistrationenabled' regularexpression=''>
+					If enabled, public users will be able to register an account to use for research, etc.
+				</phrase>
+				<phrase name='configuration_relatedoptionmaxlength' regularexpression=''>
+					This value determines the length above which strings will be truncated in a related option frame (ie. the subject frame in the collections manager)
+				</phrase>
+				<phrase name='configuration_sapassword' regularexpression=''>
+					This password will allow an administrator to log in with full privileges.  The sa account should only be used when administrators are unable to log on with their individual credentials.
+				</phrase>
+				<phrase name='configuration_searchresultslimit' regularexpression=''>
+					This value will limit the number of results returned by default on all searches in the Archon system.
+				</phrase>
+				<phrase name='defaulthelp' regularexpression=''>
+					Click on the question mark icons or select fields to receive help.
+				</phrase>
+				<phrase name='general' regularexpression=''>
+					Use "General" tab to view an existing record or create a new record.
+				</phrase>
+				<phrase name='import_phrasexml' regularexpression=''>
+					The Phrase XML import script takes phrase xml files and imports them to the phrase table.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='add' regularexpression=''>
+					Add
+				</phrase>
+				<phrase name='addchild' regularexpression=''>
+					Add Child
+				</phrase>
+				<phrase name='addsibling' regularexpression=''>
+					Add Sibling
+				</phrase>
+				<phrase name='admin_welcome' regularexpression=''>
+					Welcome to Archon administrative interface.
+				</phrase>
+				<phrase name='adminsection_browse' regularexpression=''>
+					Browse
+				</phrase>
+				<phrase name='adminsection_general' regularexpression=''>
+					General
+				</phrase>
+				<phrase name='allpackages' regularexpression=''>
+					All Packages
+				</phrase>
+				<phrase name='archon' regularexpression=''>
+					Archon
+				</phrase>
+				<phrase name='areyousure' regularexpression=''>
+					Are you sure?
+				</phrase>
+				<phrase name='cancel' regularexpression=''>
+					Cancel
+				</phrase>
+				<phrase name='clickforhelp' regularexpression=''>
+					Click for help
+				</phrase>
+				<phrase name='clicktoedit' regularexpression=''>
+					Click to edit...
+				</phrase>
+				<phrase name='confirmpassword' regularexpression=''>
+					Confirm Password
+				</phrase>
+				<phrase name='continue' regularexpression=''>
+					Continue
+				</phrase>
+				<phrase name='copyright' regularexpression=''>
+					Copyright ©$1 [url=http://www.uiuc.edu/]The University of Illinois at Urbana-Champaign[/url]
+				</phrase>
+				<phrase name='delete' regularexpression=''>
+					Delete
+				</phrase>
+				<phrase name='deletemessage' regularexpression=''>
+					Are you sure you want to delete this record?
+				</phrase>
+				<phrase name='deletemessage_children' regularexpression=''>
+					Are you sure you want to delete this record AND all of its children?
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Description
+				</phrase>
+				<phrase name='deselectall' regularexpression=''>
+					Deselect All
+				</phrase>
+				<phrase name='edit' regularexpression=''>
+					Edit
+				</phrase>
+				<phrase name='export_phrasexml' regularexpression=''>
+					Phrase XML
+				</phrase>
+				<phrase name='ext' regularexpression=''>
+					Ext
+				</phrase>
+				<phrase name='filter' regularexpression=''>
+					Filter
+				</phrase>
+				<phrase name='find' regularexpression=''>
+					Find:
+				</phrase>
+				<phrase name='history' regularexpression=''>
+					Archon began development in the fall of 2003 at [url=http://www.library.uiuc.edu/sousa/]The Sousa Archives[/url] as a low budget project to establish a web presence for the archives. After the initial prototype was put into production, the project received the support of the [url=http://web.library.uiuc.edu/ahx/]University Archives[/url] and [url=http://www.library.uiuc.edu/]University Library[/url] and was remodeled to be a flexible application which could easily be implemented at other archival institutions. The project has since expanded in scope, and has become a standards-compliant system which is easily managed and offers numerous commonly used methods for the import and export of archival data.
+				</phrase>
+				<phrase name='id' regularexpression=''>
+					ID
+				</phrase>
+				<phrase name='import_phrasexml' regularexpression=''>
+					Phrase XML
+				</phrase>
+				<phrase name='installid' regularexpression=''>
+					Installation ID
+				</phrase>
+				<phrase name='languageid' regularexpression=''>
+					Language
+				</phrase>
+				<phrase name='limit' regularexpression=''>
+					Limit
+				</phrase>
+				<phrase name='loggedinas' regularexpression=''>
+					You are logged in as
+				</phrase>
+				<phrase name='login_login' regularexpression=''>
+					Login
+				</phrase>
+				<phrase name='login_loginbutton' regularexpression=''>
+					Log in
+				</phrase>
+				<phrase name='login_password' regularexpression=''>
+					Password
+				</phrase>
+				<phrase name='login_rememberme' regularexpression=''>
+					Remember me?
+				</phrase>
+				<phrase name='logout' regularexpression=''>
+					Log Out
+				</phrase>
+				<phrase name='module' regularexpression=''>
+					Module
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Homepage Configuration
+				</phrase>
+				<phrase name='moduleid' regularexpression=''>
+					Module
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Name
+				</phrase>
+				<phrase name='new' regularexpression=''>
+					New
+				</phrase>
+				<phrase name='no' regularexpression=''>
+					No
+				</phrase>
+				<phrase name='nosearchresultsfound' regularexpression=''>
+					No Search Results Found
+				</phrase>
+				<phrase name='notlanguageid' regularexpression=''>
+					Not Defined in Language
+				</phrase>
+				<phrase name='or' regularexpression=''>
+					or
+				</phrase>
+				<phrase name='package_name' regularexpression=''>
+					Archon Administration
+				</phrase>
+				<phrase name='packageid' regularexpression=''>
+					Package
+				</phrase>
+				<phrase name='patternid' regularexpression=''>
+					Pattern
+				</phrase>
+				<phrase name='permissions_add' regularexpression=''>
+					Add
+				</phrase>
+				<phrase name='permissions_delete' regularexpression=''>
+					Delete
+				</phrase>
+				<phrase name='permissions_fullcontrol' regularexpression=''>
+					Full Control
+				</phrase>
+				<phrase name='permissions_module' regularexpression=''>
+					Module
+				</phrase>
+				<phrase name='permissions_package' regularexpression=''>
+					Module Package
+				</phrase>
+				<phrase name='permissions_read' regularexpression=''>
+					Read
+				</phrase>
+				<phrase name='permissions_update' regularexpression=''>
+					Update
+				</phrase>
+				<phrase name='phrasetypeid' regularexpression=''>
+					Phrase Type
+				</phrase>
+				<phrase name='pleasewait' regularexpression=''>
+					Please wait...
+				</phrase>
+				<phrase name='primary' regularexpression=''>
+					(Primary)
+				</phrase>
+				<phrase name='quickadd' regularexpression=''>
+					Quick Add
+				</phrase>
+				<phrase name='releasedate' regularexpression=''>
+					Release Date
+				</phrase>
+				<phrase name='renumber' regularexpression=''>
+					Renumber
+				</phrase>
+				<phrase name='repository' regularexpression=''>
+					Repository
+				</phrase>
+				<phrase name='rightclicktree' regularexpression=''>
+					Right click on tree nodes to activate context menu
+				</phrase>
+				<phrase name='save' regularexpression=''>
+					Save
+				</phrase>
+				<phrase name='search' regularexpression=''>
+					Search
+				</phrase>
+				<phrase name='selectall' regularexpression=''>
+					Select All
+				</phrase>
+				<phrase name='selectone' regularexpression=''>
+					(Select One)
+				</phrase>
+				<phrase name='transfer' regularexpression=''>
+					Transfer
+				</phrase>
+				<phrase name='update' regularexpression=''>
+					Update
+				</phrase>
+				<phrase name='uploadfile' regularexpression=''>
+					Upload File
+				</phrase>
+				<phrase name='yes' regularexpression=''>
+					Yes
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Public Phrase'>
+				<phrase name='informationrestricted' regularexpression=''>
+					[information restricted]
+				</phrase>
+				<phrase name='privacy_title' regularexpression=''>
+					Privacy Note
+				</phrase>
+				<phrase name='register_registertitle' regularexpression=''>
+					Register an Account
+				</phrase>
+				<phrase name='search_detailedtitle' regularexpression=''>
+					Search Results for "$1"
+				</phrase>
+				<phrase name='search_excessresults' regularexpression=''>
+					Your search yielded too many results and we limited the number shown. Try adding more search terms!
+				</phrase>
+				<phrase name='search_noresults' regularexpression=''>
+					Your search did not return any results.  Please revise your query and try again.
+				</phrase>
+				<phrase name='search_pluralhit' regularexpression=''>
+					$1 Hits!  Click the links to show each category's results.
+				</phrase>
+				<phrase name='search_resultsforlanguage' regularexpression=''>
+					Search Results for Language: $1
+				</phrase>
+				<phrase name='search_searchedfor' regularexpression=''>
+					You searched for "$1".
+				</phrase>
+				<phrase name='search_singularhit' regularexpression=''>
+					$1 Hit!  Click the links to show each category's results.
+				</phrase>
+				<phrase name='search_title' regularexpression=''>
+					Search Results
+				</phrase>
+				<phrase name='tostring_editthis' regularexpression=''>
+					Edit This
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='adminusers'>
+			<phrasetype name='Description'>
+				<phrase name='advancedpermissions' regularexpression=''>
+					Open 'Advanced Permissions' section to assign specific permissions for the user in question. Use the check boxes to specify what permissions the user should have for each module.
+				</phrase>
+				<phrase name='confirmpassword' regularexpression=''>
+					In order for the addition or update to succeed, the value entered here must be the same as the password in the field above.
+				</phrase>
+				<phrase name='displayname' regularexpression=''>
+					Use this field to record the user's name. The value entered here will be displayed in messages provided in Archon's administrative interface.
+				</phrase>
+				<phrase name='email' regularexpression=''>
+					Enter or edit the user's email address.
+				</phrase>
+				<phrase name='firstname' regularexpression=''>
+					Enter or edit the user's first name.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					The User Manager is used to add or delete logins for individuals who have permission to access Archon's administrative interface.  It is also used to define the levels of authority that specific users have to edit, add, or delete information in each of the Archon modules. 
+					
+					Users should be assigned to a base user group. They will inherit the default permissions of that group, but permissions can be tailored for specific users if necessary, by using the "Advanced Permissions Editor."
+				</phrase>
+				<phrase name='languageid' regularexpression=''>
+					Use this field to select the language the user will see while navigating the administrative interface. If translations for that language are not available, the default language as chosen in the Configuration Manager will be used instead.
+				</phrase>
+				<phrase name='lastname' regularexpression=''>
+					Enter or edit the user's last name.
+				</phrase>
+				<phrase name='locked' regularexpression=''>
+					Use this field to lock a user, i.e. to deny him or her access to the administrative interface.
+				</phrase>
+				<phrase name='login' regularexpression=''>
+					Use this field to record the login name that will be associated with a particular administrative user.
+				</phrase>
+				<phrase name='password' regularexpression=''>
+					Use this field to record or change a user's login password.
+				</phrase>
+				<phrase name='repositories' regularexpression=''>
+					Open 'Repositories' section to link repositories to the user. Either double click on any repository name in left box to link it with the user or after highlighting a repository name, use the right arrow to link it to the User. Use the left arrow to unlink the repository. CTRL-click selects multiple repositories and SHIFT-click or or mouse left click and drag select a range of items.
+				</phrase>
+				<phrase name='requiresecureconnection' regularexpression=''>
+					Use this field to create secure connection.
+				</phrase>
+				<phrase name='usergroups' regularexpression=''>
+					Open 'User Groups' section to link user groups to the user. Either double click on any user group in left box to link it with the user or after highlighting a user group name, use the right arrow to link it to the user. Use the left arrow to unlink the user group. CTRL-click selects multiple user groups and SHIFT-click or or mouse left click and drag select a range of items.
+				</phrase>
+				<phrase name='users_repositorylimit' regularexpression=''>
+					Use this field to allow or disallow users from viewing, adding, and updating collection records in Archon repositories, other than the primary one to which he/she is assigned.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='advancedpermissions' regularexpression=''>
+					Advanced Permissions
+				</phrase>
+				<phrase name='confirmpassword' regularexpression=''>
+					Confirm Password
+				</phrase>
+				<phrase name='countryid' regularexpression=''>
+					Country
+				</phrase>
+				<phrase name='displayname' regularexpression=''>
+					Display Name
+				</phrase>
+				<phrase name='email' regularexpression=''>
+					Email Address
+				</phrase>
+				<phrase name='firstname' regularexpression=''>
+					First Name
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Admin User Manager
+				</phrase>
+				<phrase name='languageid' regularexpression=''>
+					Preferred Language
+				</phrase>
+				<phrase name='lastname' regularexpression=''>
+					Last Name/Surname
+				</phrase>
+				<phrase name='locked' regularexpression=''>
+					Lock Account
+				</phrase>
+				<phrase name='login' regularexpression=''>
+					Login
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Admin Users
+				</phrase>
+				<phrase name='password' regularexpression=''>
+					Password
+				</phrase>
+				<phrase name='pending' regularexpression=''>
+					Pending
+				</phrase>
+				<phrase name='repositories' regularexpression=''>
+					Repositories
+				</phrase>
+				<phrase name='requiresecureconnection' regularexpression=''>
+					Require Secure Connection
+				</phrase>
+				<phrase name='usergroups' regularexpression=''>
+					User Groups
+				</phrase>
+				<phrase name='users_repositorylimit' regularexpression=''>
+					Repository Limit
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='database'>
+			<phrasetype name='Description'>
+				<phrase name='databaseinfo' regularexpression=''>
+					Use this field to identify database IP address, name, login, and size.
+				</phrase>
+				<phrase name='export' regularexpression=''>
+					Use the drop-down list to export the database. The first field contains a list of SQL server types. Choose the one your system is running in order to ensure that the database can be successfully restored at a later date, if necessary. This field affects exports of both the full database and individual tables. Click the button to initiate an export.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Use the 'Database Manger' to import or export the database, or to view information about the SQL Server or Mysql database in which your Archon data is stored.
+				</phrase>
+				<phrase name='import' regularexpression=''>
+					Use these utilities to import data into the Archon database.  Select an import utility from those listed below and then identify how the data should be imported using the questions supplied to you by the utility.  Locally-developed import scripts can be uploaded to Archon's admin/databases folder.  Once uploaded, they will appear in this list.
+					
+					If you choose to develop a  local script, use the existing scripts as a template; the scripts will fail unless structured properly.
+				</phrase>
+				<phrase name='importdatabase' regularexpression=''>
+					Use these utilities to import data into the Archon database.  Select an import utility from those listed below and then identify how the data should be imported using the questions supplied to you by the utility.  Locally-developed import scripts can be uploaded to Archon's admin/databases folder.  Once uploaded, they will appear in this list.
+					
+					If you choose to develop a  local script, use the existing scripts as a template; the scripts will fail unless structured properly.
+				</phrase>
+				<phrase name='tableinformation' regularexpression=''>
+					Use this utility to identify table name and number of records within each one of the tables.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='classificationid' regularexpression=''>
+					Classification
+				</phrase>
+				<phrase name='databaseinfo' regularexpression=''>
+					Database Information
+				</phrase>
+				<phrase name='databaselogin' regularexpression=''>
+					Database Login
+				</phrase>
+				<phrase name='databasename' regularexpression=''>
+					Database Name
+				</phrase>
+				<phrase name='databaseserver' regularexpression=''>
+					Database Server
+				</phrase>
+				<phrase name='diskusage' regularexpression=''>
+					Disk Usage
+				</phrase>
+				<phrase name='export' regularexpression=''>
+					Export
+				</phrase>
+				<phrase name='exportshort' regularexpression=''>
+					Export
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Database Management
+				</phrase>
+				<phrase name='import' regularexpression=''>
+					Import
+				</phrase>
+				<phrase name='importdatabase' regularexpression=''>
+					Import Database
+				</phrase>
+				<phrase name='installed' regularexpression=''>
+					The following Import Utilities have been installed
+				</phrase>
+				<phrase name='invalidutility' regularexpression=''>
+					Invalid Utility
+				</phrase>
+				<phrase name='lastmodified' regularexpression=''>
+					Last Modified
+				</phrase>
+				<phrase name='launch' regularexpression=''>
+					Launch
+				</phrase>
+				<phrase name='modifiedby' regularexpression=''>
+					Modified By
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Database Management
+				</phrase>
+				<phrase name='repositoryid' regularexpression=''>
+					Repository
+				</phrase>
+				<phrase name='requiresfiles' regularexpression=''>
+					This utility requires a file as input
+				</phrase>
+				<phrase name='rows' regularexpression=''>
+					Rows
+				</phrase>
+				<phrase name='selectincoming' regularexpression=''>
+					Select files in the incoming directory
+				</phrase>
+				<phrase name='tableinformation' regularexpression=''>
+					Table Information
+				</phrase>
+				<phrase name='tablename' regularexpression=''>
+					Table Name
+				</phrase>
+				<phrase name='uploadfile' regularexpression=''>
+					Upload a File
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='usergroups'>
+			<phrasetype name='Description'>
+				<phrase name='advancedpermissions' regularexpression=''>
+					The 'Permissions" utility is used to assign specific permissions for the usergroup in question. Use the check boxes to specify what permissions the usergroup should have for each module.
+				</phrase>
+				<phrase name='defaultpermissions' regularexpression=''>
+					Use these check boxes to define permission levels associated with a group of users who have access to Archon's administrative interface.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					The Usergroup Manager is used to define the levels of administrative authority associated with the defined groups of users.  This controls their ability to add, edit, or delete records in particular Archon modules.
+				</phrase>
+				<phrase name='usergroup' regularexpression=''>
+					Use this field to record or modify the name associated with a particular usergroup.
+				</phrase>
+				<phrase name='users' regularexpression=''>
+					The "Users" utility is used to assign specific user[s] to a usergroup[s].
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='advancedpermissions' regularexpression=''>
+					Permissions
+				</phrase>
+				<phrase name='defaultpermissions' regularexpression=''>
+					Default Permissions
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Usergroup Manager
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Usergroup Manager
+				</phrase>
+				<phrase name='usergroup' regularexpression=''>
+					Usergroup
+				</phrase>
+				<phrase name='users' regularexpression=''>
+					Users
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='repositories'>
+			<phrasetype name='Description'>
+				<phrase name='address' regularexpression=''>
+					Use these two fields to record the street or postal address of your repository.
+				</phrase>
+				<phrase name='administrator' regularexpression=''>
+					Use this field to record the name of the chief administrator for your repository.
+				</phrase>
+				<phrase name='city' regularexpression=''>
+					Use these fields to record the city, state, and zip code for your repository.
+				</phrase>
+				<phrase name='code' regularexpression=''>
+					Use this field to record the Organization Code or for your repository. 
+					See http://www.loc.gov/marc/organizations/ for more information on MARC repository codes.
+				</phrase>
+				<phrase name='country' regularexpression=''>
+					Use this field to associate the repository to a country.
+				</phrase>
+				<phrase name='email' regularexpression=''>
+					Use this field to record the e-mail address of your repository.
+				</phrase>
+				<phrase name='emailsignature' regularexpression=''>
+					Enter the signature line you wish to use at the end of email messages sent by Archon to end users.
+				</phrase>
+				<phrase name='fax' regularexpression=''>
+					Use this field to record the fax number of your repository.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					The Repository Manager is used to define the name(s) and other details of your repository or repositories for which your installation of Archon includes descriptive records.
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Use this field to record the official name of your repository.
+				</phrase>
+				<phrase name='phone' regularexpression=''>
+					Use these fields to record a phone number and, optionally, a phone extension, for your repository.
+				</phrase>
+				<phrase name='research_features' regularexpression=''>
+					Use this field to define which research functionality you would like to employ for this repository.
+						Enabling Collection research features allows the use of the research cart and appointment manager, and enabling Digital Library research features allows the use of the high-resolution request link.
+				</phrase>
+				<phrase name='templateset' regularexpression=''>
+					Use this field to force collections within this repository to display a certain template set.
+				</phrase>
+				<phrase name='url' regularexpression=''>
+					Use this field to record the URL for the installation of Archon. 
+					
+					The URL MUST be an absolute URL, and must include a slash at the end of the directory containing archon.
+				</phrase>
+				<phrase name='users' regularexpression=''>
+					The "User" utility associates specific user[s] to specific repository[ies].
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='address' regularexpression=''>
+					Address
+				</phrase>
+				<phrase name='administrator' regularexpression=''>
+					Administrator
+				</phrase>
+				<phrase name='city' regularexpression=''>
+					City, State, ZIP Code
+				</phrase>
+				<phrase name='code' regularexpression=''>
+					Organization Code
+				</phrase>
+				<phrase name='country' regularexpression=''>
+					Country
+				</phrase>
+				<phrase name='email' regularexpression=''>
+					E-Mail
+				</phrase>
+				<phrase name='emailsignature' regularexpression=''>
+					Email Signature
+				</phrase>
+				<phrase name='fax' regularexpression=''>
+					Fax Number
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Repository Manager
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Repository Manager
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Repository Name
+				</phrase>
+				<phrase name='phone' regularexpression=''>
+					Phone Number
+				</phrase>
+				<phrase name='research_all' regularexpression=''>
+					Enable All Research Features
+				</phrase>
+				<phrase name='research_collections_only' regularexpression=''>
+					Enable Collections Research Only
+				</phrase>
+				<phrase name='research_digitallib_only' regularexpression=''>
+					Enable Digital Library Research Only
+				</phrase>
+				<phrase name='research_features' regularexpression=''>
+					Research Features
+				</phrase>
+				<phrase name='research_none' regularexpression=''>
+					Disable Research Features
+				</phrase>
+				<phrase name='templateset' regularexpression=''>
+					Template Set
+				</phrase>
+				<phrase name='url' regularexpression=''>
+					Website URL
+				</phrase>
+				<phrase name='users' regularexpression=''>
+					Users
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='mypreferences'>
+			<phrasetype name='Description'>
+				<phrase name='displayorder' regularexpression=''>
+					Use these fields to record the order in which checked widgets will display on your homepage.
+					
+					Widgets with a lower number will appear closer to the top of your administrative homepage.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Use this module to set the display properties for your 'homepage' in the Archon Administrative interface
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='changelanguage' regularexpression=''>
+					Change Language
+				</phrase>
+				<phrase name='changepassword' regularexpression=''>
+					Change Password
+				</phrase>
+				<phrase name='confirmnewpassword' regularexpression=''>
+					Retype to confirm
+				</phrase>
+				<phrase name='currentlanguage' regularexpression=''>
+					Current Language
+				</phrase>
+				<phrase name='currentpassword' regularexpression=''>
+					Current Password
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Description
+				</phrase>
+				<phrase name='displayorder' regularexpression=''>
+					Display Order
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					My Preferences
+				</phrase>
+				<phrase name='languageid' regularexpression=''>
+					New Language
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					My Preferences
+				</phrase>
+				<phrase name='newpassword' regularexpression=''>
+					New Password
+				</phrase>
+				<phrase name='package' regularexpression=''>
+					Package
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='configuration'>
+			<phrasetype name='Description'>
+				<phrase name='header' regularexpression=''>
+					Click any of the headings listed below to set configuration options for your installation of Archon.
+				</phrase>
+				<phrase name='tableinformation' regularexpression=''>
+					Use this utility to identify the tables and number of records within each one of the tables.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='description' regularexpression=''>
+					Description
+				</phrase>
+				<phrase name='directive' regularexpression=''>
+					Directive
+				</phrase>
+				<phrase name='encrypted' regularexpression=''>
+					Encrypted
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Archon Configuration
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Archon Configuration
+				</phrase>
+				<phrase name='package' regularexpression=''>
+					Package
+				</phrase>
+				<phrase name='pattern' regularexpression=''>
+					Pattern
+				</phrase>
+				<phrase name='value' regularexpression=''>
+					Value
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='sessions'>
+			<phrasetype name='Description'>
+				<phrase name='header' regularexpression=''>
+					Use the Sessions Manager to view and/or terminate any database connections that are currently open.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='expiration' regularexpression=''>
+					Expiration
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Sessions Manager
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Sessions Manager
+				</phrase>
+				<phrase name='persistent' regularexpression=''>
+					Persistent
+				</phrase>
+				<phrase name='remotehost' regularexpression=''>
+					Remote Host
+				</phrase>
+				<phrase name='user' regularexpression=''>
+					User
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='about'>
+			<phrasetype name='Description'>
+				<phrase name='header' regularexpression=''>
+					This page provides information about Archon and a list of credits for those who helped with product development.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='about' regularexpression=''>
+					About
+				</phrase>
+				<phrase name='credits' regularexpression=''>
+					Credits
+				</phrase>
+				<phrase name='diagnostic_information' regularexpression=''>
+					Diagnostic Information
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					About Archon
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					About Archon
+				</phrase>
+				<phrase name='project_history' regularexpression=''>
+					Project History
+				</phrase>
+				<phrase name='staff' regularexpression=''>
+					[b]Project Staff[/b]: Chris Prom, Assistant University Archivist, University of Illinois at Urbana-Champaign; Scott Schwartz, Director &amp; Archivist, The Sousa Archives and Center for American Music, University of Illinois; Paul Sorensen, Lead Developer, University of Illinois Department of Computer Science; Kyle Fox, Former Lead Developer (July 2007-August 2008), University of Illinois Department of Computer Science; Chris Rishel, Former Lead Developer (prior to July 2007), University of Chicago.
+					
+					[b]Special Thanks[/b]: Andrew W. Mellon Foundation, University of Illinois Library Executive Committee, Teresa Brinati, Adriana Cuervo, Naun Chew Chait, Lynn Holdzkom, Sharif Islam, Paula Kaufman, Christoffer Landtman, Adam Lewenberg, John McEntire, William Maher, Pamela Nye, Deborra Richardson, Beth Sandore, Karen Schmidt, Carl Snow, Purdue University, Linda Stahnke, Peggy Steele, Ellen Swain, John Weible, Kathy Wisser. 
+					
+					Citations from [url=http://www.archivists.org/catalog/pubDetail.asp?objectID=1279][i]Describing Archives: a Content Standard[/i][/url] are reprinted with permission of the [url=http://www.archivists.org]Society of American Archivists[/url].
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='phrases'>
+			<phrasetype name='Description'>
+				<phrase name='header' regularexpression=''>
+					The Phrase Manager is used to edit the help button messages ('descriptions'), error messages ('messages') and Archon field and class names displayed to administrative users of the Archon system.
+				</phrase>
+				<phrase name='languageid' regularexpression=''>
+					Use this field to specify the language of the phrase being added or updated.
+				</phrase>
+				<phrase name='moduleid' regularexpression=''>
+					Use this menu to select the module associated with this phrases. If a module is selected, it must match the above package.
+				</phrase>
+				<phrase name='packageid' regularexpression=''>
+					Use this field to specify the Archon Package associated with the phrase.
+				</phrase>
+				<phrase name='phrasename' regularexpression=''>
+					Use this field to record the name of the phrase you want to add or update.  
+					
+					Under normal circumstances, the names of fields should not be changed, since doing so may break certain aspects of Archon.
+				</phrase>
+				<phrase name='phrasetypeid' regularexpression=''>
+					Use this drop-down list to differentiate the types of phrases managed in the Phrase Manager.  
+					
+					The value should be set to 'description' for help button texts, and 'message' for error messages.  
+					
+					Field and Class names should not be edited under normal circumstances.
+				</phrase>
+				<phrase name='phrasevalue' regularexpression=''>
+					Use this field to record the text to be displayed or processed when the associated object is called by the Archon scripts. 
+					
+					The associated help buttons and error messages to display the values recorded here.
+				</phrase>
+				<phrase name='regularexpression' regularexpression=''>
+					Use this field to record a regular expression that Archon's scripts will use when processing the field and class names associated with the phrase.  
+					
+					Normally, the values should not be changed.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='header' regularexpression=''>
+					Phrase Manager
+				</phrase>
+				<phrase name='languageid' regularexpression=''>
+					Language
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Phrase Manager
+				</phrase>
+				<phrase name='moduleid' regularexpression=''>
+					Archon Module
+				</phrase>
+				<phrase name='packageid' regularexpression=''>
+					Package
+				</phrase>
+				<phrase name='phrasename' regularexpression=''>
+					Phrase Name
+				</phrase>
+				<phrase name='phrasetypeid' regularexpression=''>
+					Phrase Type
+				</phrase>
+				<phrase name='phrasevalue' regularexpression=''>
+					Phrase Value
+				</phrase>
+				<phrase name='regularexpression' regularexpression=''>
+					Regular Expression
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='packages'>
+			<phrasetype name='Description'>
+				<phrase name='additional' regularexpression=''>
+					Use "Additional" utility to identify the packages below that are not fully installed. Use the buttons below to install packages that have their dependencies installed and enabled.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Below are a list of installed Archon packages. Use the buttons to enable/disable or uninstall individual packages.
+					
+					Note that you can only disable or uninstall packages that do not have an enabled package depending on them.
+				</phrase>
+				<phrase name='installed' regularexpression=''>
+					Use the "Installed" utility to identify list of installed Archon packages. Use the buttons to enable/disable or uninstall individual packages.
+					
+					Note that you can only disable or uninstall packages that do not have an enabled package depending on them.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='additional' regularexpression=''>
+					Additional
+				</phrase>
+				<phrase name='areyousure' regularexpression=''>
+					This will irreversibly delete ALL DATA associated with this package!  Are you sure you want to do this?
+				</phrase>
+				<phrase name='areyousureinstall' regularexpression=''>
+					Are you sure you want to install the $1 package? (You should backup your data in the database manager first.)
+				</phrase>
+				<phrase name='areyousureuninstall' regularexpression=''>
+					This will irreversibly delete ALL DATA associated with the $1 package!  Are you sure you want to do this? (You should backup your data in the database manager first.)
+				</phrase>
+				<phrase name='areyousureupgrade' regularexpression=''>
+					This will update the database to use a newer version of the $1 package.  Are you sure you want to do this? (You should backup your data in the database manager first.)
+				</phrase>
+				<phrase name='dependeduponby' regularexpression=''>
+					Depended Upon By
+				</phrase>
+				<phrase name='dependsupon' regularexpression=''>
+					Depends Upon
+				</phrase>
+				<phrase name='enabled' regularexpression=''>
+					Enabled
+				</phrase>
+				<phrase name='enhancedby' regularexpression=''>
+					Enhanced By
+				</phrase>
+				<phrase name='enhances' regularexpression=''>
+					Enhances
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Package Manager
+				</phrase>
+				<phrase name='install' regularexpression=''>
+					Install
+				</phrase>
+				<phrase name='installed' regularexpression=''>
+					Installed
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Package Manager
+				</phrase>
+				<phrase name='packagename' regularexpression=''>
+					Package Name
+				</phrase>
+				<phrase name='uninstall' regularexpression=''>
+					Uninstall
+				</phrase>
+				<phrase name='upgrade' regularexpression=''>
+					Upgrade
+				</phrase>
+				<phrase name='version' regularexpression=''>
+					Version
+				</phrase>
+				<phrase name='visit' regularexpression=''>
+					Visit [url=$1]The Archon Project Website[/url] to download additional packages.
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='modificationlog'>
+			<phrasetype name='Description'>
+				<phrase name='header' regularexpression=''>
+					The Modification Log can be used to view changes made by users in the Administrative Interface.
+					
+					Use the 'search' field to search against any of the columns and use the arrow buttons to sort the list of modifications by column, either ascending or descending.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='1year' regularexpression=''>
+					1 Year
+				</phrase>
+				<phrase name='2years' regularexpression=''>
+					2 Years
+				</phrase>
+				<phrase name='5years' regularexpression=''>
+					5 Years
+				</phrase>
+				<phrase name='6months' regularexpression=''>
+					6 Months
+				</phrase>
+				<phrase name='archonfunction' regularexpression=''>
+					Function
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Modification Log
+				</phrase>
+				<phrase name='id' regularexpression=''>
+					Entry #
+				</phrase>
+				<phrase name='modlogdisabled' regularexpression=''>
+					The modification log is disabled.
+				</phrase>
+				<phrase name='module' regularexpression=''>
+					Module
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Modification Log
+				</phrase>
+				<phrase name='noentries' regularexpression=''>
+					No modification log entries found.
+				</phrase>
+				<phrase name='purge' regularexpression=''>
+					Purge
+				</phrase>
+				<phrase name='purgerecords' regularexpression=''>
+					Delete records older than
+				</phrase>
+				<phrase name='purgetitle' regularexpression=''>
+					Purge Modification Log Entries
+				</phrase>
+				<phrase name='remotehost' regularexpression=''>
+					Remote Host
+				</phrase>
+				<phrase name='requestdata' regularexpression=''>
+					Details
+				</phrase>
+				<phrase name='rowid' regularexpression=''>
+					ID
+				</phrase>
+				<phrase name='tablename' regularexpression=''>
+					Table Name
+				</phrase>
+				<phrase name='timestamp' regularexpression=''>
+					Time
+				</phrase>
+				<phrase name='user' regularexpression=''>
+					User
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='userprofilefields'>
+			<phrasetype name='Description'>
+				<phrase name='displayorder' regularexpression=''>
+					Use this field to change the display order of the content.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					User Profile Fields Manager is used to define fields for a user profile.
+				</phrase>
+				<phrase name='inputtype' regularexpression=''>
+					Use this field to select the type of user profile field.
+				</phrase>
+				<phrase name='listdatasource' regularexpression=''>
+					Use this field to select the function if it is a pre-populated select box.
+				</phrase>
+				<phrase name='maxlength' regularexpression=''>
+					Use this field to specify maximum length of the string in the user profile field.
+				</phrase>
+				<phrase name='packageid' regularexpression=''>
+					Use this field to select the pakage for which you are creating user profile.
+				</phrase>
+				<phrase name='patternid' regularexpression=''>
+					Use this field to select the pattern type for the profile field. i.e whether data of the field is text type, boolean etc.
+				</phrase>
+				<phrase name='required' regularexpression=''>
+					Mark this field 'Yes', if it is a required user profile field.
+				</phrase>
+				<phrase name='size' regularexpression=''>
+					Use this field to provide the size for the text field of user profile field.
+				</phrase>
+				<phrase name='usereditable' regularexpression=''>
+					Mark this field 'No', if it is a readonly user profile field.
+				</phrase>
+				<phrase name='userprofilefield' regularexpression=''>
+					Use this field to provide the name for user profile field.
+				</phrase>
+				<phrase name='userprofilefieldcategoryid' regularexpression=''>
+					Use this field to categorize the profile information.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='defaultvalue' regularexpression=''>
+					Default Value
+				</phrase>
+				<phrase name='displayorder' regularexpression=''>
+					Display Order
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					User Profile Fields
+				</phrase>
+				<phrase name='inputtype' regularexpression=''>
+					Input Type
+				</phrase>
+				<phrase name='listdatasource' regularexpression=''>
+					List Datasource
+				</phrase>
+				<phrase name='maxlength' regularexpression=''>
+					Max Length
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					User Profile Fields
+				</phrase>
+				<phrase name='required' regularexpression=''>
+					Required
+				</phrase>
+				<phrase name='requireforcountries' regularexpression=''>
+					Require For Countries
+				</phrase>
+				<phrase name='showforcountries' regularexpression=''>
+					Show For Countries
+				</phrase>
+				<phrase name='size' regularexpression=''>
+					Size
+				</phrase>
+				<phrase name='usereditable' regularexpression=''>
+					User Editable
+				</phrase>
+				<phrase name='userprofilefield' regularexpression=''>
+					User Profile Field
+				</phrase>
+				<phrase name='userprofilefieldcategoryid' regularexpression=''>
+					User Profile Field Category
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='patterns'>
+			<phrasetype name='Description'>
+				<phrase name='header' regularexpression=''>
+					The Pattern Manager is used to establish how information can be formatted.
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Use this field to specify the name of the pattern.
+				</phrase>
+				<phrase name='packageid' regularexpression=''>
+					Use this field to specify the Archon Package to associate a specific pattern to.
+				</phrase>
+				<phrase name='pattern' regularexpression=''>
+					Use this field to specify the format of the information.
+				</phrase>
+				<phrase name='unittests' regularexpression=''>
+					Use this section to test the regular expression against several patterns.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='expectedresult' regularexpression=''>
+					Expected Result
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Patterns
+				</phrase>
+				<phrase name='match' regularexpression=''>
+					Match
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Patterns
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Name
+				</phrase>
+				<phrase name='notmatch' regularexpression=''>
+					Not Match
+				</phrase>
+				<phrase name='packageid' regularexpression=''>
+					Package
+				</phrase>
+				<phrase name='pattern' regularexpression=''>
+					Pattern
+				</phrase>
+				<phrase name='testsubject' regularexpression=''>
+					Test Subject
+				</phrase>
+				<phrase name='unittests' regularexpression=''>
+					Unit Tests
+				</phrase>
+				<phrase name='value' regularexpression=''>
+					Value
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='regions'>
+			<phrasetype name='Description'>
+				<phrase name='header' regularexpression=''>
+					Use the Region Manager to describe and store the region (state, province, territory, etc.) name and abbreviation for a country.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='countryid' regularexpression=''>
+					Country
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Region Manager
+				</phrase>
+				<phrase name='isoalpha2' regularexpression=''>
+					Subdivision Abbreviation
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Region Manager
+				</phrase>
+				<phrase name='stateprovincename' regularexpression=''>
+					Subdivision Name
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='userprofilefieldcategories'>
+			<phrasetype name='Description'>
+				<phrase name='header' regularexpression=''>
+					Use User Profile Field Categories Manager to define/create categories for User profile.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='displayorder' regularexpression=''>
+					Display Order
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					User Profile Field Category
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					User Profile Field Categories
+				</phrase>
+				<phrase name='userprofilefieldcategory' regularexpression=''>
+					User Profile Field Category
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='publicusers'>
+			<phrasetype name='Description'>
+				<phrase name='Address' regularexpression=''>
+					User's street address.
+				</phrase>
+				<phrase name='confirmpassword' regularexpression=''>
+					In order for the addition or update to succeed, the value entered here must be the same as the password in the field above.
+				</phrase>
+				<phrase name='countryid' regularexpression=''>
+					Use this field to select the country for the user.
+				</phrase>
+				<phrase name='displayname' regularexpression=''>
+					Use this field to record the user's name. The value entered here will be displayed in messages provided in Archon's administrative interface.
+				</phrase>
+				<phrase name='email' regularexpression=''>
+					Enter or edit the user's email address.
+				</phrase>
+				<phrase name='firstname' regularexpression=''>
+					Enter or edit the user's first name.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					The Public User Manager is used to add or delete logins for public individuals who have permission to access Archon's administrative interface. It is also used to define the levels of authority that specific user allow to access on the Archon modules.
+				</phrase>
+				<phrase name='languageid' regularexpression=''>
+					Use this field to select the language the user will see while navigating the administrative interface. If translations for that language are not available, the default language as chosen in the Configuration Manager will be used instead.
+				</phrase>
+				<phrase name='lastname' regularexpression=''>
+					Enter or edit the user's last name.
+				</phrase>
+				<phrase name='locked' regularexpression=''>
+					Use this field to lock a user, i.e. to deny him or her access to the administrative interface.
+				</phrase>
+				<phrase name='login' regularexpression=''>
+					Use this field to record the login name that will be associated with a particular administrative user.
+				</phrase>
+				<phrase name='password' regularexpression=''>
+					Use this field to record or change a user's login password.
+				</phrase>
+				<phrase name='pending' regularexpression=''>
+					Check 'Yes' to indicate the public user's account as pending. When an account is pending, the public user cannot submit a request to checkout materials.
+				</phrase>
+				<phrase name='requiresecureconnection' regularexpression=''>
+					Use this field to create secure connection.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='additional' regularexpression=''>
+					Additional
+				</phrase>
+				<phrase name='Address' regularexpression=''>
+					Address
+				</phrase>
+				<phrase name='Address2' regularexpression=''>
+					Address (cont.)
+				</phrase>
+				<phrase name='City' regularexpression=''>
+					City
+				</phrase>
+				<phrase name='confirmpassword' regularexpression=''>
+					Confirm Password
+				</phrase>
+				<phrase name='countryid' regularexpression=''>
+					Country
+				</phrase>
+				<phrase name='displayname' regularexpression=''>
+					Display Name
+				</phrase>
+				<phrase name='email' regularexpression=''>
+					Email
+				</phrase>
+				<phrase name='firstname' regularexpression=''>
+					First Name
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Public User Manager
+				</phrase>
+				<phrase name='languageid' regularexpression=''>
+					Language
+				</phrase>
+				<phrase name='lastname' regularexpression=''>
+					Last Name
+				</phrase>
+				<phrase name='locked' regularexpression=''>
+					Locked
+				</phrase>
+				<phrase name='login' regularexpression=''>
+					Login
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Public Users
+				</phrase>
+				<phrase name='password' regularexpression=''>
+					Password
+				</phrase>
+				<phrase name='pending' regularexpression=''>
+					Pending
+				</phrase>
+				<phrase name='Phone' regularexpression=''>
+					Phone Number
+				</phrase>
+				<phrase name='PhoneExtension' regularexpression=''>
+					Phone Extension
+				</phrase>
+				<phrase name='ReceiveUpdates' regularexpression=''>
+					Would you like to receive updates?
+				</phrase>
+				<phrase name='requiresecureconnection' regularexpression=''>
+					Require Secure Connection
+				</phrase>
+				<phrase name='ResearcherTypeID' regularexpression=''>
+					Select a researcher type (if applicable)
+				</phrase>
+				<phrase name='StateProvinceID' regularexpression=''>
+					State/Province
+				</phrase>
+				<phrase name='ZIPCode' regularexpression=''>
+					ZIP Code
+				</phrase>
+				<phrase name='ZIPPlusFour' regularexpression=''>
+					ZIP + 4
+				</phrase>
+			</phrasetype>
+		</module>
+	</package>
+</language>

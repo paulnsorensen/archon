@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : storagefacility.xml
+    Created on : July 9, 2009, 5:18 PM
+    Author     : psorens2
+    Description:
+        Purpose of the document follows.
+-->
+
+<root>
+    <AvgTemp>17.5</AvgTemp>
+    <TempVariance>17.5</TempVariance>
+    <AvgHumidity>17.5</AvgHumidity>
+    <HumidityVariance>17.5</HumidityVariance>
+    <HasFireDetection>6.0</HasFireDetection>
+    <HasFireSuppression>6.0</HasFireSuppression>
+    <HasWaterDetection>6.0</HasWaterDetection>
+    <MaterialsOnFloor>6.0</MaterialsOnFloor>
+    <SecurityLevel>6.0</SecurityLevel>
+</root>

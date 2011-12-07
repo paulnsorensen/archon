@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code='eng'>
+	<package aprcode='subjects' version='3.21'>
+		<module script=''>
+			<phrasetype name='Noun'>
+				<phrase name='eadsource' regularexpression=''>
+					EAD Source
+				</phrase>
+				<phrase name='nameandparent' regularexpression=''>
+					Name and Parent
+				</phrase>
+				<phrase name='subject' regularexpression='Subject'>
+					Subject
+				</phrase>
+				<phrase name='subjectlist' regularexpression=''>
+					Subject List
+				</phrase>
+				<phrase name='subjects' regularexpression='Subjects'>
+					Subjects
+				</phrase>
+				<phrase name='subjectsource' regularexpression='SubjectSource'>
+					Subject Source
+				</phrase>
+				<phrase name='subjecttype' regularexpression='SubjectType'>
+					Subject Type
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='package_name' regularexpression=''>
+					Subjects
+				</phrase>
+				<phrase name='selectone' regularexpression=''>
+					(Select One)
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Public Phrase'>
+				<phrase name='search_matches' regularexpression=''>
+					Matches
+				</phrase>
+				<phrase name='search_searchforsubject' regularexpression=''>
+					Searching for Subject: $1
+				</phrase>
+				<phrase name='search_subjectheadings' regularexpression=''>
+					Subject Headings
+				</phrase>
+				<phrase name='subjects_begintitle' regularexpression=''>
+					Subjects Beginning with $1
+				</phrase>
+				<phrase name='subjects_filterby' regularexpression=''>
+					Filter Subjects by
+				</phrase>
+				<phrase name='subjects_oftype' regularexpression=''>
+					Of Type "$1"
+				</phrase>
+				<phrase name='subjects_relatedrecords' regularexpression=''>
+					Related Records
+				</phrase>
+				<phrase name='subjects_showbeginningwith' regularexpression=''>
+					Show Subjects Beginning with
+				</phrase>
+				<phrase name='subjects_subjectsbeginningwith' regularexpression=''>
+					Beginning with "$1"
+				</phrase>
+				<phrase name='subjects_subjectsbeginningwithheader' regularexpression=''>
+					Subjects Beginning with "$1"
+				</phrase>
+				<phrase name='subjects_subtermheader' regularexpression=''>
+					Sub-Terms Under $1
+				</phrase>
+				<phrase name='subjects_subtermtitle' regularexpression=''>
+					Sub-Terms Under $1
+				</phrase>
+				<phrase name='subjects_title' regularexpression=''>
+					Browse by Subject
+				</phrase>
+				<phrase name='subjects_typedbeginningwith' regularexpression=''>
+					Of Type "$1" Beginning with "$2"
+				</phrase>
+				<phrase name='subjects_typedbeginningwithheader' regularexpression=''>
+					"$1" Subjects Beginning with "$2"
+				</phrase>
+				<phrase name='subjects_typedshowbeginningwith' regularexpression=''>
+					Show "$1" Subjects Beginning with
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='subjects'>
+			<phrasetype name='Description'>
+				<phrase name='description' regularexpression=''>
+					Use this field to provide additional information about the subject.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					The Subject/Genre Manager is used to establish subject and genre authority headings within Archon.
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Enter a unique Control Identifier for the Subject Record.
+				</phrase>
+				<phrase name='subject' regularexpression=''>
+					Use this field to record the text of the subject authority term that will be added to Archon's controlled vocabulary.  
+					
+					If you are creating a faceted subject, the value recorded here will be be nested within the 'current level' shown at the top of the screen.
+				</phrase>
+				<phrase name='subjecthierarchy' regularexpression=''>
+					Double click to select an available subject term from the list or add a new faceted subject term.
+				</phrase>
+				<phrase name='subjectsourceid' regularexpression=''>
+					Use this drop-down list to chose the vocabulary from which the term is drawn.  
+					
+					Additional vocabularies can be defined through the Subject Sources Manager.
+				</phrase>
+				<phrase name='subjecttypeid' regularexpression=''>
+					Use this drop-down list to record the subject's general type (e.g. topical term, geographic term, etc.).  
+					
+					Additional types can be defined through the Subject Types Manager.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='description' regularexpression=''>
+					Description
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Subject/Genre Manager
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Control Identifier
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Subject/Genre Manager
+				</phrase>
+				<phrase name='parentsubject' regularexpression=''>
+					Parent Subject
+				</phrase>
+				<phrase name='publicview' regularexpression=''>
+					Public View
+				</phrase>
+				<phrase name='subject' regularexpression=''>
+					Subject
+				</phrase>
+				<phrase name='subjecthierarchy' regularexpression=''>
+					Faceted Subject Hierarchy
+				</phrase>
+				<phrase name='subjectsourceid' regularexpression=''>
+					Subject Source
+				</phrase>
+				<phrase name='subjecttypeid' regularexpression=''>
+					Subject Type
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='subjectsources'>
+			<phrasetype name='Description'>
+				<phrase name='eadsource' regularexpression=''>
+					Use this field to enter the abbreviation for the source name.  The value entered here will be used as the value of the 'source' attribute on in the subject or other element in the &lt;controlaccess&gt; area of the EAD file being exported
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Use the Subject Source Manger to add, edit, or delete the names of subject sources or controlled vocabularies from which subject terms may be drawn.
+				</phrase>
+				<phrase name='subjectsource' regularexpression=''>
+					Use this field to enter the name of a source from which subjects may be drawn, e.g. "Library of Congress Subject Headings"
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='eadsource' regularexpression=''>
+					EAD Source
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Subject Sources Manager
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Subject Sources Manager
+				</phrase>
+				<phrase name='subjectsource' regularexpression=''>
+					Subject Source
+				</phrase>
+			</phrasetype>
+		</module>
+	</package>
+</language>

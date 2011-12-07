@@ -1,0 +1,4 @@
+-- Drop TemplateSet from Collections Table
+DECLARE @defname VARCHAR(100), @cmd VARCHAR(1000); SET @defname = (SELECT name FROM sysobjects so JOIN sysconstraints sc ON so.id = sc.constid WHERE object_name(so.parent_obj) = 'tblCollections_Collections' AND so.xtype = 'D' AND sc.colid = (SELECT colid FROM syscolumns WHERE id = object_id('tblCollections_Collections') AND name = 'TemplateSet')); SET @cmd = 'ALTER TABLE tblCollections_Collections DROP CONSTRAINT ' + @defname; IF EXISTS((SELECT name FROM sysobjects so JOIN sysconstraints sc ON so.id = sc.constid WHERE object_name(so.parent_obj) = 'tblCollections_Collections' AND so.xtype = 'D' AND sc.colid = (SELECT colid FROM syscolumns WHERE id = object_id('tblCollections_Collections') AND name = 'TemplateSet')))EXEC(@cmd);
+ALTER TABLE tblCollections_Collections DROP COLUMN TemplateSet;
+

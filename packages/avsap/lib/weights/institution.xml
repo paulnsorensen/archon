@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : institution.xml
+    Created on : July 10, 2009, 4:47 PM
+    Author     : psorens2
+    Description:
+        Purpose of the document follows.
+-->
+
+<root>
+    <PreservationPlan>5</PreservationPlan>
+
+    <AVPreservationPlan>5</AVPreservationPlan>
+
+    <CollectionPolicy>5</CollectionPolicy>
+
+    <CatalogCollections>5</CatalogCollections>
+
+    <AccessCopies>5</AccessCopies>
+
+    <DigitalCopies>5</DigitalCopies>
+
+    <OwnershipRecords>5</OwnershipRecords>
+
+    <AllowPlayBack>5</AllowPlayBack>
+
+    <AllowLoaningInstitutions>5</AllowLoaningInstitutions>
+
+    <AllowLoaningOther>5</AllowLoaningOther>
+
+    <StaffCleanRepair>5</StaffCleanRepair>
+
+    <StaffVisualInspections>5</StaffVisualInspections>
+
+    <StaffPlayBackInspections>5</StaffPlayBackInspections>
+
+    <DedicatedInspectionSpace>5</DedicatedInspectionSpace>
+
+    <MaintainPlaybackEquipment>5</MaintainPlaybackEquipment>
+
+    <EquipmentManuals>5</EquipmentManuals>
+
+    <EquipmentPartsService>5</EquipmentPartsService>
+
+    <DisasterRecoveryPlan>5</DisasterRecoveryPlan>
+
+    <AVDisasterRecoveryPlan>5</AVDisasterRecoveryPlan>
+
+    <AccessAVDisasterRecoveryTools>5</AccessAVDisasterRecoveryTools>
+</root>

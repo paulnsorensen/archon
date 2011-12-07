@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code='spa'>
+	<package aprcode='creators' version='3.21'>
+		<module script=''>
+			<phrasetype name='Noun'>
+				<phrase name='creator' regularexpression='Creator'>
+					Productor
+				</phrase>
+				<phrase name='creatorlist' regularexpression=''>
+					Lista de Productores
+				</phrase>
+				<phrase name='creators' regularexpression='Creators'>
+					Productores
+				</phrase>
+				<phrase name='creatortype' regularexpression='CreatorType'>
+					Tipo de Productor
+				</phrase>
+				<phrase name='lcnafcompliant' regularexpression='LCNAFCompliant'>
+					Conforme con LCNAF
+				</phrase>
+				<phrase name='lcnafdates' regularexpression='LCNAFDates'>
+					Fechas LCNAG
+				</phrase>
+				<phrase name='nameandparentbody' regularexpression=''>
+					Nombre y Cuerpo Ascendiente
+				</phrase>
+				<phrase name='parentbody' regularexpression='ParentBody'>
+					Cuerpo Ascendiente
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='package_name' regularexpression=''>
+					Productores
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Public Phrase'>
+				<phrase name='creators_begintitle' regularexpression=''>
+					Productores que comienzan por $1
+				</phrase>
+				<phrase name='creators_creatorsbeginningwith' regularexpression=''>
+					Productores que comienzan por "$1"
+				</phrase>
+				<phrase name='creators_navbeginningwith' regularexpression=''>
+					Comenzando por "$1"
+				</phrase>
+				<phrase name='creators_showbeginningwith' regularexpression=''>
+					Mostrar Productores que Comienzan por
+				</phrase>
+				<phrase name='creators_title' regularexpression=''>
+					Buscar por Productores
+				</phrase>
+				<phrase name='search_bioghist' regularexpression=''>
+					Nota Histórica/Biográfica
+				</phrase>
+				<phrase name='search_creatordescriptions' regularexpression=''>
+					Descripciones de Productores
+				</phrase>
+				<phrase name='search_matches' regularexpression=''>
+					Iguales
+				</phrase>
+				<phrase name='search_searchforcreator' regularexpression=''>
+					Buscando Prductor: $1
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='creators'>
+			<phrasetype name='Description'>
+				<phrase name='bioghist' regularexpression=''>
+					Utilice este espacio para proveer informacion acerca del individuo o la institución que esta asociado a la creación, compilación, mantenimiento y/o acumulación de fondos documentales (DACS capítulo 10).
+				</phrase>
+				<phrase name='bioghistauthor' regularexpression=''>
+					Utilice este espacio para ingresar el nombre del individuo(s) que escribieron la nota biográfica o historia institucional.
+				</phrase>
+				<phrase name='controlinformation' regularexpression=''>
+					Utilice la utilidad "Información de Control" para ingresar el idioma y el script del registro de productor.
+				</phrase>
+				<phrase name='creator_description' regularexpression=''>
+					Utilice este campo para ingresar información adicional acerca del productor(es).
+				</phrase>
+				<phrase name='creator_relationship' regularexpression=''>
+					Utilice este campo para para seleccionar y relacionar a los productores.
+				</phrase>
+				<phrase name='creatornotes' regularexpression=''>
+					Utilice la utilidad "Notas de Productor" para ingresar la nota histórica o biográfica y otra información relacionad al productor.
+				</phrase>
+				<phrase name='creators_list' regularexpression=''>
+					Utilice este campo para seleccionar y relacionar un registro de productor.
+				</phrase>
+				<phrase name='creatortypeid' regularexpression=''>
+					Este menu contiene una lista general de tipos de productores (institucional, personal, familia). Seleccione el tipo de creador que se este agregando o actualizando.
+				</phrase>
+				<phrase name='dates' regularexpression=''>
+					Utilice este espacio para ingresar la fecha de nacimiento, y fallacimiento si es el caso, del productor. Utilice un guión para separar las fechas entre si.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Utilice el "Modulo de Creador" par establecer entradas en el fichero de autoridades para los productores de fondos documentales administrados por el archivo. Una vez se hayan esablecido esas entradas, se pueden vincular a colecciones u objetos digitales utilizando la sección "Productores" en el Módulo de Colecciones y el Módulo de la Biblioteca Digital. Ver DACS II y III para mayor informacion en establecer la forma del nombre de los productores.
+				</phrase>
+				<phrase name='lcnafcompliant' regularexpression=''>
+					Seleccione "Si" si las fechas que aparecen en el espacio "Fechas" son las mismas que se encuentran en el Fichero de Autoridades de la Biblioteca del Congreso (LCNAF). Tambien seleccione "Si" si el formato de las fechas del productor es el mismo que utilizan DACS y AACR2 para la creacion de ficheros de autoridades , pero estas no aparece en el registro del LCNAF.
+				</phrase>
+				<phrase name='lcnafdates' regularexpression=''>
+					Si las fechas del productor que aparecen en el espacio "Fechas" no son las mismas que se encuentran en el Fichero de Autoridades de la Biblioteca del Congreso (LCNAF), utilice este espacio para ingresar las fechas EXACTAS que estan en el fichero de LCNAF.
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Utilice este espacio para ingresar el nombre del productor que esta describiendo utilizando el formato adecuado. Ver DACS capítulos 11-14 para mayor información acerca del formato que debe utilizar.
+				</phrase>
+				<phrase name='namefullerform' regularexpression=''>
+					Utilice este espacio para ingresar el nombre del productor utilizando un formato más completo solo si el formato completo no esta incluido en el espacio del creador principal (DACS regla 12.18).
+				</phrase>
+				<phrase name='namevariants' regularexpression=''>
+					Utilice este espacio para ingresar otras formas del nombre del creador que puedan ser conocidas por los usuarios, pero que no hayan sido utilizadas como el formato autorizado del nombre (DACS regla 11.10).
+				</phrase>
+				<phrase name='relatedcreator' regularexpression=''>
+					Utilice este campo para ingresar el nombre de la organización relacionada a la organización mencionada en le campo "nombre" (Ver DACS 14.12-14.14).
+				</phrase>
+				<phrase name='sources' regularexpression=''>
+					Utilice este espacio para ingresar información acerca de las fuentes bibliográficas utilizadas en la historia institucional o nota biográfica (ver DACS regla 10.4 para mayor información).
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='bioghist' regularexpression=''>
+					Historia Institucional/Nota Biográfica
+				</phrase>
+				<phrase name='bioghistauthor' regularexpression=''>
+					Autor de la Historia Institucional/Nota Biográfica
+				</phrase>
+				<phrase name='controlinformation' regularexpression=''>
+					Información de control
+				</phrase>
+				<phrase name='creator_description' regularexpression=''>
+					Descripción
+				</phrase>
+				<phrase name='creator_relationship' regularexpression=''>
+					Tipo de Relación
+				</phrase>
+				<phrase name='creatornotes' regularexpression=''>
+					Notas del Productor
+				</phrase>
+				<phrase name='creators_list' regularexpression=''>
+					Lista de Productores
+				</phrase>
+				<phrase name='creatortypeid' regularexpression=''>
+					Tipo de Productor
+				</phrase>
+				<phrase name='dates' regularexpression=''>
+					Fechas
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Productor
+				</phrase>
+				<phrase name='languageid' regularexpression=''>
+					Idioma del registro de productor
+				</phrase>
+				<phrase name='lcnafcompliant' regularexpression=''>
+					Conforme al Fichero de Autoridades de la Biblioteca del Congreso
+				</phrase>
+				<phrase name='lcnafdates' regularexpression=''>
+					Fechas Conformes al Fichero de Autoridades de la Biblioteca del Congreso
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Productor
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Nombre
+				</phrase>
+				<phrase name='namefullerform' regularexpression=''>
+					Forma Completa del Nombre
+				</phrase>
+				<phrase name='namevariants' regularexpression=''>
+					Variaciones del Nombre
+				</phrase>
+				<phrase name='relatedcreator' regularexpression=''>
+					Productor Relacionado
+				</phrase>
+				<phrase name='repositoryid' regularexpression=''>
+					Repositorio
+				</phrase>
+				<phrase name='scriptid' regularexpression=''>
+					Script del registro de productor
+				</phrase>
+				<phrase name='sources' regularexpression=''>
+					Fuentes Utilizadas en la Historia Institucional/Nota Biográfica
+				</phrase>
+			</phrasetype>
+		</module>
+	</package>
+</language>

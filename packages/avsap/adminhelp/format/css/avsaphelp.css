@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* DIVS */
+#avsaphelp {
+   font-family: Verdana, Arial;
+   margin: auto;
+   text-align: center;
+   padding-top: 10px;
+   background-image:url(../images/123.gif);
+   background-repeat: repeat-x;
+}
+
+
+#avsaphelp .wrapper {
+	padding: 15px;
+}
+
+#avsaphelp .container { /* This is the viewing window */
+                          position: relative;
+                          overflow: hidden;
+                          margin: auto;
+                          width:750px; /* Also specified in  .stripViewer .panelContainer .panel  below */
+                          background: #fff;
+                          border: thin double #bbc0ca;
+				    }
+
+#avsaphelp .panelContent
+{
+   float:left;
+   height: 100%;
+   position: relative;
+   padding: 15px;
+   width:700px;
+}
+
+#avsaphelpnav { /* This is the div to hold your nav (the UL generated at run time) */
+	text-align:center;
+	padding: 2px;
+	width:inherit;
+	height:43px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+	}
+
+#avsaphelp .footer
+{
+	float:left;
+   height: 100%;
+   position: relative;
+   padding: 15px;
+   width:700px;
+   text-align: center;
+   text-indent: 10px;
+}
+
+#avsaphelp .bottom {
+		 width:700px;
+		 text-align: center;
+		 text-indent: 10px;
+		 font-family: Verdana, Arial;
+		 margin: auto;
+		 text-align: center;
+		 padding-top: 10px;
+}
+
+/* End DIV formatting section */
+
+/* table formatting */ 
+#avsaphelp table
+{
+   text-align:left;
+   font-size:13px;
+   margin: 5px 5px 5px 5px;
+}
+
+#avsaphelp td, #avsaphelp th {
+   border: thin solid #666;
+   padding: 10px;
+}
+
+.clear {
+	clear:both;
+}
+/* text formatting */
+
+
+#avsaphelp .bottom p {
+   text-align: center;
+   font-size:9px;
+}
+
+#avsaphelp .figure p {
+   text-align: center;
+   font-style: italic;
+   font-size: smaller;
+   text-indent: 0;
+}
+
+#avsaphelpnav ul li {
+   list-style: none;
+   }
+
+#avsaphelpnav a { /* The nav links */
+                  font-size: 10px;
+                  font-weight: bold;
+                  text-align: center;
+                  line-height: 35px;
+                  background: #c6e3ff;
+                  color: #ffffff;
+                  padding: 0 7px;
+                  float: left;
+				  width:auto;
+				  text-decoration:none;
+				  }
+
+#avsaphelpnav li.tab1 a { background: #6e93ad }
+#avsaphelpnav li.tab2 a { background: #436988 }
+#avsaphelpnav li.tab3 a { background: #6e93ad }
+#avsaphelpnav li.tab4 a { background: #324e65 }
+#avsaphelpnav li.tab5 a { background: #6e93ad }
+#avsaphelpnav li.tab6 a { background: #436988 }
+#avsaphelpnav li.tab7 a { background: #324e65 }
+#avsaphelpnav li.tab8 a { background: #436988 }
+#avsaphelpnav li.tab9 a { background: #6e93ad }
+#avsaphelpnav li a:hover {background: #333;}
+
+#avsaphelpnav li a.current {
+   color: #fff;}
+   
+#avsaphelp .footer a
+{
+   font-size:10px;
+   text-align:center;
+   text-decoration:none;
+   vertical-align:middle;
+   color:#39C;
+}
+
+#avsaphelp .footer a:hover {
+   color: #F03;}
+   
+#avsaphelp p, ul, li { text-align: left; margin: 10px 0; color:#000; font-size: 13px;}
+
+
+#avsaphelp p, avsaphelp ul { font-size: 13px;}
+
+#avsaphelp .bold {font-weight:bold}
+
+#avsaphelp .h1 { color:#000; }
+#avsaphelp .h2 { border-bottom: 1px solid silver; margin-bottom: 2px; padding-bottom: 3px; text-align: left; }
+#avsaphelp .h3 { text-align: left; color:#369; border-bottom: 1px solid silver;}
+#avsaphelp .h4 { text-align: left;color:#000; }
+
+.panelContent a {
+	border:none;
+	text-decoration:none;
+}
+
+
+/* image formatting  */ 
+#avsaphelp .logo {
+   padding: 10px 5px 5px 15px ;
+   float:left;
+}
+#avsaphelp .UIlogo {
+   text-align:center;
+}
+
+#avsaphelp .thumbs
+{ padding: 5px 5px 5px 5px; float:left;
+}
+
+#avsaphelp .figure {
+   float: left;
+   padding: 1px 2px 1px 2px;
+   height: auto;
+   vertical-align: bottom;
+}
+
+#avsaphelp .thumb {
+   float: left;
+   padding: 5px 15px 2px;
+}
+
+#avsaphelp a img {
+	border:none;
+	text-decoration:none;
+}

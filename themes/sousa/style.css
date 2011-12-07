@@ -1,0 +1,1343 @@
+/*
+Stylesheet for 'default' Archon Theme
+
+##########################################################
+
+THIS STYLESHEET HAS FOUR SECTIONS:
+
+	1. GENERAL STYLES (controls text properties)
+	2. THEME STRUCTURES/FORMATTING  (establishes basic structure of the page)
+	3. PUBLIC FILE FORMATTING (controls position and style of elements
+	      defined outside of template files)
+	4. TEMPLATE FILE FORMATTING (controls position and style of elements
+	      defined in template files, these apply to default template set)
+
+The stylesheet assumes that layout will take place in one to four
+'general structure' boxes, referenced by an class below.  These classes may be
+used with either a tabled or tableless design, by referencing
+a <table id=''> or <div id=''> in the following files.
+
+	top    --header.inc.php; faheader.inc.php
+	left   --header.inc.php; faheader.inc.php
+	main   --index.inc.php; files in packages/'packagename'/templates/default
+	                              and packages/'packagename'/
+	bottom --footer.inc.php; fafooter.inc.php
+
+For background reading regarding layout using principles in this stylesheet, see
+http://www.devarticles.com/c/a/Web-Style-Sheets/DIV-Based-Layout-with-CSS/3/
+
+###########################################################
+
+BEGIN GENERAL STYLES FOR ENTIRE DOCUMENT */
+
+html {
+overflow:scroll;
+}
+
+body {
+background-color:#e4d3b5;
+color:#221e1f;
+font:90% "Verdana", "Arial", sans-serif;
+margin:0;
+padding:0;
+min-width: 1000px;
+}
+
+a:link {
+color:#880000;
+text-decoration:none;
+}
+
+a:visited {
+color:#880000;
+}
+
+a:hover {
+color:#880000;
+text-decoration: underline;
+}
+
+a:active {
+color:#211e1f;
+}
+
+h1 {
+color:#221e1f;
+font-size:1.6em;
+text-align:center;
+}
+
+h2 {
+font-size:1.3em;
+text-align:center;
+}
+
+h3 {
+color:#10375D;
+font-size:80%;
+font-weight:700;
+}
+
+img {
+border:none;
+margin:0;
+padding:0;
+}
+
+.bold {
+font-weight:700;
+}
+
+.center {
+text-align:center;
+}
+
+.message {
+font-weight:700;
+text-align:center;
+color:red;
+font-size:1.1em;
+}
+
+.button {
+background-color:#7C93AA;
+color:#FFF;
+cursor:pointer;
+font-size:1em;
+font-weight:700;
+border-color:#10375D;
+}
+
+.small {
+font-size:small;
+}
+
+/* for highlighting search results */
+.highlight0 {
+background-color:#FF6;
+}
+
+.highlight1 {
+background-color:#A0FFFF;
+}
+
+.highlight2 {
+background-color:#9F9;
+}
+
+.highlight3 {
+background-color:#F99;
+}
+
+.highlight4 {
+background-color:#F6F;
+}
+
+.highlight5 {
+background-color:#800;
+}
+
+.highlight6 {
+background-color:#0A0;
+}
+
+.highlight7 {
+background-color:#886800;
+}
+
+.highlight8 {
+background-color:#004699;
+}
+
+.highlight9 {
+background-color:#909;
+}
+
+.bground {
+   -webkit-border-radius:20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+.mdround {
+   -webkit-border-radius:10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+}
+
+.smround {
+   -webkit-border-radius:5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+#titleheader {
+margin: 0 0 1.5em 0;
+padding-top: 1em;
+}
+
+/* END GENERAL STYLES -- BEGIN THEME STRUCTURES/FORMATTING */
+ 
+#top {
+background-color:#e4d3b5;
+border-bottom:1px solid #211b1d;
+font-size:75%;
+height:auto;
+width:auto;
+margin:0;
+padding:0;
+}
+
+#top:after {
+clear:both;
+content:".";
+display:block;
+font-size:0;
+height:0;
+overflow:hidden;
+visibility:hidden;
+}
+
+#left {
+background-color:#efefef;
+font-size:75%;
+float:left;
+left:1.5em;
+margin-top:2em;
+position:fixed;
+width:20em;
+padding:0 .5em;
+}
+
+#main {
+background: url('images/background.jpg') no-repeat 0 0;
+min-height: 500px;
+color: #221e1f;
+padding: 0 2em;
+}
+
+/* used in faheader.inc.php */
+#famain {
+margin-left:17.5em;
+margin-right:2em;
+padding-left:1em;
+}
+
+#bottom {
+clear:both;
+text-align:center;
+}
+
+#breadcrumbblock {
+color:#2d1d0d;
+float:left;
+height:1.5em;
+margin:0;
+padding:.5em 1em 0 .5em;
+}
+
+#researchblock {
+float:right;
+height:2.6em;
+margin:.5em .5em 0 0;
+}
+
+#breadcrumbclearblock {
+clear:both;
+font-size:0;
+height:0;
+overflow:hidden;
+visibility:hidden;
+}
+
+.title-logo {
+clear: both;
+}
+
+#searchblock {
+border-bottom:none;
+float:left;
+margin-left: 1.5em;
+padding: 0.5em 0.5em 0 1em;
+height:2.5em;
+width:auto;
+}
+
+#searchblock input {
+border:1px solid #806459;
+margin:0;
+vertical-align:middle;
+font-size:1.33em;
+}
+
+#searchblock label {
+font-size:0.8em;
+vertical-align:middle;
+padding:0 0 0 0.3em;
+}
+
+#searchblock .button {
+background:#d9d9d9;
+background-image:url('images/magglass.png');
+background-position:5% 50%;
+background-repeat:no-repeat;
+border:1px solid #806459;
+cursor:pointer;
+margin:0 0.6em 0 -0.25em;
+padding-left:1.4em;
+color:#201c1d;
+max-height:1.5em;
+min-width:1.33em;
+}
+
+#searchblock .button:hover {
+background-image:url('images/magglass.png');
+background-position:5% 50%;
+background-repeat:no-repeat;
+color:#da6d5d;
+}
+
+#browsebyblock {
+color:#242021;
+float:right;
+height:3em;
+padding:0 0 0 1em;
+width:50em;
+}
+
+#browsebyblock div {
+vertical-align:bottom;
+}
+
+#browsebyblock a {
+font-weight:bolder;
+text-decoration:none;
+}
+
+.browseLink {
+display:block;
+float:left;
+height:3em;
+padding:0 .5em;
+text-align:center;
+width:9em;
+line-height:3em;
+}
+
+.browseLink a {
+color:#221e1f;
+}
+
+.browseLink:hover {
+background-image:url('images/linkarrow.png');
+background-position:bottom center;
+background-repeat:no-repeat;
+}
+
+.browseLink a:link {
+background:none;
+color:#221e1f;
+}
+
+.browseLink a:visited {
+background:none;
+color:#221e1f;
+}
+
+.browseLink a:hover {
+background:none;
+color:#da6d5d;
+}
+
+.currentBrowseLink {
+background-image:url('images/linkarrow.png');
+background-position:bottom center;
+background-repeat:no-repeat;
+display:block;
+float:left;
+font-weight:bolder;
+height:3em;
+padding:0 .5em;
+text-align:center;
+width:9em;
+line-height:3em;
+}
+
+.currentBrowseLink a:link {
+background:none;
+color:#221e1f;
+}
+
+.currentBrowseLink a:visited {
+background:none;
+color:#221e1f;
+}
+
+.currentBrowseLink a:hover {
+background:none;
+color:#221e1f;
+}
+
+.currentBrowseLink a:active {
+background:none;
+color:#221e1f;
+}
+
+/* used in footer/bottom */
+#archoninfo {
+color:#221e1f;
+font-size:x-small;
+margin:0 auto;
+padding:1em;
+text-align:center;
+}
+
+#footerhr {
+visibility: hidden;
+}
+
+#userlogin {
+background:#efefef;
+padding:.2em;
+}
+
+#userlogincontrols{
+margin:1em;
+}
+
+#userinfo {
+background:#DDE7F6;
+background-image:url('images/footergradient.gif');
+background-position:top right;
+background-repeat:repeat-x;
+border:1px solid #DDE7F6;
+padding:.2em .2em 1em;
+}
+
+#userbox {
+font-size:x-small;
+margin:0 auto;
+width:40em;
+}
+
+.loginpair:after {
+clear:both;
+content:".";
+display:block;
+font-size:0;
+height:0;
+overflow:hidden;
+visibility:hidden;
+}
+
+.loginlabel {
+float:left;
+font-weight:700;
+margin:0 auto;
+text-align:right;
+width:10em;
+}
+
+.logininput {
+clear:right;
+display:inline;
+float:left;
+margin:0 auto 2em;
+text-align:right;
+width:23em;
+}
+
+#loginsubmit {
+clear:both;
+display:block;
+margin-left:3em;
+margin-right:3em;
+margin-top:0;
+}
+
+#registerlink {
+clear:both;
+display:block;
+margin:.5em auto;
+padding-left:.5em;
+}
+
+#contactcontainer {
+font-size:x-small;
+margin:0 auto;
+padding:1em;
+width:40%;
+}
+
+/* in index.php */
+
+#themeindex{
+padding:1em;
+margin:1em auto;
+width:75%;
+}
+
+dd.index {
+font-size:80%;
+padding-bottom:1.5em;
+padding-top:.5em;
+}
+
+dt.index {
+color:#221e1f;
+font-size:80%;
+font-weight:700;
+}
+
+/* faheader.inc.php */
+
+#famain {
+clear:left;
+}
+
+#famain hr {
+background-color:#FEF1B5;
+border:none;
+color:#FEF1B5;
+width:70%;
+}
+
+#fanavbox {
+font-size:small;
+vertical-align:top;
+}
+
+#fanavbox hr {
+width:80%;
+background-color:#aac;
+border:none;
+height:1px;
+}
+
+#fasearchblock {
+background:#DDE7F6;
+background-image:url('images/searchbargradient.gif');
+background-position:bottom right;
+background-repeat:repeat-x;
+border:1px solid #C4D7F4;
+margin:1em auto;
+padding:.5em 0;
+font-size:75%;
+overflow:hidden;
+width:20em;
+text-align:center;
+}
+
+#fasearchblock input {
+border:1px solid #bbe;
+margin:0 auto;
+vertical-align:middle;
+font-size:1.33em;
+}
+
+#fasearchblock label {
+font-size:0.8em;
+vertical-align:middle;
+padding:0 0 0 0.3em;
+}
+
+#fasearchblock .button {
+background:#d9d9d9;
+background-image:url('images/magglass.png');
+background-position:5% 50%;
+background-repeat:no-repeat;
+border:1px solid #bbe;
+cursor:pointer;
+font-size:1.33em;
+font-weight:100;
+margin:.5em auto 0;
+padding-left:1.8em;
+color:#201c1d;
+max-height:1.5em;
+min-width:1.33em;
+}
+
+#fasearchblock .button:hover {
+background-image:url('images/magglass.png');
+background-position:5% 50%;
+background-repeat:no-repeat;
+color:#da6d5d;
+}
+
+#fasearchblock img {
+vertical-align:middle;
+padding:0 0 0 0.3em;
+}
+
+/* END THEME STRUCTURES/FORMATTING -- BEGIN PUBLIC FILE FORMATTING */
+ 
+/* used in search.php */
+.searchTitleAndResults {
+margin-bottom:1em;
+}
+
+#AccessionTitle {
+font-weight:700;
+}
+
+#AccessionResults {
+font-size:90%;
+margin-left:1.5em;
+padding-left:1em;
+text-indent:-1em;
+}
+
+#BookTitle {
+font-weight:700;
+}
+
+#BookResults {
+font-size:90%;
+margin-left:1.5em;
+padding-left:1em;
+text-indent:-1em;
+}
+
+#CollectionTitle {
+font-weight:700;
+}
+
+#CollectionResults {
+font-size:90%;
+padding-left:1em;
+text-indent:-1em;
+}
+
+.InnerContentResultsToggle {
+margin:1em 0;
+display:block;
+}
+
+#CollectionContentTitle {
+font-weight:700;
+}
+
+#CollectionContentResults {
+font-size:90%;
+margin-left:1.5em;
+padding-left:1em;
+text-indent:-1em;
+}
+
+.CollectionClassEnabledResults {
+padding-bottom:1em;
+}
+
+.CollectionClassEnabledResults dd {
+margin-bottom:2em;
+}
+
+.InnerContentTitleAndResults {
+font-size:85%;
+margin-top:-0.5em;
+}
+
+.InnerCollectionContentResults {
+margin-left:1.5em;
+padding-left:1em;
+text-indent:-1em;
+}
+
+
+
+#DigitalContentTitle {
+font-weight:700;
+}
+
+#DigitalContentResults {
+font-size:90%;
+margin-left:1.5em;
+padding-left:1em;
+text-indent:-1em;
+}
+
+#SubjectTitle {
+font-weight:700;
+}
+
+#SubjectResults {
+font-size:90%;
+margin-left:1.5em;
+padding-left:1em;
+text-indent:-1em;
+}
+
+
+#CreatorTitle {
+font-weight:700;
+}
+
+#CreatorNote {
+
+background: #fff;
+border:#ddd 1px solid;
+position:relative;
+padding: 1em;
+margin: 0 auto;
+max-width:70em;
+}
+
+#CreatorNote hr { 
+width:50%;
+}
+
+
+.CreatorEntry
+{
+margin-bottom:1em;
+}
+
+.CreatorEntryShowList {
+font-size:90%;
+margin-left:1.5em;
+}
+
+#CreatorResults {
+font-size:100%;
+font-weight: bold;
+margin:2em 0 1em 0;
+padding-left:1em;
+text-indent:-1em;
+}
+
+
+#CreatorStaff {
+
+
+clear:left;
+float:left;
+width:30%;
+min-width:25em;
+border:#ddd 1px solid;
+margin-bottom:1em;
+padding:1em;
+}
+
+/* For browse by pages */
+.beginningwith {
+max-width:50em;
+z-index:5;
+margin: 0 auto;
+padding-bottom: 2em;
+}
+
+.listitemhead
+{
+margin:0 auto;
+max-width: 50em;
+text-align:center;
+}
+
+.cart {
+margin-left:.5em;
+}
+
+#listitemwrapper, #recordsunderlist, #classificationlist {
+position:relative;
+padding: 1em 0;
+margin: 0 auto;
+max-width:70em;
+}
+
+/*
+.listitemcover {
+background:transparent url('images/listfade.png') repeat-y top right;
+height:auto;
+width:200px;
+z-index:2;
+position:absolute;
+right:0;
+top:0;
+bottom:0;
+}
+*/
+
+.listitem {
+/*border-top:1px #e9e9ef solid; 
+background:#fff;*/
+z-index:1;
+margin:0 0 0 1em;
+padding:.1em 0.5em 0 0.5em;
+}
+
+
+.searchlistitem {
+z-index:1;
+margin:0 0 0 1em;
+padding:0em 0.5em 1em 0.5em;
+}
+
+/*
+.evenlistitem {
+background:#fafafe;
+}
+
+.lastlistitem {
+border-bottom:1px #e9e9ef solid;
+}
+
+*/
+
+/* digitallibrary/digitallibrary */
+#dlsearchblock {
+overflow:hidden;
+width:30em;
+font-size:75%;
+margin:-1.5em auto 1em;
+padding:0.8em 1em;
+}
+
+#dlsearchblock input {
+border:1px solid #bbe;
+vertical-align:middle;
+font-size:1.33em;
+margin:.3em 0;
+}
+
+#dlsearchblock label {
+font-size:0.8em;
+vertical-align:middle;
+padding-left:0.3em;
+margin:.3em 0;
+}
+
+#dlsearchblock .button {
+background:#d9d9d9;
+background-image:url('images/magglass.png');
+background-position:5% 50%;
+background-repeat:no-repeat;
+border:1px solid #806459;
+cursor:pointer;
+font-size:1.33em;
+font-weight:100;
+padding-left:1.6em;
+color:#201c1d;
+max-height:1.5em;
+min-width:1.33em;
+margin:.3em 0.6em .3em -0.25em;
+}
+
+#dlsearchblock .button:hover {
+background-image:url('images/magglass.png');
+background-position:5% 50%;
+background-repeat:no-repeat;
+color:#880000;
+}
+
+#dlsearchblock img {
+vertical-align:middle;
+margin:.3em 0;
+padding:0 0 0 0.3em;
+}
+
+/* END PUBLIC FILE FORMATTING -- BEGIN  TEMPLATE FILE FORMATTING*/
+
+/* used template's classification.php */
+
+#classificationdesc {
+background: #efefef;
+width:45%;
+margin:auto;
+line-height:1.5em;
+min-height:80px;
+padding:.5em 1em;
+} 
+ 
+ 
+/* used in default template's controlcard.inc.php */
+#ccardleft {
+clear:left;
+float:left;
+width:45%;
+}
+
+
+#ccardpublic {
+clear:left;
+float:left;
+width:100%;
+min-width:25em;
+border:black 1px solid;
+margin-bottom:1em;
+padding:1em;
+}
+
+#ccardstaff {
+clear:left;
+float:left;
+width:100%;
+min-width:25em;
+border:black 1px solid;
+margin-bottom:1em;
+padding:1em;
+}
+
+
+#ccardprintcontact {
+float:right;
+font-weight:400;
+margin-bottom:1em;
+font-size:0.9em;
+padding:0.5em;
+}
+
+#ccardscope {
+background: #efefef;
+float:right;
+width:45%;
+border:black 1px solid;
+line-height:1.5em;
+min-height:80px;
+padding:.5em 1em;
+}
+
+#ccardstaff {
+clear:both;
+margin:0 .5em;
+}
+
+#alternateccards {
+margin-left:1em;
+}
+
+.ccardlabel {
+font-weight:700;
+}
+
+.ccardstafflabel {
+font-size:1.3em;
+color:red;
+}
+
+.ccardcontent {
+clear:left;
+display:block;
+float:left;
+width:100%;
+margin:.5em .5em .5em 0;
+}
+
+.ccardserieslist {
+font-size:90%;
+margin-left:1em;
+text-indent:-0.5em;
+}
+
+.ccardshowlist {
+font-size:90%;
+margin-left:1em;
+padding-top:1em;
+}
+
+#locationtable {
+border-collapse:collapse;
+border:solid 1px #ddd;
+margin-left:1em;
+}
+
+#locationtable th {
+background:#f3f3f3;
+padding:0.3em;
+}
+
+#locationtable tr {
+font-size:90%;
+padding:0.5em;
+}
+
+.oddtablerow {
+background:#f9f9f9;
+}
+
+/* used in default template's accession.inc.php */
+
+#accessionleft {
+clear:left;
+float:left;
+width:45%;
+}
+
+#accessionpublic {
+clear:left;
+float:left;
+width:100%;
+border:black 1px solid;
+margin-bottom:1em;
+padding:1em;
+}
+#accessionstaff {
+clear:left;
+float:left;
+width:100%;
+border:black 1px solid;
+margin-bottom:1em;
+padding:1em;
+}
+
+
+#accessionprintcontact {
+float:right;
+font-weight:700;
+margin-bottom:1em;
+}
+
+#accessionscope {
+background-color:#E8EEF7;
+background-image:url('images/maingradient.gif');
+background-position:top right;
+background-repeat:repeat-x;
+border:black 1px solid;
+float:right;
+min-height:80px;
+padding:.5em 1em;
+width:45%;
+line-height:1.5em;
+}
+
+#accessionstaff {
+clear:both;
+margin:0 .5em;
+}
+
+#alternateaccessions {
+margin-left:1em;
+}
+
+.accessionlabel {
+font-weight:700;
+}
+
+.accessionstafflabel {
+font-size:1.3em;
+color:red;
+}
+
+.accessioncontent {
+clear:left;
+display:block;
+float:left;
+margin:.5em .5em .5em 0;
+width:100%;
+}
+
+.accessionserieslist {
+font-size:90%;
+margin-left:1em;
+text-indent:-0.5em;
+}
+
+.accessionshowlist {
+font-size:90%;
+margin-left:1em;
+}
+
+#locationtable {
+border-collapse:collapse;
+margin-top:1em;
+}
+
+#accessionnotice {
+background-color:#eee;
+font-size:0.85em;
+padding:0.5em;
+border:1px solid #ddd;
+margin-top:0.75em;
+}
+
+/*used in default template's collection.inc.php */
+
+.faitem {
+margin-bottom:5px;
+}
+
+.faitemcontent {
+font-size:82%;
+margin:3px 15px 5px 0;
+}
+
+/* Used in default template's digitalcontent.inc.php  */
+#digcontentwrapper{ /*to display info in columns*/
+width:100%;
+}
+
+#digcontentwrapper hr {
+background-color:#FFDB4D;
+border:none;
+color:#FFDB4D;
+width:100%;
+}
+
+
+#digcontentfiles {
+float:left;
+width:30%;
+max-width:402px;
+padding:8px;
+background:#efefef;
+text-align:center;
+}
+
+#digcontentmetadata {
+padding:1em;
+float:left;
+margin-bottom:2em;
+margin-left:.5em;
+width:60%;
+line-height:1.25em;
+}
+
+.digcontentlabel {
+clear:left;
+display:block;
+float:left;
+font-size:90%;
+font-weight:700;
+width:7em;
+}
+
+.digcontentdata {
+display:block;
+float:left;
+font-size:90%;
+left:.5em;
+margin-bottom:.3em;
+position:relative;
+width:80%;
+}
+
+.digcontentrequest {
+font-size:80%;
+font-weight:700;
+}
+
+img.digcontentfile {
+width:auto;
+max-width:100%;
+text-align:center;
+margin:0 auto;
+border:1px solid #ccc;
+padding:0;
+}
+
+.digcontentfiletitle {
+font-size:80%;
+}
+
+.digcontenttitlebox{
+margin:0 10px 2em 10px;
+padding:1em;
+text-align:left;
+}
+
+/* used in various research pages */
+.userformbox {
+background-color:#f0efef;
+border:1px solid #E8EEF7;
+font-size:small;
+margin:0 auto;
+padding:0 .5em 1em .5em;
+max-width:40em;
+}
+
+.userformbox:after {
+clear:both;
+content:".";
+display:block;
+font-size:0;
+height:0;
+visibility:hidden;
+}
+
+#userformsubmit {
+clear:left;
+text-align:center;
+}
+
+.userformpair {
+clear:left;
+margin:0;
+padding:0.5em;
+text-align:left;
+}
+
+.userformlabel {
+font-weight:700;
+text-align:left;
+font-size:85%;
+margin:0 .5em 0 0;
+}
+
+.userforminput {
+text-align:left;
+margin:0 0 1.4em; 
+}
+
+.userformdate {
+font-weight:lighter;
+font-size:95%;
+font-style:italic; 
+}
+
+#requestimagebox {
+background-color:#E8EEF7;
+border:outset;
+font-size:small;
+margin-bottom:1em;
+padding:5px;
+}
+
+#researchcart {
+background-color:#efefef;
+border:1px #ddd solid;
+width:60em;
+margin:1em auto;
+padding:1em;
+}
+
+#researchcartwrapper {
+width:100%;
+}
+
+#researchcartinfo {
+background-color:#efefef;
+border:1px solid #E8EEF7;
+font-size:small;
+margin:0 auto;
+padding:1em .5em 1em .5em;
+max-width:60em;
+}
+
+/* used in digitallibrary/thumbnails */
+.thumbnailimg {
+float:left;
+height:12em;
+width:10em;
+background: #efefef;
+margin:1em;
+padding:0.75em 0 0;
+}
+
+.thumbnailimg:hover {
+background:#d4d4d4;
+}
+
+.thumbnailimg:after {
+clear:left;
+content:".";
+display:block;
+font-size:0;
+height:0;
+overflow:hidden;
+visibility:hidden;
+}
+
+.thumbnailimg .thumbnailimgwrapper {
+height:10em;
+width:10em;
+}
+
+.thumbnailimg img {
+display:block;
+border:1px solid #aaa;
+max-width:100px;
+max-height:130px;
+clear:both;
+margin-left:auto;
+margin-right:auto;
+}
+
+.thumbnailimg .thumbnailcaption {
+display:block;
+text-align:center;
+clear:both;
+font-size:75%;
+margin-left:auto;
+margin-right:auto;
+background:#eee url('images/caption.gif') repeat-x bottom left;
+height:2.6em;
+border-top:1px solid #ccc;
+}
+
+#mediumpreviewimg {
+width:300px;
+border:1px solid #aaa;
+}
+
+#thumbnailnav {
+clear:both;
+border:1px solid #e6e6e6;
+width:30%;
+background:#fafafa;
+font-weight:bolder;
+color:#33b;
+font-size:80%;
+margin:0 auto;
+padding:0.75em;
+}
+
+#thumbnailnav:after {
+clear:both;
+content:".";
+display:block;
+font-size:0;
+height:0;
+overflow:hidden;
+visibility:hidden;
+}
+
+#thumbnailprevlink {
+float:left;
+}
+
+#thumbnailnextlink {
+float:right;
+}
+
+.paginationnav {
+clear:both;
+border:1px solid #e6e6e6;
+width:30%;
+background:#fafafa;
+font-weight:bolder;
+color:#33b;
+font-size:80%;
+margin:20px auto;
+padding:0.75em;
+}
+
+.paginationnav:after {
+clear:both;
+content:".";
+display:block;
+font-size:0;
+height:0;
+overflow:hidden;
+visibility:hidden;
+}
+
+.paginationprevlink {
+float:left;
+}
+
+.paginationnextlink {
+float:right;
+}
+
+.removefromcart {
+font-size: .8em;
+margin-left: 10px;
+text-decoration: none;
+}
+.removefromcart:link{
+color: #888;
+}
+
+.cartrepository {
+font-weight:700;
+color:#888;
+}

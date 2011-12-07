@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3623"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   inkscape:export-filename="/home/psorens2/dev/auth/adminthemes/default/images/info_icon.png"
+   inkscape:export-xdpi="6.6459885"
+   inkscape:export-ydpi="6.6459885"
+   sodipodi:docname="New document 4">
+  <defs
+     id="defs3625">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4157">
+      <stop
+         style="stop-color:#999999;stop-opacity:1;"
+         offset="0"
+         id="stop4159" />
+      <stop
+         style="stop-color:#999999;stop-opacity:0;"
+         offset="1"
+         id="stop4161" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3631" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4157"
+       id="linearGradient4163"
+       x1="146.80859"
+       y1="374.78641"
+       x2="157.32031"
+       y2="374.78641"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4157"
+       id="linearGradient4165"
+       gradientUnits="userSpaceOnUse"
+       x1="146.80859"
+       y1="374.78641"
+       x2="157.32031"
+       y2="374.78641" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="371.25516"
+     inkscape:cy="549.79592"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-global="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     inkscape:window-x="1280"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3633" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3628">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3635"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#999999;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans;stroke-opacity:1"
+       transform="matrix(6.5951535,0,0,6.5951535,-596.52279,-2016.746)"><flowRegion
+         id="flowRegion3637"
+         style="stroke:url(#linearGradient4165)"><rect
+           id="rect3639"
+           width="366.68536"
+           height="266.68027"
+           x="146.47212"
+           y="349.29602"
+           style="fill:#999999;fill-opacity:1;stroke:none;stroke-opacity:1" /></flowRegion><flowPara
+         id="flowPara3641"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#999999;fill-opacity:1;stroke:none;font-family:Liberation Serif;-inkscape-font-specification:Liberation Serif;stroke-opacity:1">i</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#999999;stroke-width:12.20397853999999960;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3645"
+       width="219.19153"
+       height="216.67209"
+       x="295"
+       y="347.40927" />
+  </g>
+</svg>

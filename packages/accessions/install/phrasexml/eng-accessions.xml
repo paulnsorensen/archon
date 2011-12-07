@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code='eng'>
+	<package aprcode='accessions' version='3.21'>
+		<module script=''>
+			<phrasetype name='Noun'>
+				<phrase name='accession' regularexpression=''>
+					Accession
+				</phrase>
+				<phrase name='accessiondate' regularexpression=''>
+					Accession Date
+				</phrase>
+				<phrase name='accessionlocationentry' regularexpression=''>
+					Accession Location Entry
+				</phrase>
+				<phrase name='accessions' regularexpression=''>
+					Accessions
+				</phrase>
+				<phrase name='collectionandclassification' regularexpression=''>
+					Collection and Classification
+				</phrase>
+				<phrase name='collectionentries' regularexpression=''>
+					Collection Entries
+				</phrase>
+				<phrase name='collectionentry' regularexpression=''>
+					Collection Entry
+				</phrase>
+				<phrase name='collectionorclassification' regularexpression=''>
+					Collection or Classification
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Identifier
+				</phrase>
+				<phrase name='processingpriority' regularexpression=''>
+					Processing Priority
+				</phrase>
+				<phrase name='receivedextent' regularexpression=''>
+					Received Extent
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Description'>
+				<phrase name='configuration_accessionidentifierminimumlength' regularexpression=''>
+					If defined, accession identifiers consisting only of numerals will be padded with zeros to ensure the numbers appear with at least the minimum number of digits.
+				</phrase>
+				<phrase name='import_accession_csv' regularexpression=''>
+					The Accession CSV import script takes accession information from a csv (comma-separated values) file and imports it into Archon. Please see the Archon documentation for details.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='import_accession_csv' regularexpression=''>
+					Accession CSV
+				</phrase>
+				<phrase name='locationentries_location' regularexpression=''>
+					Location
+				</phrase>
+				<phrase name='locationentries_rangevalue' regularexpression=''>
+					Range
+				</phrase>
+				<phrase name='locationentries_section' regularexpression=''>
+					Section
+				</phrase>
+				<phrase name='locationentries_shelf' regularexpression=''>
+					Shelf
+				</phrase>
+				<phrase name='package_name' regularexpression=''>
+					Accessions
+				</phrase>
+				<phrase name='subjecttypeid' regularexpression=''>
+					Subject Type
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Public Phrase'>
+				<phrase name='search_matches' regularexpression=''>
+					Matches
+				</phrase>
+				<phrase name='search_unprocessedmaterials' regularexpression=''>
+					Unprocessed Materials
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='processingpriorities'>
+			<phrasetype name='Description'>
+				<phrase name='description' regularexpression=''>
+					Use this field to record information describing the time frame and/or procedures associated with processing archival materials at this priority level.
+				</phrase>
+				<phrase name='displayorder' regularexpression=''>
+					Use this field to change the order in which the list of available processing priorities will be presented to the user.  Processing priorities assigned the lowest number will appear first in the list.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Use this module to define a list of priorities for processing accessions.
+				</phrase>
+				<phrase name='processingpriority' regularexpression=''>
+					Use this field to record the name of the processing priority you are editing.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='description' regularexpression=''>
+					Description
+				</phrase>
+				<phrase name='displayorder' regularexpression=''>
+					Display Order
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Processing Priorities Manager
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Processing Priorities Manager
+				</phrase>
+				<phrase name='processingpriority' regularexpression=''>
+					Processing Priority
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='accessions'>
+			<phrasetype name='Description'>
+				<phrase name='accessiondate' regularexpression=''>
+					Use this field to record the date the accession was received in the repository, in mm/dd/yyyy format.
+				</phrase>
+				<phrase name='collections' regularexpression=''>
+					Open this area to associate new accession to existing collections or record series classifications.
+					
+					To associate a classification, such as a record group or subgroup, use the drop-down menus. (This feature is only available if classifications have been defined in the classification manger.)
+				</phrase>
+				<phrase name='collections_collection' regularexpression=''>
+					Use this field to select a related collection.
+				</phrase>
+				<phrase name='creators' regularexpression=''>
+					Open this section to link creator authority records to this accession.
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Open this section to record descriptive information for the accession such as a physical description, scope and content note, or comments.
+				</phrase>
+				<phrase name='description_comments' regularexpression=''>
+					Use this field to record additional comments about the accession that may not be pertinent in other fields.
+				</phrase>
+				<phrase name='description_physicaldescription' regularexpression=''>
+					Use this field to record a descriptive note about the physical nature of materials in the accession, such as the type, number and size of containers accessioned.
+				</phrase>
+				<phrase name='description_scopecontent' regularexpression=''>
+					Use this field to provide a scope note, i.e. information about the overall nature of the materials and activities reflected in the materials accessioned. (See DACS Rule 3.1 for more information.)
+				</phrase>
+				<phrase name='donor' regularexpression=''>
+					Open this section to record information about the donor of this accession.
+				</phrase>
+				<phrase name='donor_donor' regularexpression=''>
+					Use this field to name the person or organization that offered the accession to your institution.
+				</phrase>
+				<phrase name='donor_donorcontactinformation' regularexpression=''>
+					Use this field to provide contact information for the person or organization that offered the accession to your institution.
+				</phrase>
+				<phrase name='donor_donornotes' regularexpression=''>
+					Use this field to provide additional information about the donor of the accession being added or updated.
+				</phrase>
+				<phrase name='enabled' regularexpression=''>
+					Changing this radio button to 'no' will suppress the public view of the accession's existence.
+				</phrase>
+				<phrase name='expectedcompletiondate' regularexpression=''>
+					Use this field to record the expected date of completion for the accession's processing.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Use the Accessions Manager to describe newly acquired materials that have not been processed and cataloged.  
+					
+					Information from an accession record may be associated with one or more existing classifications or collections, and may be used to seed a new collection record.
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Use this field to record a unique identifier for the accession.
+				</phrase>
+				<phrase name='inclusivedates' regularexpression=''>
+					Use this field to record the date(s) that pertain to the creation, assembly, or accumulation of the materials being described.  As necessary, use a single date, span of dates, or comma-separated list of dates and/or date spans.  (See DACS Rule 2.4 for more information.)
+				</phrase>
+				<phrase name='locations' regularexpression=''>
+					Open this area to record the locations where boxes or other containers in this accession are being stored prior to processing.
+				</phrase>
+				<phrase name='locations_content' regularexpression=''>
+					Use this field to record the container number(s) that are stored at the specified location.
+				</phrase>
+				<phrase name='locations_extent' regularexpression=''>
+					Use these fields to record information regarding the extent of the boxes or other containers stored in the specified location.
+				</phrase>
+				<phrase name='locations_locationid' regularexpression=''>
+					Use this pull-down list to select the master location (e.g. room or building) where the specified materials are stored.  Additional rooms or buildings can be defined in the "Location Manager."
+				</phrase>
+				<phrase name='locations_rangevalue' regularexpression=''>
+					Use this field to record the number (or other identifier) of the shelving range where the specified materials are stored.
+				</phrase>
+				<phrase name='locations_section' regularexpression=''>
+					Use this field to record the specific section (of a range) in which the materials are stored.
+				</phrase>
+				<phrase name='locations_shelf' regularexpression=''>
+					Use this field to record the specific shelf (at a specified section) on which the materials are stored.
+				</phrase>
+				<phrase name='materialtypeid' regularexpression=''>
+					Use this field to appropriately describe the type of materials found in the accession.
+				</phrase>
+				<phrase name='primary_creator' regularexpression=''>
+					Use this field to select a creator record to associate as the primary creator for the records/collections.
+				</phrase>
+				<phrase name='processingpriorityid' regularexpression=''>
+					Use this field to select the appropriate level of urgency and care required for processing the accession.
+				</phrase>
+				<phrase name='receivedextent' regularexpression=''>
+					Use these fields to describe the physical extent of the accession at the time it was received.
+				</phrase>
+				<phrase name='subjects' regularexpression=''>
+					Open this section to link an existing subject authority record to the accession.
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Use this field to give a unique title to the accession.
+				</phrase>
+				<phrase name='unprocessedextent' regularexpression=''>
+					Use this field to record the physical extent of the accession that remains unprocessed.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='accessiondate' regularexpression=''>
+					Accession Date
+				</phrase>
+				<phrase name='collections' regularexpression=''>
+					Collections/Classifications Information
+				</phrase>
+				<phrase name='collections_collection' regularexpression=''>
+					This accession holds materials related to:
+				</phrase>
+				<phrase name='createcollectionrecord' regularexpression=''>
+					Create Collection Record
+				</phrase>
+				<phrase name='creators' regularexpression=''>
+					Creator Information
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Accession Description
+				</phrase>
+				<phrase name='description_comments' regularexpression=''>
+					Comments
+				</phrase>
+				<phrase name='description_physicaldescription' regularexpression=''>
+					Physical Description
+				</phrase>
+				<phrase name='description_scopecontent' regularexpression=''>
+					Scope Content
+				</phrase>
+				<phrase name='donor' regularexpression=''>
+					Donor Information
+				</phrase>
+				<phrase name='donor_donor' regularexpression=''>
+					Donor
+				</phrase>
+				<phrase name='donor_donorcontactinformation' regularexpression=''>
+					Donor Contact Info
+				</phrase>
+				<phrase name='donor_donornotes' regularexpression=''>
+					Donor Notes
+				</phrase>
+				<phrase name='enabled' regularexpression=''>
+					Enable Web Output
+				</phrase>
+				<phrase name='expectedcompletiondate' regularexpression=''>
+					Expected Date of Completion
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Accessions Manager
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Identifier
+				</phrase>
+				<phrase name='inclusivedates' regularexpression=''>
+					Inclusive Dates
+				</phrase>
+				<phrase name='locations' regularexpression=''>
+					Location Information
+				</phrase>
+				<phrase name='locations_content' regularexpression=''>
+					Content
+				</phrase>
+				<phrase name='locations_extent' regularexpression=''>
+					Extent
+				</phrase>
+				<phrase name='locations_locationid' regularexpression=''>
+					Location
+				</phrase>
+				<phrase name='locations_rangevalue' regularexpression=''>
+					Range
+				</phrase>
+				<phrase name='locations_section' regularexpression=''>
+					Section
+				</phrase>
+				<phrase name='locations_shelf' regularexpression=''>
+					Shelf
+				</phrase>
+				<phrase name='materialtypeid' regularexpression=''>
+					Material Type
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Accessions Manager
+				</phrase>
+				<phrase name='primary_creator' regularexpression=''>
+					Primary Creator
+				</phrase>
+				<phrase name='processingpriorityid' regularexpression=''>
+					Processing Priority
+				</phrase>
+				<phrase name='receivedextent' regularexpression=''>
+					Received Extent
+				</phrase>
+				<phrase name='selectone' regularexpression=''>
+					(Select One)
+				</phrase>
+				<phrase name='subjects' regularexpression=''>
+					Subjects
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Title
+				</phrase>
+				<phrase name='unprocessedextent' regularexpression=''>
+					Unprocessed Extent
+				</phrase>
+			</phrasetype>
+		</module>
+	</package>
+</language>

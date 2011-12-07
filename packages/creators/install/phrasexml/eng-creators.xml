@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code='eng'>
+	<package aprcode='creators' version='3.21'>
+		<module script=''>
+			<phrasetype name='Noun'>
+				<phrase name='creator' regularexpression='Creator'>
+					Creator
+				</phrase>
+				<phrase name='creatorlist' regularexpression=''>
+					Creator List
+				</phrase>
+				<phrase name='creators' regularexpression='Creators'>
+					Creators
+				</phrase>
+				<phrase name='creatortype' regularexpression='CreatorType'>
+					Creator Type
+				</phrase>
+				<phrase name='lcnafcompliant' regularexpression='LCNAFCompliant'>
+					LCNAF-Compliant
+				</phrase>
+				<phrase name='lcnafdates' regularexpression='LCNAFDates'>
+					LCNAF-Dates
+				</phrase>
+				<phrase name='nameandparentbody' regularexpression=''>
+					Name and Parentbody
+				</phrase>
+				<phrase name='parentbody' regularexpression='ParentBody'>
+					Parent Body
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Description'>
+				<phrase name='languageid' regularexpression=''>
+					Use this field to record the language in which the the creator record is written.
+				</phrase>
+				<phrase name='repositoryid' regularexpression=''>
+					Use this field to record the repository responsible for creating the creator record.
+				</phrase>
+				<phrase name='scriptid' regularexpression=''>
+					Use this field to record the script in which the creator record is written.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='controlinformation' regularexpression=''>
+					Control Information
+				</phrase>
+				<phrase name='creatornotes' regularexpression=''>
+					Creator Notes
+				</phrase>
+				<phrase name='export_eac' regularexpression=''>
+					EAC-CPF Archive (zip)
+				</phrase>
+				<phrase name='languageid' regularexpression=''>
+					Language of creator record
+				</phrase>
+				<phrase name='package_name' regularexpression=''>
+					Creators
+				</phrase>
+				<phrase name='publicview' regularexpression=''>
+					Public View
+				</phrase>
+				<phrase name='repositoryid' regularexpression=''>
+					Repository responsible for creator record
+				</phrase>
+				<phrase name='scriptid' regularexpression=''>
+					Script of creator record
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Public Phrase'>
+				<phrase name='creators_begintitle' regularexpression=''>
+					Creators Beginning with $1
+				</phrase>
+				<phrase name='creators_creatorsbeginningwith' regularexpression=''>
+					Creators Beginning with "$1"
+				</phrase>
+				<phrase name='creators_navbeginningwith' regularexpression=''>
+					Beginning with "$1"
+				</phrase>
+				<phrase name='creators_showbeginningwith' regularexpression=''>
+					Show Creators Beginning with
+				</phrase>
+				<phrase name='creators_title' regularexpression=''>
+					Browse by Creator
+				</phrase>
+				<phrase name='search_bioghist' regularexpression=''>
+					Biographical/Historical Note
+				</phrase>
+				<phrase name='search_creatordescriptions' regularexpression=''>
+					Creator Descriptions
+				</phrase>
+				<phrase name='search_matches' regularexpression=''>
+					Matches
+				</phrase>
+				<phrase name='search_searchforcreator' regularexpression=''>
+					Searching for Creator: $1
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='creators'>
+			<phrasetype name='Description'>
+				<phrase name='bioghist' regularexpression=''>
+					Use this field to provide information about the organization or individual associated with the creation, assembly, accumulation and/or maintenance of the archival materials (DACS Chapter 10).
+				</phrase>
+				<phrase name='bioghistauthor' regularexpression=''>
+					Use this field to record the name of the individual or individuals who created the biographical or historical note.
+				</phrase>
+				<phrase name='controlinformation' regularexpression=''>
+					Use "Control Information" utility to record the language and script of the creator record.
+				</phrase>
+				<phrase name='creator_description' regularexpression=''>
+					Use this field to record additional information about creator[s].
+				</phrase>
+				<phrase name='creator_relationship' regularexpression=''>
+					Use this field to select and associate creator's relationship.
+				</phrase>
+				<phrase name='creatornotes' regularexpression=''>
+					Use "Creator Notes" utility to record the biographical/historical notes and related information of the creator.
+				</phrase>
+				<phrase name='creators_list' regularexpression=''>
+					Use this field to select and associate a creator record.
+				</phrase>
+				<phrase name='creatorsourceid' regularexpression=''>
+					Use this drop-down list to chose the authority from which the name is drawn. 
+								Additional authorities can be defined through the Creator Sources Manager.
+				</phrase>
+				<phrase name='creatortypeid' regularexpression=''>
+					This drop-down box provides a general list of creator types (e.g. corporate, personal, family). Select the most appropriate type for the creator being added or updated.
+				</phrase>
+				<phrase name='dates' regularexpression=''>
+					Use this field to record the year a creator was born and, optionally, died.  Use a hypnen to separate the birth and death dates
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Use the 'Creator Manager' to establish authority records for the creators of archival materials managed by the repository.  Once an authorized entry has been established, it may be linked to a collections and/or digital objects by using the 'Creators' sections in the Collections and Digital Library Managers.  See DACS Parts II and III for full instructions on describing Creators and constructing forms of names.
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Enter a unique Control Identifier for the Creator Record.
+				</phrase>
+				<phrase name='lcnafcompliant' regularexpression=''>
+					Check 'yes' if the dates listed in the 'dates' field are the same as those listed in the Library of Congress Name Authority File.  Also check yes if  the format of the dates complies with the DACS and AACR2 rules for creating authority records, but an LC authority record does not exist for the creator listed in the names field.
+				</phrase>
+				<phrase name='lcnafdates' regularexpression=''>
+					If the dates listed in the 'dates' field are not the same as the LCNAF dates for the creator listed in the 'names' field, use this field to record the exist dates, EXACTLY as they are represented in tge associated LCNAF record.
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Use this field to record the authorized entry for the creator being described.  See the rules in DACS Chapters 11-14 for a fuller description of accepted name authority practices.
+				</phrase>
+				<phrase name='namefullerform' regularexpression=''>
+					Use this field to record a more complete form of the name for a creator, only if the fuller form of the name is not included in the main creator field (DACS Rule 12.18).
+				</phrase>
+				<phrase name='namevariants' regularexpression=''>
+					Use this field to record other forms of a creators name that might be sought by a user, but which were not chosen as the authorized form of the name (DACS Rule 11.10).
+				</phrase>
+				<phrase name='relatedcreator' regularexpression=''>
+					Use this field to record the name of a corporate body related to the corporate body listed in the 'name' field (See DACS Rules 14.12-14.14).
+				</phrase>
+				<phrase name='sources' regularexpression=''>
+					Use this field to record information regarding citations and sources for information used to compile the administrative or biographical history. (See DACS Rule 10.4 for more information.)
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='bioghist' regularexpression=''>
+					Biographical/Historical Note
+				</phrase>
+				<phrase name='bioghistauthor' regularexpression=''>
+					Biographical/Historical Note Author
+				</phrase>
+				<phrase name='creator_description' regularexpression=''>
+					Description
+				</phrase>
+				<phrase name='creator_relationship' regularexpression=''>
+					Relationship Type
+				</phrase>
+				<phrase name='creators_list' regularexpression=''>
+					Creators List
+				</phrase>
+				<phrase name='creatorsourceid' regularexpression=''>
+					Creator Source
+				</phrase>
+				<phrase name='creatortypeid' regularexpression=''>
+					Creator Type
+				</phrase>
+				<phrase name='dates' regularexpression=''>
+					Dates
+				</phrase>
+				<phrase name='exporteac' regularexpression=''>
+					Export EAC-CPF
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Creator Manager
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Control Identifier
+				</phrase>
+				<phrase name='lcnafcompliant' regularexpression=''>
+					LCNAF Compliant
+				</phrase>
+				<phrase name='lcnafdates' regularexpression=''>
+					LCNAF-Compliant Dates
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Creator Manager
+				</phrase>
+				<phrase name='name' regularexpression=''>
+					Name
+				</phrase>
+				<phrase name='namefullerform' regularexpression=''>
+					Fuller Form of Name
+				</phrase>
+				<phrase name='namevariants' regularexpression=''>
+					Name Variants
+				</phrase>
+				<phrase name='relatedcreator' regularexpression=''>
+					Related Creator
+				</phrase>
+				<phrase name='repositoryid' regularexpression=''>
+					Repository
+				</phrase>
+				<phrase name='sources' regularexpression=''>
+					Sources for Biography or History
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='creatorsources'>
+			<phrasetype name='Description'>
+				<phrase name='citation' regularexpression=''>
+					The information entered in this field will be encoded into the citation area of the EAC CPF.
+				</phrase>
+				<phrase name='creatorsource' regularexpression=''>
+					Use this field to enter the name of a source from which creators may be drawn, e.g. "Library of Congress Name Authority File".
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					The information entered in this field will be encoded into the description area of the EAC CPF.
+				</phrase>
+				<phrase name='sourceabbreviation' regularexpression=''>
+					Use this field to enter the abbreviation for the source name.  The value entered here will be used as the value of the 'source' attribute on the creator elements in the &lt;origination&gt; area of the EAD file being exported
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='citation' regularexpression=''>
+					Citation
+				</phrase>
+				<phrase name='creatorsource' regularexpression=''>
+					Creator Source
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Description
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Creator Sources Manager
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Creator Sources Manager
+				</phrase>
+				<phrase name='sourceabbreviation' regularexpression=''>
+					Source Abbreviation
+				</phrase>
+			</phrasetype>
+		</module>
+	</package>
+</language>

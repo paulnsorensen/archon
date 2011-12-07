@@ -1,0 +1,5 @@
+-- Rename the Index tables to adhere to naming standards
+EXEC sp_rename tblAccessions_CollectionIndex, tblAccessions_AccessionCollectionIndex;
+EXEC sp_rename tblAccessions_CreatorIndex, tblAccessions_AccessionCreatorIndex;
+EXEC sp_rename tblAccessions_LocationIndex, tblAccessions_AccessionLocationIndex;
+EXEC sp_rename tblAccessions_SubjectIndex, tblAccessions_AccessionSubjectIndex;

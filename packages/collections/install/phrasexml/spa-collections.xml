@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code='spa'>
+	<package aprcode='collections' version='3.21'>
+		<module script=''>
+			<phrasetype name='Noun'>
+				<phrase name='appointment' regularexpression=''>
+					Cita
+				</phrase>
+				<phrase name='appointmentmaterial' regularexpression=''>
+					Material para la cita
+				</phrase>
+				<phrase name='appointmentmaterials' regularexpression=''>
+					Materiales para la cita
+				</phrase>
+				<phrase name='appointmentpurpose' regularexpression=''>
+					Motivo de la cita
+				</phrase>
+				<phrase name='archivistmessage' regularexpression=''>
+					Mensaje del archivo
+				</phrase>
+				<phrase name='arrivaltime' regularexpression=''>
+					Hora de llegada
+				</phrase>
+				<phrase name='cart' regularexpression='Cart'>
+					Carro
+				</phrase>
+				<phrase name='cartitem' regularexpression=''>
+					Unidad documental del carro
+				</phrase>
+				<phrase name='classification' regularexpression='Classification'>
+					Clasificación
+				</phrase>
+				<phrase name='classificationandcollectionidentifier' regularexpression=''>
+					Identificador de Clasificación y de Colecciones
+				</phrase>
+				<phrase name='classifications' regularexpression='Classifications'>
+					Clasificaciones
+				</phrase>
+				<phrase name='collection' regularexpression='Collection'>
+					Colecciones
+				</phrase>
+				<phrase name='collectioncontent' regularexpression='CollectionContent'>
+					Contenido de las Colecciones
+				</phrase>
+				<phrase name='collectioncontentid' regularexpression='CollectionContentID'>
+					Identificación del Contenido de las Colecciones
+				</phrase>
+				<phrase name='collectioncontentidandcollectionid' regularexpression=''>
+					Identificación del Contenido de las Colecciones e Identificación de la Colección
+				</phrase>
+				<phrase name='collectionlist' regularexpression=''>
+					Lista de Colecciones
+				</phrase>
+				<phrase name='collections' regularexpression='Collections'>
+					Colecciones
+				</phrase>
+				<phrase name='confirmationemail' regularexpression=''>
+					e-mail de confirmación
+				</phrase>
+				<phrase name='container' regularexpression='Container'>
+					Recipiente
+				</phrase>
+				<phrase name='containercount' regularexpression='ContainerCount'>
+					Recipientes Incluidos
+				</phrase>
+				<phrase name='containertypeandnumberandparentandcollection' regularexpression=''>
+					Tipo de Recipiente, Número, Ascendiente y Colección
+				</phrase>
+				<phrase name='ControlCard' regularexpression=''>
+					Tarjeta de Control
+				</phrase>
+				<phrase name='departuretime' regularexpression=''>
+					Hora de salida
+				</phrase>
+				<phrase name='descriptiverules' regularexpression='DescriptiveRules'>
+					Reglas de Descripción
+				</phrase>
+				<phrase name='eadelement' regularexpression='EADElement'>
+					Elemento EAD
+				</phrase>
+				<phrase name='eadtype' regularexpression=''>
+					Tipo EAD
+				</phrase>
+				<phrase name='email' regularexpression='Email'>
+					E-mail
+				</phrase>
+				<phrase name='emails' regularexpression=''>
+					e-mails
+				</phrase>
+				<phrase name='extentunit' regularexpression=''>
+					Medida de la Unidad
+				</phrase>
+				<phrase name='extentunits' regularexpression='ExtentUnits'>
+					Medida de las Unidades
+				</phrase>
+				<phrase name='findingaid' regularexpression=''>
+					Instrumento de Descripción
+				</phrase>
+				<phrase name='firstname' regularexpression='FirstName'>
+					Nombre
+				</phrase>
+				<phrase name='fromaddress' regularexpression=''>
+					Dirección
+				</phrase>
+				<phrase name='identifier' regularexpression=''>
+					Identificador
+				</phrase>
+				<phrase name='lastname' regularexpression='LastName'>
+					Apellidos
+				</phrase>
+				<phrase name='levelcontainer' regularexpression='LevelContainer'>
+					Nivel/Recipiente
+				</phrase>
+				<phrase name='location' regularexpression='Location'>
+					Ubicación
+				</phrase>
+				<phrase name='locationentries' regularexpression='LocationEntries'>
+					Entradas de Ubicación
+				</phrase>
+				<phrase name='locationentry' regularexpression='LocationEntry'>
+					Entrada de Ubicación
+				</phrase>
+				<phrase name='mailfunction' regularexpression='MailFunction'>
+					mail()
+				</phrase>
+				<phrase name='material' regularexpression=''>
+					Material
+				</phrase>
+				<phrase name='materials' regularexpression=''>
+					Materiales
+				</phrase>
+				<phrase name='materialtype' regularexpression='MaterialType'>
+					Tipo de Material
+				</phrase>
+				<phrase name='message' regularexpression=''>
+					Mensaje
+				</phrase>
+				<phrase name='nextcontainernumber' regularexpression='NextContainerNumber'>
+					Número del Recipiente Siguiente
+				</phrase>
+				<phrase name='nextlevelcontainernumber' regularexpression=''>
+					Siguiente Nivel - Número del Recipiente
+				</phrase>
+				<phrase name='number' regularexpression='Number'>
+					Número
+				</phrase>
+				<phrase name='parentandidentifierortitle' regularexpression=''>
+					Entidad e Identificador o Título
+				</phrase>
+				<phrase name='relatedcreators' regularexpression='RelatedCreators'>
+					Productores Relacionados
+				</phrase>
+				<phrase name='repository' regularexpression='Repository'>
+					Archivo
+				</phrase>
+				<phrase name='repositorycode' regularexpression='RepositoryCode'>
+					Código del Archivo
+				</phrase>
+				<phrase name='researcher' regularexpression='Researcher'>
+					Investigador
+				</phrase>
+				<phrase name='researcherandarrivaltime' regularexpression=''>
+					Investigador y hora de llegada
+				</phrase>
+				<phrase name='researchermessage' regularexpression=''>
+					Mensaj de investigador
+				</phrase>
+				<phrase name='researchertype' regularexpression='ResearcherType'>
+					Tipo de investigador
+				</phrase>
+				<phrase name='rootcontent' regularexpression='RootContent'>
+					Contenido Raiz
+				</phrase>
+				<phrase name='rootcontentid' regularexpression=''>
+					ID del Contenido de la Raiz
+				</phrase>
+				<phrase name='shiftamount' regularexpression=''>
+					CambioCantidad
+				</phrase>
+				<phrase name='sorttitle' regularexpression='SortTitle'>
+					Organizar por Título
+				</phrase>
+				<phrase name='title' regularexpression='Title'>
+					Título
+				</phrase>
+				<phrase name='titleandsorttitleandrepository' regularexpression=''>
+					Título, Organizar por Ttulo y Archivo
+				</phrase>
+				<phrase name='titleandvalue' regularexpression=''>
+					Título y Valor
+				</phrase>
+				<phrase name='userdefinedfield' regularexpression='UserDefinedField'>
+					Campo definido por el usuario
+				</phrase>
+				<phrase name='userfield' regularexpression=''>
+					Campo del usuario
+				</phrase>
+				<phrase name='userfields' regularexpression='UserFields'>
+					Campos del usuario
+				</phrase>
+				<phrase name='zipcode' regularexpression='ZIPCode'>
+					Código Postal
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Message'>
+				<phrase name='accountactivated' regularexpression='Researcher account activated\. If you would like to make an appointment, please log in\.'>
+					Cuenta de investigador activada. Si quiere hacer una cita, por favor autentifíquese en el sistema.
+				</phrase>
+				<phrase name='activationemailsent' regularexpression='Thank you for registering! An E-mail has been sent to ([\w@.]+) with information about how to confirm your account\.'>
+					Gracias por su registro! Un e-mail ha sido enviado a $1 con información sobre como confirmar su cuenta.
+				</phrase>
+				<phrase name='appointmentemailsent' regularexpression='Thank you! An e-mail has been sent with the details of your appointment\.'>
+					Gracias!. Un e-mail ha sido enviado a su cuenta con los detalles de su cita.
+				</phrase>
+				<phrase name='error_activate' regularexpression='Could not activiate ([\w]+)'>
+					No ha sido posible activar $1
+				</phrase>
+				<phrase name='error_activationfailed' regularexpression='Researcher account activation failed\.'>
+					Ha fallado la activación de la cuenta de investigador.
+				</phrase>
+				<phrase name='error_checkcontent' regularexpression='Could not check Content'>
+					El contenido no pudo ser verificado
+				</phrase>
+				<phrase name='error_deactivate' regularexpression='Could not deactivate ([\w]+)'>
+					No ha sido possible desactivar $1
+				</phrase>
+				<phrase name='error_emptycart' regularexpression='Cart can not be empty\.'>
+					El carro no puede estar vacio.
+				</phrase>
+				<phrase name='error_noempty' regularexpression='Could not empty ([\w]+)'>
+					No se puede vaciar  $1
+				</phrase>
+				<phrase name='error_noretrieve' regularexpression='Could not retrieve ([\w]+)'>
+					No se puede recuperar  $1
+				</phrase>
+				<phrase name='error_noreturn' regularexpression='Could not return ([\w]+)'>
+					No se puede retornar $1
+				</phrase>
+				<phrase name='error_reason_alreadyretrieved' regularexpression='([\w]+) have already been retrieved\.'>
+					$1 ya ha sido recuperado.
+				</phrase>
+				<phrase name='error_reason_alreadyreturned' regularexpression='([\w]+) have already been returned\.'>
+					$1 ya ha sido retornado.
+				</phrase>
+				<phrase name='error_reason_beforearrivaltime' regularexpression='([\w]+) cannot be before the arrival time\.'>
+					$1 no puede ser antes de la hora de llegada.
+				</phrase>
+				<phrase name='error_reason_beforecurrenttime' regularexpression='([\w]+) cannot be before the current time\.'>
+					$1 no puede ser antes del tiempo presente.
+				</phrase>
+				<phrase name='error_reason_emailnomatch' regularexpression='E-mail addresses do not match\.'>
+					La dirección de e-mail no corresponde.
+				</phrase>
+				<phrase name='error_reason_functionreport' regularexpression='([\w]+(\(\))?) reported an error\.'>
+					$1 ha reportado un error.
+				</phrase>
+				<phrase name='error_reason_loginforappointment' regularexpression='You must be logged in to make an appointment\.'>
+					Debe estar conectado al sistema para concertar una cita.
+				</phrase>
+				<phrase name='error_reason_notresearcher' regularexpression='Current user is not a researcher\.'>
+					El usuario actual no es un investigador.
+				</phrase>
+				<phrase name='error_reason_onlyresearchersmakeappointments' regularexpression='Only researchers may make an appointment\.'>
+					Solo los investigadores pueden concertar una cita.
+				</phrase>
+				<phrase name='error_reason_slashinidentifier' regularexpression='The CollectionIdentifier may not contain the character &#039;\/&#039;\.'>
+					El Identificador de la Coleccion no puede incluir el caracter '/'.
+				</phrase>
+				<phrase name='error_renumber' regularexpression='Could not renumber'>
+					No se pudo cambiar el número
+				</phrase>
+				<phrase name='error_send' regularexpression='Could not send ([\w]+)( [\w]+)?'>
+					No es possible enviar $1 $2
+				</phrase>
+				<phrase name='itemaddedtocart' regularexpression='Item added to research cart\.'>
+					Unidad documental añadida al carro de investigador.
+				</phrase>
+				<phrase name='itemdeletedfromcart' regularexpression='Item deleted from research cart\.'>
+					Unidad documental eliminada del carro de investigador.
+				</phrase>
+				<phrase name='profileupdated' regularexpression='Profile updated successfully\.'>
+					Perfil actualizado con éxito.
+				</phrase>
+				<phrase name='thankyouforregistering' regularexpression='Thank you for registering!'>
+					Gracias por registrarse!
+				</phrase>
+				<phrase name='youremailsent' regularexpression='Thank you! Your e-mail has been sent\.'>
+					Gracias! Su e-mail ha sido enviado.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Description'>
+				<phrase name='configuration_classificationidentifierminimumlength' regularexpression=''>
+					Si esta definido, los identificadores de clasificación numéricos tendran ceros agregados para asegurarse que el número tenge la mínima cantidad de caracteres.
+				</phrase>
+				<phrase name='configuration_collectionidentifierminimumlength' regularexpression=''>
+					Si se define, se agregarn ceros al identificadior de la coleccin para asegurarse de que el número aparezca por lo menos con la misma cantidad de caracteres.
+				</phrase>
+				<phrase name='configuration_defaultrepository' regularexpression=''>
+					Este valor determina el archivo predeterminado. Esto afecta principalmente la salida de datos en el estilo predeterminado.
+				</phrase>
+				<phrase name='configuration_enableuserdefinedfields' regularexpression=''>
+					Permite el uso de campos definidos por el usuario en el Mdulo de Colecciones a nivel de contentido.
+				</phrase>
+				<phrase name='configuration_searchboxlists' regularexpression=''>
+					Al seleccionar 'Si" el tema predeterminado de la interfaz pública hara búsquedas a traves de todo el contenido. Los otros temas también pueden tomar provecho de esta opción.
+				</phrase>
+				<phrase name='configuration_searchbyclassification' regularexpression=''>
+					Si esta opcin está activada, los resultados de la bsqueda estarán ordenados por clasificación. Por lo tanto, cualquier colección que no esté asociada a la clasificación no podrá ser includía.
+				</phrase>
+				<phrase name='import_collection_csv' regularexpression=''>
+					La secuencia de comandos  Colección CSV toma informacion de un archivo csv (comma-separated values) y lo importa a Archon. Favor referirse a la documentación de Archon para mayor información.
+				</phrase>
+				<phrase name='import_collectioncontent_csv' regularexpression=''>
+					La secuencia de comandos Contenido de la Colección CSV toma informacion de un archivo csv (comma-separated values) y lo importa a Archon. Favor referirse a la documentación de Archon para mayor información.
+				</phrase>
+				<phrase name='import_ead' regularexpression=''>
+					La secuencia de comandos de importación en EAD XML toma instrumentos de descripción en formatos EAD y los importa a Archon.
+				</phrase>
+				<phrase name='import_marc' regularexpression=''>
+					La secuencia de comandos de importación para registro MARC toma registros MARC y los importa a la tabla de colecciónes.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='import_collection_csv' regularexpression=''>
+					Collección CSV
+				</phrase>
+				<phrase name='import_collectioncontent_csv' regularexpression=''>
+					Contenido de la Colección CSV
+				</phrase>
+				<phrase name='import_ead' regularexpression=''>
+					EAD XML
+				</phrase>
+				<phrase name='import_marc' regularexpression=''>
+					Registro MARC
+				</phrase>
+				<phrase name='locationentries_location' regularexpression=''>
+					Ubicación
+				</phrase>
+				<phrase name='locationentries_rangevalue' regularexpression=''>
+					Columna
+				</phrase>
+				<phrase name='locationentries_section' regularexpression=''>
+					Sección
+				</phrase>
+				<phrase name='locationentries_shelf' regularexpression=''>
+					Repisa
+				</phrase>
+				<phrase name='locations' regularexpression='Locations'>
+					Unicaciones
+				</phrase>
+				<phrase name='package_name' regularexpression=''>
+					Colecciones
+				</phrase>
+				<phrase name='widget_appointments_locations' regularexpression=''>
+					Localización de la colección
+				</phrase>
+				<phrase name='widget_appointments_nolocations' regularexpression=''>
+					No se encuentran entradas de ubicación para la colección.
+				</phrase>
+				<phrase name='widget_appointments_retrieve' regularexpression=''>
+					Recuperar
+				</phrase>
+				<phrase name='widget_appointments_return' regularexpression=''>
+					Retornar
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Public Phrase'>
+				<phrase name='classifications_browserecordgroups' regularexpression=''>
+					Buscar Grupos de Documents
+				</phrase>
+				<phrase name='classifications_goback' regularexpression=''>
+					Ir Atrás
+				</phrase>
+				<phrase name='classifications_nomaterials' regularexpression=''>
+					No hay materiales clasificados bajo $1
+				</phrase>
+				<phrase name='classifications_recordsfiledunder' regularexpression=''>
+					Documentos guardados bajo "$1"
+				</phrase>
+				<phrase name='classifications_recordsrelatingtitle' regularexpression=''>
+					Documentos Relacionados a $1
+				</phrase>
+				<phrase name='classifications_subgroupsunder' regularexpression=''>
+					Sub-grupos bajo $1
+				</phrase>
+				<phrase name='classifications_title' regularexpression=''>
+					Buscar por Grupos de Documentos
+				</phrase>
+				<phrase name='collections_beginningwith' regularexpression=''>
+					Comenzando por "$1"
+				</phrase>
+				<phrase name='collections_browseholdingsbeginning' regularexpression=''>
+					Buscar Contenido Comenzando Por
+				</phrase>
+				<phrase name='collections_holdingsbeginningtitle' regularexpression=''>
+					Contenido que comienza por $1
+				</phrase>
+				<phrase name='collections_holdingsbeginningwithlist' regularexpression=''>
+					Contenido que comienza por "$1"
+				</phrase>
+				<phrase name='collections_title' regularexpression=''>
+					buscar por Título de Colección
+				</phrase>
+				<phrase name='findingaid_findingaid' regularexpression=''>
+					Isntrumento de Descripción
+				</phrase>
+				<phrase name='marc_marcrecord' regularexpression=''>
+					Registro MARC
+				</phrase>
+				<phrase name='marc_rawmarc' regularexpression=''>
+					Producción MARC no refinada
+				</phrase>
+				<phrase name='marc_recordforcollection' regularexpression=''>
+					Registro MARC para Colección: $1
+				</phrase>
+				<phrase name='marc_title' regularexpression=''>
+					$1: Registro MARC
+				</phrase>
+				<phrase name='research_carttitle' regularexpression=''>
+					Mi Carrito de Investigación
+				</phrase>
+				<phrase name='research_email_cartappend' regularexpression=''>
+					Su carrito contiene los siguientes materiales. Ésta lista será agregada a su mensaje de correo electrónico.
+				</phrase>
+				<phrase name='research_email_ext' regularexpression=''>
+					Extensión
+				</phrase>
+				<phrase name='research_email_fromaddress' regularexpression=''>
+					Su Email
+				</phrase>
+				<phrase name='research_email_fromname' regularexpression=''>
+					Su Nombre
+				</phrase>
+				<phrase name='research_email_fromphone' regularexpression=''>
+					Su Teléfono
+				</phrase>
+				<phrase name='research_email_marked' regularexpression=''>
+					Los espacios con astersco (&lt;span style="color:red;"&gt;*&lt;/span&gt;) son obligatorios.
+				</phrase>
+				<phrase name='research_email_message' regularexpression=''>
+					Su Mensaje
+				</phrase>
+				<phrase name='research_email_sendemail' regularexpression=''>
+					Enviar Email
+				</phrase>
+				<phrase name='research_email_subject' regularexpression=''>
+					Asunto
+				</phrase>
+				<phrase name='research_email_title' regularexpression=''>
+					Enviar Email
+				</phrase>
+				<phrase name='research_verify_nav' regularexpression=''>
+					Mi Carrito de solicitudes de investigación
+				</phrase>
+				<phrase name='research_verify_title' regularexpression=''>
+					Verificar Cita para Investigación
+				</phrase>
+				<phrase name='researcher_accounttitle' regularexpression=''>
+					Editar Mi Cuenta
+				</phrase>
+				<phrase name='researcher_address' regularexpression=''>
+					Dirección
+				</phrase>
+				<phrase name='researcher_city' regularexpression=''>
+					Ciudad
+				</phrase>
+				<phrase name='researcher_confirmemail' regularexpression=''>
+					Confirmar E-mail
+				</phrase>
+				<phrase name='researcher_confirmpassword' regularexpression=''>
+					Confirmar Contraseña
+				</phrase>
+				<phrase name='researcher_email' regularexpression=''>
+					E-mail
+				</phrase>
+				<phrase name='researcher_firstname' regularexpression=''>
+					Nombre
+				</phrase>
+				<phrase name='researcher_lastname' regularexpression=''>
+					Apellido
+				</phrase>
+				<phrase name='researcher_marked' regularexpression=''>
+					Los espacios con astersco (&lt;span style="color:red"&gt;*&lt;/span&gt;) son obligatorios.
+				</phrase>
+				<phrase name='researcher_password' regularexpression=''>
+					Contraseña
+				</phrase>
+				<phrase name='researcher_phone' regularexpression=''>
+					Teléfono
+				</phrase>
+				<phrase name='researcher_phoneext' regularexpression=''>
+					Extension
+				</phrase>
+				<phrase name='researcher_privacynote' regularexpression=''>
+					Privacy Note
+				</phrase>
+				<phrase name='researcher_registertitle' regularexpression=''>
+					Register a Researcher Account
+				</phrase>
+				<phrase name='researcher_researchertypeid' regularexpression=''>
+					Por favor identifíquese
+				</phrase>
+				<phrase name='researcher_selectone' regularexpression=''>
+					(Seleccione Uno)
+				</phrase>
+				<phrase name='researcher_state' regularexpression=''>
+					Estado
+				</phrase>
+				<phrase name='researcher_submit' regularexpression=''>
+					Enviar
+				</phrase>
+				<phrase name='researcher_thankyou' regularexpression=''>
+					Gracias por registrarse!
+				</phrase>
+				<phrase name='researcher_zipcode' regularexpression=''>
+					Código Postal
+				</phrase>
+				<phrase name='researcher_zipplusfour' regularexpression=''>
+					+4
+				</phrase>
+				<phrase name='search_bookcollection' regularexpression=''>
+					Colección de Libros
+				</phrase>
+				<phrase name='search_classrecordsandmans' regularexpression=''>
+					Archivos y Manuscritos
+				</phrase>
+				<phrase name='search_inboxlist' regularexpression=''>
+					Resultados Encontrados Dentro de la Lista de Cajas
+				</phrase>
+				<phrase name='search_items' regularexpression=''>
+					Series, Cajas, Carpets or Documentos
+				</phrase>
+				<phrase name='search_matches' regularexpression=''>
+					Corresponde
+				</phrase>
+				<phrase name='search_noclassification' regularexpression=''>
+					No Hay Clasificación
+				</phrase>
+				<phrase name='search_plainrecordsandmans' regularexpression=''>
+					Archivos y Manuscritos
+				</phrase>
+				<phrase name='search_searchingfindingaid' regularexpression=''>
+					Buscando $1 dentro del instrumento de descripción
+				</phrase>
+				<phrase name='search_searchingforcontent' regularexpression=''>
+					Buscando $1
+				</phrase>
+				<phrase name='search_searchingforlocation' regularexpression=''>
+					Buscando $1
+				</phrase>
+				<phrase name='tostring_addto' regularexpression=''>
+					Agregar al Carrito
+				</phrase>
+				<phrase name='tostring_remove' regularexpression=''>
+					Remover del Carrito
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='collections'>
+			<phrasetype name='Description'>
+				<phrase name='acquisition' regularexpression=''>
+					Abra esta sección para registrar información acerca de las fechas, forma y fuente de adquisición e historial de custoria.
+				</phrase>
+				<phrase name='acquisition_accrualinfo' regularexpression=''>
+					Utilice este espacio para registrar información acerca de adiciones que anticipe a la colección, o información acerca de adiciones que ya esten bajo custodia del archivo (ver DACS regla 5.4 para mayor informacion acerca del uso de este elemento).
+				</phrase>
+				<phrase name='acquisition_acquisitiondate' regularexpression=''>
+					Utilice este espacio para registrar, en formato mm/dd/aa, la fecha en la cual los materiales de la colección fueron adquiridos por primera vez. Esta información será inscrita en los campos MARC y EAD para la información de adquisicón de la siguiente manera: "Los materiales fueron adquiridos por [nombre del archivo] el [fecha]".
+				</phrase>
+				<phrase name='acquisition_acquisitionmethod' regularexpression=''>
+					Utilice este campo para identificar la fuente de adquisición de los materiales que están siendo descritos, asi como la fecha, el método de qdquisición y otra información relevante si ésta no esta incluida en algún otro campo de adquisición en Archon. (ver regla DACS 5.2 para mayor información).
+				</phrase>
+				<phrase name='acquisition_acquisitionsource' regularexpression=''>
+					Utilice este campo para ingresar la fuente de adquisición directa de los materiales que están siendo descritos (DACS regla 5.2).
+				</phrase>
+				<phrase name='acquisition_appraisalinfo' regularexpression=''>
+					Utilice este campo para ingresar información acerca de los argumentos de valoración, destrucción, y fechas de disposición que sean importantes para entender y utilizar los materiales que estan siendo descritos (ver DACS regla 6.3 para mayor información).
+				</phrase>
+				<phrase name='acquisition_custodialhistory' regularexpression=''>
+					Utilice este campo para proveer información acerca de cambios de custodia o propiedad del material que esta siendo descrito, desde el momento en el que dejó de estar bajo la custodia del productor hasta cuando fue adquirido por el archivo, que sea importante para entender la autenticidad, ingegridad e interpretación (ver regal DACS 5.1 para mayor información).
+				</phrase>
+				<phrase name='books' regularexpression=''>
+					Abra esta sección para enlazar libros a los registros de colección.
+				</phrase>
+				<phrase name='classificationid' regularexpression=''>
+					Utilice este menú desplegable para seleccionar una "clasificación" en el cual usted puede ordenar los materials por procedencia, función o materia. Cuando se selecciona una clasificación, aparecerá una lista de las subclasificaciones asociadas, de manera que las colecciones pueden ser ordenados en subgrupos más adelante.
+				</phrase>
+				<phrase name='collectionidentifier' regularexpression=''>
+					Utilice este campo para ingresar un identificador único asignado a la colección. (Si el módulo de clasificación está siendo utilizado por su repositorio, la información registrada aquí se utilizará en relación con las identificaciones de clasificación  seleccionados anteriormente para construit ub identificador único.)
+				</phrase>
+				<phrase name='creators' regularexpression=''>
+					Abra esta sección para conectar los registros de autoridad a la colección.
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Utilice esta seccion para ingresar información descriptiva como ámbito y contenido u organización de la colección.
+				</phrase>
+				<phrase name='description_altextentstatement' regularexpression=''>
+					Utilice este campo para ingresar una sección alterna o expandida acerca de la medida y características físicas de los materiales que esten siendo descritos (ver regla DACS 2.5 para mayor información).
+				</phrase>
+				<phrase name='description_arrangement' regularexpression=''>
+					Utilice este campo para agregar una anotación breve para explicar el orden de los materiales o para identificar las adiciones de material, su relacion al material existente, o la secuencia de documentos entre éstos (ver DACS regla 3.2 para mayor información).
+				</phrase>
+				<phrase name='description_bioghist' regularexpression=''>
+					Utilice este campo para proporcionar información sobre la organización o persona asociada con la creación acumulación y / o mantenimiento de los materiales de la colección.
+				</phrase>
+				<phrase name='description_bioghistauthor' regularexpression=''>
+					Utilica este campo para ingresar el nobre del autor de la Nota Biográfica/Histórica.
+				</phrase>
+				<phrase name='description_scope' regularexpression=''>
+					Utilice este campo para proveer la nota de alcance (información acerca del tipo de materiales y actividades que éstos reflejan) para que los usuarios puedan determinar su contenido (ver regla DACS 3.1 para mayor información).
+				</phrase>
+				<phrase name='enabled' regularexpression=''>
+					Cambiar este botón de radio a 'no' suprime la vista pública del resúmen de la colección y del instrumento de descripción.
+				</phrase>
+				<phrase name='extent' regularexpression=''>
+					Utilice este campo para registrar las unidades de medida que representa con mayor precisión el alcance general de la colección. Información adicional sobre la extensión de la colección puede ser proporcionada en el campo Declaración de Extensión Alterno en la descripción de la colección. (Ver DACS 2.5 para myor información).
+				</phrase>
+				<phrase name='findingaid' regularexpression=''>
+					Utilice esta sección para ingresar información acerca del mismo registro descriptivo, el trabajo de organización de la coleccin o el autor del instrumento de descripción.
+				</phrase>
+				<phrase name='findingaid_descriptiverulesid' regularexpression=''>
+					Utilice este menu para seleccionar el conjunto de normas de descripción que está usando para describir la colección (por ejemplo DACS, o APPM).
+				</phrase>
+				<phrase name='findingaid_findinglanguageid' regularexpression=''>
+					Utilice este menu para seleccionar el idioma utilizado en la descripción de la colección.
+				</phrase>
+				<phrase name='findingaid_processinginfo' regularexpression=''>
+					Utilice este campo para ingresar información acerca del proeso de organización de la colección que pueda ser utilizado por los usuarios para entender o tener acceso a los materiales (por ejemplo, información acerca de tácticas de muestreo, selección, o cambio de formato del material original).
+				</phrase>
+				<phrase name='findingaid_publicationdate' regularexpression=''>
+					Utilice este espacio para ingresar el año en el cual se escribió la descripción de la colección.
+				</phrase>
+				<phrase name='findingaid_publicationnote' regularexpression=''>
+					Utilice este campo para ingresar cualquier información acerca de la publicación del instrumento de descripción.
+				</phrase>
+				<phrase name='findingaid_revisionhistory' regularexpression=''>
+					Utilice este campo para ingresar información pertinente a editciones del instrumento deo descripción o registro descriptivo.
+				</phrase>
+				<phrase name='findingaidauthor' regularexpression=''>
+					Utilice este campo para registrar el nombre o nombres de las personas responsables de la elaboración de este registro de descripción.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Para encontrar un registro de colección existente, escriba el título de la colección o de identificación en el cuadro 'Filtro'. Luego haga click en el título.
+					
+					Si su institución utiliza el módulo de clasificación para agrupar colecciones en grupos de registro, separe los componentes de la identificación con barras diagonales, por ejemplo, '12 / 2 / 24 'para el grupo de registro de '12', subgrupo '12 ', serie de registros '24'.
+					
+					
+					Para añadir una nueva colección, haga click en 'Nuevo'.
+				</phrase>
+				<phrase name='inclusivedates' regularexpression=''>
+					Utilice este campo para registrar la(s) fecha(s) de creación o  acumulación de los materiales que está describiendo. Si es necesario, utilice una sola fecha, intervalo de fechas o lista separada por comas de las fechas . (Véase la DACS Regla 2.4 para más información.)
+				</phrase>
+				<phrase name='languages' regularexpression=''>
+					Utilice esta sección si quiere definir el idioma o idiomas de los materiales de la colección.
+				</phrase>
+				<phrase name='locations' regularexpression=''>
+					Utilice esta area para registrar la ubicación permanente de las cajas o otros recipientes.
+				</phrase>
+				<phrase name='locations_content' regularexpression=''>
+					Utilice este espacio para registrar el número de recipientes que se encuentran ubicados en el lugar especificado.
+				</phrase>
+				<phrase name='locations_extent' regularexpression=''>
+					Utilice estos campos para ingresar información acerca de la medida de las cajas u otros recipientes ubicados en el lugar especificado.
+				</phrase>
+				<phrase name='locations_locationid' regularexpression=''>
+					Utilice este menu para seleccionar la ubicación principal (sala o edificio) en donde los materiales seleccionados están almacenados. Se pueden agregar ubicaciones adicionales en el "Módulo de Ubicaciones".
+				</phrase>
+				<phrase name='locations_rangevalue' regularexpression=''>
+					Utilice este espacio para registrar el número (u otro identificador) de la columna en donde permanecen los materiales.
+				</phrase>
+				<phrase name='locations_section' regularexpression=''>
+					Utilice este espacio par aingresar la repisa en donde permanecen los materiales.
+				</phrase>
+				<phrase name='locations_shelf' regularexpression=''>
+					Utilice este campo para ingresar la seccin de la repisa en donde permanecen los materiales.
+				</phrase>
+				<phrase name='materialtypeid' regularexpression=''>
+					Utilice este campo para registrar el tipo de base "de los materiales que se describen (por ejemplo, los registros oficiales, documentos personales, o publicaciones). Tipos adicionales se pueden agregar mediante la edición de tblCol_MaterialTypes la mesa 'en la base de datos en el servidor de base de datos donde está instalado Archon. )  Use this field to record the basic 'type' of materials being described (e.g. official records, personal papers, or publications).  Additional types can be added by editing the table 'tblCol_MaterialTypes' in the database on the database server where Archon is installed.)
+				</phrase>
+				<phrase name='normaldates' regularexpression=''>
+					Utilice este campo para ingresar el primer y último año cubierto por los materiales de la colección. Normalmente, este campo se completa automáticamente cuando usted introduce las fechas inclusives. La información en este campo es necesario para la producción de registros MARC.
+				</phrase>
+				<phrase name='other' regularexpression=''>
+					Open this section to record descriptive information relating to the collection that cannot be accommodated in other fields.
+				</phrase>
+				<phrase name='other_othernote' regularexpression=''>
+					Utilice este campo para registrar información que no pueda ser asignada a otro de los elementos descriptivos que han sido definidos anteriormente (ver regla DACS 7.1 para mayor información).
+				</phrase>
+				<phrase name='other_otherurl' regularexpression=''>
+					Utilice este campo para registrar un vínculo de Internet a la colección. El uso de este espacio se define en cada archivo. El URL debe seguir un formato estandard.
+				</phrase>
+				<phrase name='predominantdates' regularexpression=''>
+					Utilice este campo para indicar las fechas correspondientes a la mayoría de los documentos de la colección que se está describiendo, si estas difieren significativamente de las fechas inclusives. En otras palabras, este campo se utiliza para proporcionar las fechas predominantes.  (No hay necesidad de registrar la palabra "predominante"  ya que se añadirá automáticamente a la descripción.)
+				</phrase>
+				<phrase name='primary_creator' regularexpression=''>
+					Utilice este campo para seleccionar un registro de productor como creador principal de la(s) colección (es).
+				</phrase>
+				<phrase name='related' regularexpression=''>
+					Utilice esta sección para registrar información acerca de materiales relacionados a la colección o que fueron retirados pemanentemente.
+				</phrase>
+				<phrase name='related_origcopiesnote' regularexpression=''>
+					Utilice este espacio para ingresar información que describa la existencia, ubicación y disponibilidad de copias u originales de los materiales que están siendo descritos (ver regla DACS 6.1 y 6.2).
+				</phrase>
+				<phrase name='related_origcopiesurl' regularexpression=''>
+					Utilice este campo para ingresar un vínculo de Internet a copies del material que esta siendo descrito. El URL debe seguir un formato estandard.
+				</phrase>
+				<phrase name='related_preferredcitation' regularexpression=''>
+					Utilice este campo para ingresar la forma preferida para citar los materiales de la colección si éstos son utilizados en una publicación o trabajo de investigación.
+				</phrase>
+				<phrase name='related_relatedmaterials' regularexpression=''>
+					Utilice este campio para ingresar información acerca de la existencia y ubicación de material archivístico que este relacionado a la coleccin que esta describiendo, ya sea en la misma institución o en otro archivo (ver regla DACS 6.3 para mayor información).
+				</phrase>
+				<phrase name='related_relatedmaterialsurl' regularexpression=''>
+					Utilice este campo para ingresar la dirección de Internet o URL que haga referencia a materiales relacionados a la colección que está describiento. El URL debe seguir un formato estandard.
+				</phrase>
+				<phrase name='related_relatedpublications' regularexpression=''>
+					Utilice este campo para identificar cualquier publicación que se base, utilice, estudie o analice los materiales de la colección que este describiento (ver regla DACS 6.3 para mayor información).
+				</phrase>
+				<phrase name='related_separatedmaterials' regularexpression=''>
+					Utilice este campo para registrar información acerca del materiales que estan asociados por orígen a los materiales que hayan sido separados de la colección, sin importar las razones que justifiquen esta separación.
+				</phrase>
+				<phrase name='repositoryid' regularexpression=''>
+					Utilice esta lista desplegable para seleccionar el repositorio responsible del manejo de la colección que está agregando o actualizando.
+				</phrase>
+				<phrase name='restrictions' regularexpression=''>
+					Utilice esta sección para registrar información acerca del acceso, uso u otras restricciones de la colección.
+				</phrase>
+				<phrase name='restrictions_accessrestrictions' regularexpression=''>
+					Utilice este campo para registrar información acerca de restricciones de acceso a la colección, por ejemplo aquellas restricciones impuestas por los donantes, el archivo, o la normatividad estatal (ver reglas DACS 4.1 para mayor información).
+				</phrase>
+				<phrase name='restrictions_physicalaccess' regularexpression=''>
+					Utilice este campo para proveer información acerca de restricciones de acceso debido a  ciertas características físicas como el uso de bóvedas a distancia que puedan limnitar el acceso a los materiales (ver regla DACS 4.2 para mayor información).
+				</phrase>
+				<phrase name='restrictions_technicalaccess' regularexpression=''>
+					Utilice este campo para proveer información acerca de restricciones de acceso debido al tipo de requerimientos tecnológicos, como el uso un equipo de sonido o software, que puedan limnitar el acceso a los materiales (ver regla DACS 4.4 para mayor información).
+				</phrase>
+				<phrase name='restrictions_userestrictions' regularexpression=''>
+					Utilice este campo para proveer información acerca de restricciones de acceso afectadas por los derechos de autor u otras razones que puedan limnitar el acceso a los materiales (ver regla DACS 4. para mayor información).
+				</phrase>
+				<phrase name='sorttitle' regularexpression=''>
+					Utilice este campo para registrar un título que se utiliza para fines de clasificación cuando se muestran resultados a los usuarios. Esta función es útil para los títulos de colecciones que comienzan con "La", o "El".
+				</phrase>
+				<phrase name='subjects' regularexpression=''>
+					Utilice esta sección para conectar un registro de autoridad a la colección.
+				</phrase>
+				<phrase name='templateset' regularexpression=''>
+					Esta menú contiene plantillas que determinan el diseño de la página de información de colecciones en la interfaz pública. Si la plantilla predeterminada no proporciona un diseño aceptable, seleccione otra plantilla. (Puede diseñar plantillas adicionales  y agregarlas a la carpeta de plantillas en el servidor web donde está instalado Archon).
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Utilice este campo para registrar una palabra o frase por la que el material que se describe se conoce o se puede identificar. Un título puede ser formal o suministrado. No incluya las fechas. Este es un campo obligatorio, y corresponde a los campos 100 o 110 en MARC. (Ver DACS 2.3 para más información acerca de asignar títulos.)
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='acquisition' regularexpression=''>
+					Información de la Adquisición
+				</phrase>
+				<phrase name='acquisition_accrualinfo' regularexpression=''>
+					Adiciones/Agregados
+				</phrase>
+				<phrase name='acquisition_acquisitiondate' regularexpression=''>
+					Fecha Inicial de Adquisición
+				</phrase>
+				<phrase name='acquisition_acquisitionmethod' regularexpression=''>
+					Método de Adquisición
+				</phrase>
+				<phrase name='acquisition_acquisitionsource' regularexpression=''>
+					Fuente
+				</phrase>
+				<phrase name='acquisition_appraisalinfo' regularexpression=''>
+					Información de Valoración
+				</phrase>
+				<phrase name='acquisition_custodialhistory' regularexpression=''>
+					Historia de Propiedad
+				</phrase>
+				<phrase name='books' regularexpression=''>
+					Libro(s)
+				</phrase>
+				<phrase name='classificationid' regularexpression=''>
+					Clasificación
+				</phrase>
+				<phrase name='collectionidentifier' regularexpression=''>
+					Identificador de Colección
+				</phrase>
+				<phrase name='creators' regularexpression=''>
+					información del Productor
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Descripción de la Colección
+				</phrase>
+				<phrase name='description_altextentstatement' regularexpression=''>
+					Medida Alterna
+				</phrase>
+				<phrase name='description_arrangement' regularexpression=''>
+					Organización
+				</phrase>
+				<phrase name='description_bioghist' regularexpression=''>
+					Nota Biográfica/Histórica
+				</phrase>
+				<phrase name='description_bioghistauthor' regularexpression=''>
+					Autor de la Nota Biográfica/Histórica
+				</phrase>
+				<phrase name='description_scope' regularexpression=''>
+					Alcance
+				</phrase>
+				<phrase name='editcollectioncontent' regularexpression=''>
+					Editar el Contenido de la Colección
+				</phrase>
+				<phrase name='enabled' regularexpression=''>
+					Habilitado
+				</phrase>
+				<phrase name='extent' regularexpression=''>
+					Alcance
+				</phrase>
+				<phrase name='findingaid' regularexpression=''>
+					Información del Instrumento de Descripción
+				</phrase>
+				<phrase name='findingaid_descriptiverulesid' regularexpression=''>
+					Reglas utilizadas
+				</phrase>
+				<phrase name='findingaid_findinglanguageid' regularexpression=''>
+					Escrito en
+				</phrase>
+				<phrase name='findingaid_processinginfo' regularexpression=''>
+					Información del proceso de organización
+				</phrase>
+				<phrase name='findingaid_publicationdate' regularexpression=''>
+					Fecha de Publicación
+				</phrase>
+				<phrase name='findingaid_publicationnote' regularexpression=''>
+					Nota de Publicación
+				</phrase>
+				<phrase name='findingaid_revisionhistory' regularexpression=''>
+					Historia de Revisión
+				</phrase>
+				<phrase name='findingaidauthor' regularexpression=''>
+					Autor del Instrumento de Descripción
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Colecciones
+				</phrase>
+				<phrase name='inclusivedates' regularexpression=''>
+					Fechas inclusives
+				</phrase>
+				<phrase name='languages' regularexpression=''>
+					Idiomas
+				</phrase>
+				<phrase name='locations' regularexpression=''>
+					Ubicación
+				</phrase>
+				<phrase name='locations_content' regularexpression=''>
+					Contenido
+				</phrase>
+				<phrase name='locations_extent' regularexpression=''>
+					Extensión
+				</phrase>
+				<phrase name='locations_locationid' regularexpression=''>
+					Unicación
+				</phrase>
+				<phrase name='locations_rangevalue' regularexpression=''>
+					Colimna
+				</phrase>
+				<phrase name='locations_section' regularexpression=''>
+					Sectcción
+				</phrase>
+				<phrase name='locations_shelf' regularexpression=''>
+					Repisa
+				</phrase>
+				<phrase name='materialtypeid' regularexpression=''>
+					Tipo de Material
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Colecciones
+				</phrase>
+				<phrase name='normaldates' regularexpression=''>
+					Fecha normal
+				</phrase>
+				<phrase name='other' regularexpression=''>
+					Otra Información
+				</phrase>
+				<phrase name='other_othernote' regularexpression=''>
+					Otra Nota
+				</phrase>
+				<phrase name='other_otherurl' regularexpression=''>
+					Otro URL
+				</phrase>
+				<phrase name='predominantdates' regularexpression=''>
+					Fecha predominante
+				</phrase>
+				<phrase name='primary_creator' regularexpression=''>
+					Primary Creator
+				</phrase>
+				<phrase name='related' regularexpression=''>
+					Información de Materiales Relacionados
+				</phrase>
+				<phrase name='related_origcopiesnote' regularexpression=''>
+					Note del original/copia
+				</phrase>
+				<phrase name='related_origcopiesurl' regularexpression=''>
+					URL del del original/copia
+				</phrase>
+				<phrase name='related_preferredcitation' regularexpression=''>
+					Formato de Cita Bibliográfica Preferido
+				</phrase>
+				<phrase name='related_relatedmaterials' regularexpression=''>
+					Materiales Relacionados
+				</phrase>
+				<phrase name='related_relatedmaterialsurl' regularexpression=''>
+					URL de Materiales Relacionados
+				</phrase>
+				<phrase name='related_relatedpublications' regularexpression=''>
+					Publicaciones Relacionadas
+				</phrase>
+				<phrase name='related_separatedmaterials' regularexpression=''>
+					Materiales Separados
+				</phrase>
+				<phrase name='repository' regularexpression=''>
+					Repositorio
+				</phrase>
+				<phrase name='repositoryid' regularexpression=''>
+					Repositorio
+				</phrase>
+				<phrase name='restrictions' regularexpression=''>
+					Restricciones
+				</phrase>
+				<phrase name='restrictions_accessrestrictions' regularexpression=''>
+					Acceso/General
+				</phrase>
+				<phrase name='restrictions_physicalaccess' regularexpression=''>
+					Físico
+				</phrase>
+				<phrase name='restrictions_technicalaccess' regularexpression=''>
+					Tecnológico
+				</phrase>
+				<phrase name='restrictions_userestrictions' regularexpression=''>
+					Derechos de uso
+				</phrase>
+				<phrase name='sorttitle' regularexpression=''>
+					Organizar por título
+				</phrase>
+				<phrase name='subjects' regularexpression=''>
+					Materias
+				</phrase>
+				<phrase name='subjecttypeid' regularexpression=''>
+					Tipo de Materila
+				</phrase>
+				<phrase name='templateset' regularexpression=''>
+					Conjunto de Plantillas
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Título
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='locations'>
+			<phrasetype name='Description'>
+				<phrase name='collectionslist' regularexpression=''>
+					This field shows list of collections available at this location.
+				</phrase>
+				<phrase name='collectionsstored' regularexpression=''>
+					Este campo muestra el número total de colecciones almacenadas en este lugar.
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					UItilice este espacio para describir el tipo de materiales que estan contenidos en este lugar.
+				</phrase>
+				<phrase name='extentinformation' regularexpression=''>
+					Este campo muestra el tamaño o extension total de la colección.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					El Módulo de Ubicación permite definir las áreas de almacenamiento (salas o edificios) en donde permanecen los materiales del archivo.
+				</phrase>
+				<phrase name='information' regularexpression=''>
+					Abra esta sección para registrar el número total de colecciones, nombres de colecciones, y sus extensiones almacendas en este lugar.
+				</phrase>
+				<phrase name='location' regularexpression=''>
+					Utilice este campo para ingresar el nombre de un área de almacenamiento discreto (número de sala o nombre del edificio) que diferencia éste lugar de otros usados por el archivo.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='collectionslist' regularexpression=''>
+					Collecciones Ocupando Este Lugar
+				</phrase>
+				<phrase name='collectionsstored' regularexpression=''>
+					Colecciones Almacenadas
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Descripción
+				</phrase>
+				<phrase name='extentinformation' regularexpression=''>
+					Información de Extensión
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Ubicación
+				</phrase>
+				<phrase name='information' regularexpression=''>
+					Información
+				</phrase>
+				<phrase name='location' regularexpression=''>
+					Ubicación
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Ubicación
+				</phrase>
+				<phrase name='repositories' regularexpression=''>
+					Repositorios
+				</phrase>
+				<phrase name='repositorylimit' regularexpression=''>
+					Límite de Repositorio
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='classification'>
+			<phrasetype name='Description'>
+				<phrase name='classificationhierarchy' regularexpression=''>
+					Haga doble click para seleccionar un artículo desiponible en la ventana de clasificación de colecciones.
+				</phrase>
+				<phrase name='classificationidentifier' regularexpression=''>
+					Utilice este espacion para ingresar el identificador asignado a la clasificación (por ejemplo, grupo o sub-grupo del archivo) que esta estableciendo o actualizando.
+				</phrase>
+				<phrase name='currentcreator' regularexpression=''>
+					Utilice este campo para seleccionar el nombre de un productor y vincularlo a la clasificación como un registro da autoridad.
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Usar este campo para proporcionar informacion adicional sobre
+					la clasificacion.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					El uso del "Módulo de Clasifiación" es opcional. Puede ser utilizado para desarrollar una jerarquía, como un colecciones y series. (Una vez se establezca la jerarquía, el Módulo de Colecciones se usa para conectar colecciones en la jerarquía) Utilice esta interfaz para agreagar clasificaciones nuevas, sub-clasificaciones dentro de niveles existentes (haciendo doble-click), o editarlas (haciendo un solo click).
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Utilice este campo para regisrar o editar el título (nombre del grupo o subgrupo) del nivel clasificación que está creando o editando.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='classificationhierarchy' regularexpression=''>
+					Jerarquía de Clasificación
+				</phrase>
+				<phrase name='classificationid' regularexpression=''>
+					Clasificación
+				</phrase>
+				<phrase name='classificationidentifier' regularexpression=''>
+					Identificador
+				</phrase>
+				<phrase name='currentcreator' regularexpression=''>
+					Productor Actual
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Descripcion
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Clasificación
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Clasificación
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Título
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='materialtypes'>
+			<phrasetype name='Description'>
+				<phrase name='header' regularexpression=''>
+					El Módulo de Tipos de Material se utiliza para definir clases de material que residen en el archivo (fondos documentales, archivos personales, publicaciones, etc).
+					
+					NOTA: Los géneros o formas del material están especificados en el Módulo de Materias/Géneros, NO en el Módulo de Tipos de Material.
+				</phrase>
+				<phrase name='materialtype' regularexpression=''>
+					Utilice este campo para agregar o actualizar los términos utilizados para distinguir las clases de material albergadas por el archivo (archivos personales vs. archivos corporativos).
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='header' regularexpression=''>
+					Módulo de Tipos de Material
+				</phrase>
+				<phrase name='materialtype' regularexpression=''>
+					Tipo de Material
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Tipos de Material
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='levelcontainers'>
+			<phrasetype name='Description'>
+				<phrase name='eadlevel' regularexpression=''>
+					Utilice este campo para regisrar el valor que será escrito en el atributo de nivel del documento EAD cuando el nivel seleccionado sea utilizado  en el Módulo de Contenido. Consulte la documentación EAD para elelemento &lt;c&gt; para una lista de atributos válidos. Este campo deberá dejarse en blano para los niveles que representan sólo un recipiente físicp, como una caja.
+				</phrase>
+				<phrase name='globalnumbering' regularexpression=''>
+					Al seleccionar 'si' usted esta indicando que la nomenclature del nivel nombredo no va a reiniciar cuando se utilice dentro de un nuevo nivel ascendiente en el Módulo de Contenido. Es decir, la numeración no se repetirá si cambia la ubicación del material y agrega nuevos recipientes. Al seleccionar 'no' usted esta indicando que quiere que la nomenclatura vuelva a comenzar desde 1 cuando se utilice dentro de un nuevo nivel ascendiente en el Módulo de Contenido.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Utilice el Módulo de Nivel/Contenido para definir, editar o borrar los niveles de descripción de los recipientes físicos en los cuales se puedan jerarquizar los materiales por medio del Módulo de Contenido.
+				</phrase>
+				<phrase name='intellectuallevel' regularexpression=''>
+					Seleccione 'Nivel Intelectual' si el nombre del nivel/contenido representa SOLAMENTE un nivel intelectual en la descripción, como una serie. Cuando el nivel nombrado es seleccionado en el Módulo de Contenido, el valor registrado en el nivel EAD será presentado como el atributo del nivel del elemento &lt;c0x&gt;. Por ejemplo, si el nombre del nivel/contenido es "Grupo de Registro" y el nivel EAD es "grupo de registro", el valor del nivel del atributo será "grupo de registro".
+				</phrase>
+				<phrase name='levelcontainer' regularexpression=''>
+					Utilice este espacio para definir o editar el nombre asociado con un nivel de descripción intelectual y/o tipo de recipiente. Los niveles/recipientes nombrados aquí estarán disponibles para usarlso en el Módulo de Contenido.
+				</phrase>
+				<phrase name='physicalcontainer' regularexpression=''>
+					Seleccione "Envase Físico" si el nombre del nivel / recipiente representa sólo un contenedor físico en el que se almacenan los materiales de archivo. Cuando el nombre del nivel sea utilizado en el Módulo de Contenido, el número del contenedor será utilizado para todos los demás contenedores secundarios que pertenezcan a éste. Por ejemplo, si el nombre del nivel es "Caja" ynivel / recipiente es 10,  el  elemento  &lt;container type="box"&gt;10&lt;/container&gt; element será codificado en el registro EAD como contenido perteneciente a la caja 10. El usuario administrador sólo podrá proporcionar los títulos y fechas de la caja, y éstos no serán codificados en el registro EAD. Toda la información pertinente a materiales contenidos dentro de la caja 10 deberá ser registrada en niveles siguientes.
+				</phrase>
+				<phrase name='primaryeadlevel' regularexpression=''>
+					Seleccione 'No" si el tipo de recipiente NO es el principal que conecta al valor del 'Nivel EAD' definido anteriormente. Por ejemplo, si el "Tipo de Recipiente" está puesto en "Tubo" y el 'Nivel EAD" en "folio" seleccione no.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='eadlevel' regularexpression=''>
+					Nivel EAD
+				</phrase>
+				<phrase name='globalnumbering' regularexpression=''>
+					Numeración Global
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Nivel/Contenido
+				</phrase>
+				<phrase name='intellectuallevel' regularexpression=''>
+					Nivel Intelectual
+				</phrase>
+				<phrase name='levelcontainer' regularexpression=''>
+					Nivel/Contenido
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Nivel/Contenido
+				</phrase>
+				<phrase name='physicalcontainer' regularexpression=''>
+					Recipiente Físico
+				</phrase>
+				<phrase name='primaryeadlevel' regularexpression=''>
+					Nivel EAD Primario
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script=''>
+			<phrasetype name='Description'>
+				<phrase name='header' regularexpression=''>
+					El administrador de cuentas de investigador se usa para mostrar detalles de los investigadores que usan Archon para localizar materiales.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='header' regularexpression=''>
+					Administrador de cuentas de investigador
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Administrador de cuentas de investigador
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script=''>
+			<phrasetype name='Description'>
+				<phrase name='header' regularexpression=''>
+					Usar el administrador de tipos de investigador para desarrollar una lista de categorías generales que describa los diferentes tipos de investigador que utiliza el repositorio, por ejemplo estudiantes, facultativos o miembros del público.
+				</phrase>
+				<phrase name='researchertype' regularexpression=''>
+					Usar este campo para grabar los valores (ej. “estudiante” o “público”) que se pueden asociar a los investigadores. Los valores aquí grabados aparecerán en una lista de selección en el administrador de cuentas de investigador.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='header' regularexpression=''>
+					Administrador de tipos de investigador
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Administrador de tipos de investigador
+				</phrase>
+				<phrase name='researchertype' regularexpression=''>
+					Tipo de investigador
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='extentunits'>
+			<phrasetype name='Description'>
+				<phrase name='extentunit' regularexpression=''>
+					Utilice este campo para registrar una unidad física de medida o extensión.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Utilice el Módulo de Unidades de Medida para definir las unidades que describen el tamaño o extensión de una colección. Las unidades definidas aca estarán disponibles para seleccionar en un menu en el Módulo de Colecciones.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='extentunit' regularexpression=''>
+					EUnidad de Extension
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Utilice el Módulo de Unidades de Medida
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Utilice el Módulo de Unidades de Medida
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='collectioncontent'>
+			<phrasetype name='Description'>
+				<phrase name='contenthierarchy' regularexpression=''>
+					Haga doble click para seleccionar el objeto disponible dentro del contenido de la colección.
+				</phrase>
+				<phrase name='date' regularexpression=''>
+					Ingrese la(s) fecha(s) asociada con los materiales que está describiendo al nivel al cual los está describiendo.
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Introduzca una descripción ampliada (note de alance y contenido) de los materiales que se describen en este nivel de descripción.
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Use the 'Content Manager' to add or edit subordinate components within a collection record, such as series, boxes, folders, or items..Use this interface to create new content.  Enter deeper into the hierarchy of existing content by double-clicking the title of a piece of content.  Edit existing content by double-clicking the title of a piece of content.
+				</phrase>
+				<phrase name='levelcontainerid' regularexpression=''>
+					Este menú contiene los niveles de descripción y los tipos de contenedores.  Utilíceloe para elegir el nivel o tipo de contenedor de acuerdo a la descripción o contenedor que está agregando o editando.   
+					
+					Para contenedores reales (cajas, folderes, etc.), no se puede ingresar otra información aparte de Título y Fecha. Por favor recuerde que éstos están disponibles para su conveniencia y no serán incluídos en el registro EAD. La descripción de materiales de contenedores reales se debe desarrollar colocando el contenido dentro de otro contenedor (serie, etc.) haciendo doble-clock en el botón "Contenido incluído".
+				</phrase>
+				<phrase name='levelcontaineridentifier' regularexpression=''>
+					Utilice este espacio para ingresar el orden secuencial del nivel o contenedor que está agregando o editando. Puede utilizar etiquetas alfanuméricas para las etiquetas (por ejemplo, A1). Pude ingresar múltiples etiquetas separandolas por medio de comas o guiones (por ejemplo 1,3,7-16,24).
+				</phrase>
+				<phrase name='parentcollection' regularexpression=''>
+					Este campo muestra la colección principal relacionada a este contenido.
+				</phrase>
+				<phrase name='selectparentcollection' regularexpression=''>
+					Utilice este campo para seleccionar una colecciónal escribir texto en la casilla. Una lista de colecciones disponibles aparecerá a medida que usted escriba.
+				</phrase>
+				<phrase name='sortorder' regularexpression=''>
+					Utilice este campo para cambiar el orden de los elementos disponibles para el contenido de la misma colección. El elemento que se le asigna el menor número aparecerá en el primer lugar de la lista.
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Utilice este campo para registrar el título de los materiales que se describen en el nivel actual de la descripción. Este campo equivale al elemento &lt;unittitle&gt; en el registro EAD, en el &lt;dsc&gt;, al nivel correspondiente.
+				</phrase>
+				<phrase name='userfields' regularexpression=''>
+					Proporcione un encabezamiento que aparezace en el campo definido por el usuario (tanto en la página web como en el registro EAD). Por ejemplo, si usted está relacionando un campo definido por el usuario al elemento de productor de EAD para indicar el compositor de una obra musical, escriba "Compositor" en el espacio.
+				</phrase>
+				<phrase name='userfields_eadelementid' regularexpression=''>
+					Utilice este menú para especificar el tipo de elemento que el usuario ha definido en el campo para ser asignado al registro EAD de Archon.
+				</phrase>
+				<phrase name='userfields_value' regularexpression=''>
+					Introduzca el texto del campo definido por el usuario. Este valor será asignado al elemento EAD especificado en la cabecera o etiqueta especificado en el campo Cabecera/Etiqueta.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='contenthierarchy' regularexpression=''>
+					Jerarqía del Contenido de Colección
+				</phrase>
+				<phrase name='date' regularexpression=''>
+					Fecha
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Descripción
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Contenido de Colecciones
+				</phrase>
+				<phrase name='levelcontainerid' regularexpression=''>
+					Nivel/Contenido
+				</phrase>
+				<phrase name='levelcontaineridentifier' regularexpression=''>
+					Etiqueta de Nivel o Contenedor
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Contenido de Colecciones
+				</phrase>
+				<phrase name='newpath' regularexpression=''>
+					Seleccione la colección o el contenido principal
+				</phrase>
+				<phrase name='parentcollection' regularexpression=''>
+					Colección Raiz
+				</phrase>
+				<phrase name='selecteditems' regularexpression=''>
+					Artículos seleccionados
+				</phrase>
+				<phrase name='selectparentcollection' regularexpression=''>
+					Buscar/Seleccionar Nombre de la Colección
+				</phrase>
+				<phrase name='sortorder' regularexpression=''>
+					Orden de clasificación
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Título
+				</phrase>
+				<phrase name='userfields' regularexpression=''>
+					Campo de Información del Usuario
+				</phrase>
+				<phrase name='userfields_eadelementid' regularexpression=''>
+					Asignación EAD
+				</phrase>
+				<phrase name='userfields_title' regularexpression=''>
+					Cabecera/Etiqueta
+				</phrase>
+				<phrase name='userfields_value' regularexpression=''>
+					Valor
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='books'>
+			<phrasetype name='Description'>
+				<phrase name='collections' regularexpression=''>
+					Abra esta sección si desea determinar la colección a la cual pertenecen los libros.
+				</phrase>
+				<phrase name='copynumber' regularexpression=''>
+					Utilice este campo para indicar el número de copias disponibles
+				</phrase>
+				<phrase name='creators' regularexpression=''>
+					Abra esta sección para vincular los registros de autoridad a la colección.
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Utilice este campo para indicar otra información acerca del libro
+				</phrase>
+				<phrase name='edition' regularexpression=''>
+					Utilice este campo para indicar la edición del libro
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Utilice el Módulo de Libros para describir los libros que no hayan sido procesados y catalogados.
+				</phrase>
+				<phrase name='languages' regularexpression=''>
+					Abra esta sección si desea determinar el (los) idioma(s) de los libros de la colección
+				</phrase>
+				<phrase name='notes' regularexpression=''>
+					Utilice este campo para escribir apuntes sobre el libro
+				</phrase>
+				<phrase name='numberofpages' regularexpression=''>
+					Utilice este campo para indicar el número de páginas del libro
+				</phrase>
+				<phrase name='placeofpublication' regularexpression=''>
+					Utilice este campo para indicar el lugar en donde se publicó el libro
+				</phrase>
+				<phrase name='primary_creator' regularexpression=''>
+					Utilice este campo para seleccionar un registro de productor para asignarlo compo productor principal de la(s) coleccion(es).
+				</phrase>
+				<phrase name='publicationdate' regularexpression=''>
+					Utilice este campo para indicar la fecha de publicación
+				</phrase>
+				<phrase name='publisher' regularexpression=''>
+					Utilice este campo para indicar el nombre de la editorial
+				</phrase>
+				<phrase name='series' regularexpression=''>
+					Utilice este campo para indicar si el libro pertenece a una serie de publicaciones
+				</phrase>
+				<phrase name='subjects' regularexpression=''>
+					Abra esta sección para vincular el libro a un registro de autoridad existente.
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Utilice este campo para escribir el título del libro
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='collections' regularexpression=''>
+					Colecciones Principales
+				</phrase>
+				<phrase name='copynumber' regularexpression=''>
+					Número de copias
+				</phrase>
+				<phrase name='creators' regularexpression=''>
+					Autor(es)
+				</phrase>
+				<phrase name='description' regularexpression=''>
+					Descripción
+				</phrase>
+				<phrase name='edition' regularexpression=''>
+					Edición
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Módulo de Libros
+				</phrase>
+				<phrase name='languages' regularexpression=''>
+					Idiomas
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Módulo de Libros
+				</phrase>
+				<phrase name='notes' regularexpression=''>
+					Apuntes
+				</phrase>
+				<phrase name='numberofpages' regularexpression=''>
+					Número de Páginas
+				</phrase>
+				<phrase name='placeofpublication' regularexpression=''>
+					Lugar de Publicación
+				</phrase>
+				<phrase name='primary_creator' regularexpression=''>
+					Productor Principal
+				</phrase>
+				<phrase name='publicationdate' regularexpression=''>
+					Fecha de Publicación
+				</phrase>
+				<phrase name='publisher' regularexpression=''>
+					Editorial
+				</phrase>
+				<phrase name='series' regularexpression=''>
+					Serie
+				</phrase>
+				<phrase name='subjects' regularexpression=''>
+					Materias
+				</phrase>
+				<phrase name='subjecttypeid' regularexpression=''>
+					Tipo de Materia
+				</phrase>
+				<phrase name='title' regularexpression=''>
+					Título
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='researchappointmentpurposes'>
+			<phrasetype name='Description'>
+				<phrase name='appointmentpurpose' regularexpression=''>
+					Usar este campo para proporcionar un nombre que describe el motivo de la visita del investigador .
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					El administrador de motivos se usa para listar los diferentes motives por los que las visitas de investigador pueden programarse. Los valores aquí registrados serán accesibles a los usuarios del archivo cuando se registra una cita a través del sitio web.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='appointmentpurpose' regularexpression=''>
+					Motivo de visita
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Administrador de Motivos de visita
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Administrador de Motivos de visita
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='researchappointments'>
+			<phrasetype name='Description'>
+				<phrase name='appointmentpurpose' regularexpression=''>
+					Usar este campo para seleccionar el motivo que mejor describa el uso de los materiales de archivo por parte del investigador.
+				</phrase>
+				<phrase name='appointmentpurposeid' regularexpression=''>
+					Usar este campo para seleccionar la frase que major describa el motivo por el cual el investigador está usando los materiales de archivo.
+				</phrase>
+				<phrase name='archivistcomments' regularexpression=''>
+					Usar este campo para poner comentarios acerca de la cita del investigador.
+				</phrase>
+				<phrase name='arrivaltime' regularexpression=''>
+					Usar este campo para especificar la hora de llegada del investigador.
+				</phrase>
+				<phrase name='departuretime' regularexpression=''>
+					Usar este campo para especificar la hora de salida  esperada .
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					El administrador de citas se usa para gestionar la información sobre las citas o consultas de investigador. Usar los botones con flecha verde para indicar que el material de archivo ha sido recuperado para el uso del investigador. Usar los botones con flechas rojas para indicar que el material de archivo ha sido retornado a su lugar de almacenamiento. Los botones al lado de la entrada con la cita muestran todos los materiales para la cita, y los botones al lado del titulo de la colección muestran todos los materiales que han sido pedidos para esa colección.
+				</phrase>
+				<phrase name='researchercomments' regularexpression=''>
+					Estos campos contienen comentarios enviados por el investigador que ha concertado la cita.
+				</phrase>
+				<phrase name='researcherid' regularexpression=''>
+					Usar este menú para seleccionar el investigador de la cita.
+				</phrase>
+				<phrase name='submittime' regularexpression=''>
+					Este campo muestra la hora en que la petición de cita fue enviada.
+				</phrase>
+				<phrase name='topic' regularexpression=''>
+					Usar este campo para especificar el asunto o tema estudiado en la cita.
+				</phrase>
+			</phrasetype>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='allmaterials' regularexpression=''>
+					Recuperar/Devolver todos los materiales
+				</phrase>
+				<phrase name='appointmentpurpose' regularexpression=''>
+					Motivo de la cita
+				</phrase>
+				<phrase name='appointmentpurposeid' regularexpression=''>
+					Motivo de la cita
+				</phrase>
+				<phrase name='archivistcomments' regularexpression=''>
+					Comentario del archivo
+				</phrase>
+				<phrase name='arrivaltime' regularexpression=''>
+					Hora de llegada
+				</phrase>
+				<phrase name='departuretime' regularexpression=''>
+					Hora de salida
+				</phrase>
+				<phrase name='header' regularexpression=''>
+					Administrador de citas
+				</phrase>
+				<phrase name='materials' regularexpression=''>
+					Materiales pedidos
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Administrador de citas
+				</phrase>
+				<phrase name='researchercomments' regularexpression=''>
+					Comentarios de investigador
+				</phrase>
+				<phrase name='researcherid' regularexpression=''>
+					Investigador
+				</phrase>
+				<phrase name='submittime' regularexpression=''>
+					Hora de envío
+				</phrase>
+				<phrase name='topic' regularexpression=''>
+					Tema
+				</phrase>
+			</phrasetype>
+		</module>
+		<module script='researchertypes'>
+			<phrasetype name='Administrative Phrase'>
+				<phrase name='header' regularexpression=''>
+					Tipos de Investigadores
+				</phrase>
+				<phrase name='module_name' regularexpression=''>
+					Tipos de Investigadores
+				</phrase>
+				<phrase name='researchertype' regularexpression=''>
+					Tipo de Investigadores
+				</phrase>
+			</phrasetype>
+		</module>
+	</package>
+</language>

@@ -1,0 +1,60 @@
+body {overflow: visible!important;  overflow : scroll; margin:0; padding:0; line-height: 1.4em; font: 13px Arial, Helvetica,"Lucida Grande", serif; color: #000;}
+
+.css-element {
+overflow: visible!important;
+ overflow : scroll;
+}
+
+#avsaphelp, #avsaphelp .container {
+   overflow: visible!important;
+   position: relative;
+   height: auto;
+   width: auto;
+   overflow : scroll;
+   float: none !important;
+
+    }
+#avsaphelp .panelContent {
+   position: relative;
+   overflow : scroll;
+   float: none;
+  }
+
+    #avsaphelp, .wrapper {
+   overflow: visible!important;
+   position: relative;
+   overflow : scroll;
+   float: none !important;
+
+    }
+
+
+/* Links */
+a:link, a:visited {background: transparent; color:#333; text-decoration:none;}
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
+a[href^="http://"] {color:#000;}
+
+/* a[href^="#"] {display:none;}*/
+
+/*Image*/
+img, img a, .more-link a {border:none;}
+
+/*Remove Element*/
+#logo, #avsaphelpnav, .footer, .footerlinks {display:none;}
+
+#avsaphelp.h1 { font-size: 4em; margin: .67em 0; }
+#avsaphelp.h2 { font-size: 1.5em; margin: .83em 0; }
+#avsaphelp.h3 { font-size: 1.17em; margin: 1em 0; }
+#avsaphelp.h4, blockquote, ul, form, ol, dl { margin: 1.33em 0; } /*p*/
+
+
+/*Footer */
+.bottom {
+     margin-top: 10px;
+     float: none;
+    }
+
+
+@media print {
+  table {page-break-after:always}
+}

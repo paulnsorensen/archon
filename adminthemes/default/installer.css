@@ -1,0 +1,54 @@
+
+#installerpage {
+   min-height:400px;
+}
+
+#installercontrols{
+   margin: 30px auto 0;
+   border-top: 1px solid #ddd;
+   width:40%;
+   text-align: center;
+}
+
+#messagebox{
+   text-align:left;
+   padding: 20px;
+   margin:10px auto;
+   width:50%;
+   height:100px;
+   overflow:auto;
+   color:#999;
+   font-weight: bold;
+}
+
+#messagebox .message{
+   font-weight:normal;
+}
+
+
+#banner{
+   /*font-weight:bolder;*/
+   padding:6px; margin: 20px auto; width: 50%;
+   text-align:center;
+}
+
+.box{
+   font-size:95%; margin:20px auto; padding:8px; width:65%
+}
+
+.info {
+   border: 1px solid #e8d126; background:#fffadf;
+}
+
+.warning {
+   border: 1px solid #94533F; background: #ffebea;
+}
+
+.success {
+   background: #ddffbb;
+   border: 1px solid #88dd00;
+}
+
+.notice {
+   border: 1px solid #ccc; background:#fafaff;
+}

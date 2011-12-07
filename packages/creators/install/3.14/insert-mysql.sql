@@ -1,0 +1,6 @@
+-- Inserting default data for table tblCreators_CreatorSources...
+INSERT INTO tblCreators_CreatorSources (ID,CreatorSource,SourceAbbreviation) VALUES ('1','Library of Congress Name Authority File','lcnaf');
+INSERT INTO tblCreators_CreatorSources (ID,CreatorSource,SourceAbbreviation) VALUES ('2','Local Authority File','local');
+
+-- Inserting default data for table tblCore_Modules...
+INSERT INTO tblCore_Modules (PackageID,Script) VALUES ((SELECT ID FROM tblCore_Packages WHERE APRCode = 'creators'), 'creatorsources');

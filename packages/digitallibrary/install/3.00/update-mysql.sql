@@ -1,0 +1,4 @@
+-- Copy Digital Library files into Files table from FileContents table -- NOTICE -- THIS MAY TAKE A LONG TIME
+UPDATE tblDigitalLibrary_Files, tblDigitalLibrary_FileContents SET tblDigitalLibrary_Files.FileContents = tblDigitalLibrary_FileContents.FileContents WHERE tblDigitalLibrary_FileContents.ID = tblDigitalLibrary_Files.FileContentsID;
+UPDATE tblDigitalLibrary_Files, tblDigitalLibrary_FileContents SET tblDigitalLibrary_Files.FilePreviewLong = tblDigitalLibrary_FileContents.FileContents WHERE tblDigitalLibrary_FileContents.ID = tblDigitalLibrary_Files.FilePreviewLongID;
+UPDATE tblDigitalLibrary_Files, tblDigitalLibrary_FileContents SET tblDigitalLibrary_Files.FilePreviewShort = tblDigitalLibrary_FileContents.FileContents WHERE tblDigitalLibrary_FileContents.ID = tblDigitalLibrary_Files.FilePreviewShortID;
